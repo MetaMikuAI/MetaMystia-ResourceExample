@@ -16,7 +16,7 @@
       "FN57"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.5.5",
+    "version": "0.5.6",
     "license": "# MetaMystia 资源版权与使用许可说明\n\n本文件适用于 **MetaMystia** 项目\n 项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**\n\n本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。\n\n\n## 一、原作版权声明\n\n本 Mod 为基于以下作品的**非官方同人二次创作**：\n\n- 《东方Project》上海爱丽丝幻乐团@ZUN\n- 《东方夜雀食堂》二色幽紫蝶\n- 《东方秋神牧场》二色幽紫蝶\n\n与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。\n **MetaMystia 项目不对原作内容主张版权。**\n\n\n## 二、不属于本项目授权范围的游戏原始资源\n\n以下路径中的资源文件 **并非 MetaMystia 项目原创内容**，其美术资源版权归原游戏版权方所有。\n\n来自 **《东方夜雀食堂》二色幽紫蝶** 的资源：\n\n```\nassets/Character/9000/*\nassets/Character/9001/*\nassets/Character/9002/*\nassets/Character/9003/*\nassets/Character/9004/*\n```\n\n来自 **《东方秋神牧场》二色幽紫蝶** 的资源：\n\n```\nassets/Character/10000/Portrait/0.png\nassets/Character/10001/Portrait/0.png\nassets/Character/10002/Portrait/0.png\n```\n\n这些文件仅在原作者相关作品授权范围内使用，\n\n**不属于 MetaMystia 项目的原创资源，也不适用于下文的 CC 许可。**\n\nMetaMystia 项目不对这些资源授予任何再分发或二次创作授权。\n\n\n## 三、MetaMystia 项目原创资源许可\n\n除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：\n\n> **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International\n>  (CC BY-NC-SA 4.0)**\n\n你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。\n\n\n## 四、资源列表变更说明\n\nMetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。\n\n请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。\n\n\n## 五、免责声明\n\n本项目为非官方同人创作，与原作版权方无直接关联。\n\n如原版权方提出要求，项目可能对相关内容进行修改或移除。"
   },
   "characters": [
@@ -1964,6 +1964,222 @@
           "assets/Character/10002/Sprite/Eyes_5, 1.png",
           "assets/Character/10002/Sprite/Eyes_5, 2.png",
           "assets/Character/10002/Sprite/Eyes_5, 3.png"
+        ]
+      }
+    },
+    {
+      "id": 11000,
+      "name": "雪",
+      "label": "_Yuki",
+      "descriptions": [
+        "雪 lv1",
+        "雪 lv2",
+        "雪 lv3"
+      ],
+      "type": "Special",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/11000/Portrait/0.png",
+          "label": "雪 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/11000/Portrait/1.png",
+          "label": "雪 高兴"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/11000/Portrait/2.png",
+          "label": "雪 囧"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/11000/Portrait/3.png",
+          "label": "雪 惊讶"
+        },
+        {
+          "pid": 4,
+          "path": "assets/Character/11000/Portrait/4.png",
+          "label": "雪 无表情"
+        },
+        {
+          "pid": 5,
+          "path": "assets/Character/11000/Portrait/5.png",
+          "label": "雪 无表情"
+        },
+        {
+          "pid": 6,
+          "path": "assets/Character/11000/Portrait/6.png",
+          "label": "雪 生气"
+        },
+        {
+          "pid": 7,
+          "path": "assets/Character/11000/Portrait/7.png",
+          "label": "雪 尴尬"
+        },
+        {
+          "pid": 8,
+          "path": "assets/Character/11000/Portrait/8.png",
+          "label": "雪 微笑(闭眼)"
+        }
+      ],
+      "spawnMarker": {
+        "mapLabel": "BeastForest",
+        "x": 0,
+        "y": 0,
+        "rotation": "Down"
+      },
+      "faceInNoteBook": 0,
+      "characterSpriteSetCompact": {
+        "name": "_Yuki",
+        "mainSprite": [
+          "assets/Character/11000/Sprite/Main_0, 0.png",
+          "assets/Character/11000/Sprite/Main_0, 1.png",
+          "assets/Character/11000/Sprite/Main_0, 2.png",
+          "assets/Character/11000/Sprite/Main_1, 0.png",
+          "assets/Character/11000/Sprite/Main_1, 1.png",
+          "assets/Character/11000/Sprite/Main_1, 2.png",
+          "assets/Character/11000/Sprite/Main_2, 0.png",
+          "assets/Character/11000/Sprite/Main_2, 1.png",
+          "assets/Character/11000/Sprite/Main_2, 2.png",
+          "assets/Character/11000/Sprite/Main_3, 0.png",
+          "assets/Character/11000/Sprite/Main_3, 1.png",
+          "assets/Character/11000/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/11000/Sprite/Eyes_0, 0.png",
+          "assets/Character/11000/Sprite/Eyes_0, 1.png",
+          "assets/Character/11000/Sprite/Eyes_0, 2.png",
+          "assets/Character/11000/Sprite/Eyes_0, 3.png",
+          "assets/Character/11000/Sprite/Eyes_1, 0.png",
+          "assets/Character/11000/Sprite/Eyes_1, 1.png",
+          "assets/Character/11000/Sprite/Eyes_1, 2.png",
+          "assets/Character/11000/Sprite/Eyes_1, 3.png",
+          "assets/Character/11000/Sprite/Eyes_2, 0.png",
+          "assets/Character/11000/Sprite/Eyes_2, 1.png",
+          "assets/Character/11000/Sprite/Eyes_2, 2.png",
+          "assets/Character/11000/Sprite/Eyes_2, 3.png",
+          "assets/Character/11000/Sprite/Eyes_3, 0.png",
+          "assets/Character/11000/Sprite/Eyes_3, 1.png",
+          "assets/Character/11000/Sprite/Eyes_3, 2.png",
+          "assets/Character/11000/Sprite/Eyes_3, 3.png",
+          "assets/Character/11000/Sprite/Eyes_4, 0.png",
+          "assets/Character/11000/Sprite/Eyes_4, 1.png",
+          "assets/Character/11000/Sprite/Eyes_4, 2.png",
+          "assets/Character/11000/Sprite/Eyes_4, 3.png",
+          "assets/Character/11000/Sprite/Eyes_5, 0.png",
+          "assets/Character/11000/Sprite/Eyes_5, 1.png",
+          "assets/Character/11000/Sprite/Eyes_5, 2.png",
+          "assets/Character/11000/Sprite/Eyes_5, 3.png"
+        ]
+      }
+    },
+    {
+      "id": 11001,
+      "name": "舞",
+      "label": "_Mai",
+      "descriptions": [
+        "舞 lv1",
+        "舞 lv3",
+        "舞 lv5"
+      ],
+      "type": "Special",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/11001/Portrait/0.png",
+          "label": "舞 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/11001/Portrait/1.png",
+          "label": "舞 微笑(闭眼)"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/11001/Portrait/2.png",
+          "label": "舞 阴沉"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/11001/Portrait/3.png",
+          "label": "舞 皱眉"
+        },
+        {
+          "pid": 4,
+          "path": "assets/Character/11001/Portrait/4.png",
+          "label": "舞 嘟嘴"
+        },
+        {
+          "pid": 5,
+          "path": "assets/Character/11001/Portrait/5.png",
+          "label": "舞 生气(张嘴)"
+        },
+        {
+          "pid": 6,
+          "path": "assets/Character/11001/Portrait/6.png",
+          "label": "舞 生气"
+        },
+        {
+          "pid": 7,
+          "path": "assets/Character/11001/Portrait/7.png",
+          "label": "舞 无表情"
+        },
+        {
+          "pid": 8,
+          "path": "assets/Character/11001/Portrait/8.png",
+          "label": "舞 疑问"
+        }
+      ],
+      "spawnMarker": {
+        "mapLabel": "BeastForest",
+        "x": 0,
+        "y": 0,
+        "rotation": "Down"
+      },
+      "faceInNoteBook": 0,
+      "characterSpriteSetCompact": {
+        "name": "_Mai",
+        "mainSprite": [
+          "assets/Character/11001/Sprite/Main_0, 0.png",
+          "assets/Character/11001/Sprite/Main_0, 1.png",
+          "assets/Character/11001/Sprite/Main_0, 2.png",
+          "assets/Character/11001/Sprite/Main_1, 0.png",
+          "assets/Character/11001/Sprite/Main_1, 1.png",
+          "assets/Character/11001/Sprite/Main_1, 2.png",
+          "assets/Character/11001/Sprite/Main_2, 0.png",
+          "assets/Character/11001/Sprite/Main_2, 1.png",
+          "assets/Character/11001/Sprite/Main_2, 2.png",
+          "assets/Character/11001/Sprite/Main_3, 0.png",
+          "assets/Character/11001/Sprite/Main_3, 1.png",
+          "assets/Character/11001/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/11001/Sprite/Eyes_0, 0.png",
+          "assets/Character/11001/Sprite/Eyes_0, 1.png",
+          "assets/Character/11001/Sprite/Eyes_0, 2.png",
+          "assets/Character/11001/Sprite/Eyes_0, 3.png",
+          "assets/Character/11001/Sprite/Eyes_1, 0.png",
+          "assets/Character/11001/Sprite/Eyes_1, 1.png",
+          "assets/Character/11001/Sprite/Eyes_1, 2.png",
+          "assets/Character/11001/Sprite/Eyes_1, 3.png",
+          "assets/Character/11001/Sprite/Eyes_2, 0.png",
+          "assets/Character/11001/Sprite/Eyes_2, 1.png",
+          "assets/Character/11001/Sprite/Eyes_2, 2.png",
+          "assets/Character/11001/Sprite/Eyes_2, 3.png",
+          "assets/Character/11001/Sprite/Eyes_3, 0.png",
+          "assets/Character/11001/Sprite/Eyes_3, 1.png",
+          "assets/Character/11001/Sprite/Eyes_3, 2.png",
+          "assets/Character/11001/Sprite/Eyes_3, 3.png",
+          "assets/Character/11001/Sprite/Eyes_4, 0.png",
+          "assets/Character/11001/Sprite/Eyes_4, 1.png",
+          "assets/Character/11001/Sprite/Eyes_4, 2.png",
+          "assets/Character/11001/Sprite/Eyes_4, 3.png",
+          "assets/Character/11001/Sprite/Eyes_5, 0.png",
+          "assets/Character/11001/Sprite/Eyes_5, 1.png",
+          "assets/Character/11001/Sprite/Eyes_5, 2.png",
+          "assets/Character/11001/Sprite/Eyes_5, 3.png"
         ]
       }
     }
