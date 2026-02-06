@@ -12,10 +12,11 @@
       "黑历史QwQ",
       "拒绝神绮99次",
       "山雏",
-      "昨夜惊梦"
+      "昨夜惊梦",
+      "FN57"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.5.4",
+    "version": "0.5.5",
     "license": "# MetaMystia 资源版权与使用许可说明\n\n本文件适用于 **MetaMystia** 项目\n 项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**\n\n本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。\n\n\n## 一、原作版权声明\n\n本 Mod 为基于以下作品的**非官方同人二次创作**：\n\n- 《东方Project》上海爱丽丝幻乐团@ZUN\n- 《东方夜雀食堂》二色幽紫蝶\n- 《东方秋神牧场》二色幽紫蝶\n\n与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。\n **MetaMystia 项目不对原作内容主张版权。**\n\n\n## 二、不属于本项目授权范围的游戏原始资源\n\n以下路径中的资源文件 **并非 MetaMystia 项目原创内容**，其美术资源版权归原游戏版权方所有。\n\n来自 **《东方夜雀食堂》二色幽紫蝶** 的资源：\n\n```\nassets/Character/9000/*\nassets/Character/9001/*\nassets/Character/9002/*\nassets/Character/9003/*\nassets/Character/9004/*\n```\n\n来自 **《东方秋神牧场》二色幽紫蝶** 的资源：\n\n```\nassets/Character/10000/Portrait/0.png\nassets/Character/10001/Portrait/0.png\nassets/Character/10002/Portrait/0.png\n```\n\n这些文件仅在原作者相关作品授权范围内使用，\n\n**不属于 MetaMystia 项目的原创资源，也不适用于下文的 CC 许可。**\n\nMetaMystia 项目不对这些资源授予任何再分发或二次创作授权。\n\n\n## 三、MetaMystia 项目原创资源许可\n\n除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：\n\n> **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International\n>  (CC BY-NC-SA 4.0)**\n\n你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。\n\n\n## 四、资源列表变更说明\n\nMetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。\n\n请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。\n\n\n## 五、免责声明\n\n本项目为非官方同人创作，与原作版权方无直接关联。\n\n如原版权方提出要求，项目可能对相关内容进行修改或移除。"
   },
   "characters": [
@@ -95,7 +96,10 @@
           }
         ],
         "bevRequests": [],
-        "hateFoodTag": [22, 24],
+        "hateFoodTag": [
+          22,
+          24
+        ],
         "likeFoodTag": [
           {
             "tagId": 7,
@@ -231,11 +235,21 @@
         "lv2UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
         "lv3UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
-        "lv1Welcome": ["_Kizuna_Daiyousei_welcome"],
-        "lv2Welcome": ["_Kizuna_Daiyousei_welcome"],
-        "lv3Welcome": ["_Kizuna_Daiyousei_welcome"],
-        "lv4Welcome": ["_Kizuna_Daiyousei_welcome"],
-        "lv5Welcome": ["_Kizuna_Daiyousei_welcome"],
+        "lv1Welcome": [
+          "_Kizuna_Daiyousei_welcome"
+        ],
+        "lv2Welcome": [
+          "_Kizuna_Daiyousei_welcome"
+        ],
+        "lv3Welcome": [
+          "_Kizuna_Daiyousei_welcome"
+        ],
+        "lv4Welcome": [
+          "_Kizuna_Daiyousei_welcome"
+        ],
+        "lv5Welcome": [
+          "_Kizuna_Daiyousei_welcome"
+        ],
         "lv1ChatData": [
           "_Kizuna_Daiyousei_LV1_Chat_001",
           "_Kizuna_Daiyousei_LV1_Chat_002"
@@ -256,20 +270,48 @@
           "_Kizuna_Daiyousei_LV4_Chat_001",
           "_Kizuna_Daiyousei_LV4_Chat_002"
         ],
-        "lv2InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
-        "lv2InviteFailed": ["_Kizuna_Daiyousei_Invite_Failed"],
-        "lv3InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
-        "lv3InviteFailed": ["_Kizuna_Daiyousei_Invite_Failed"],
-        "lv4InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
-        "lv4InviteFailed": ["_Kizuna_Daiyousei_Invite_Failed"],
-        "lv5InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
-        "lv3RequestIngerdient": ["_Kizuna_Daiyousei_Request_Ingerdient"],
-        "lv4RequestIngerdient": ["_Kizuna_Daiyousei_Request_Ingerdient"],
-        "lv5RequestIngerdient": ["_Kizuna_Daiyousei_Request_Ingerdient"],
-        "lv4RequestBeverage": ["_Kizuna_Daiyousei_Request_Beverage"],
-        "lv5RequestBeverage": ["_Kizuna_Daiyousei_Request_Beverage"],
-        "lv5Commision": ["_Kizuna_Daiyousei_Commision"],
-        "lv5CommisionFinish": ["_Kizuna_Daiyousei_Commision_Finish"],
+        "lv2InviteSucceed": [
+          "_Kizuna_Daiyousei_Invite_Succeed"
+        ],
+        "lv2InviteFailed": [
+          "_Kizuna_Daiyousei_Invite_Failed"
+        ],
+        "lv3InviteSucceed": [
+          "_Kizuna_Daiyousei_Invite_Succeed"
+        ],
+        "lv3InviteFailed": [
+          "_Kizuna_Daiyousei_Invite_Failed"
+        ],
+        "lv4InviteSucceed": [
+          "_Kizuna_Daiyousei_Invite_Succeed"
+        ],
+        "lv4InviteFailed": [
+          "_Kizuna_Daiyousei_Invite_Failed"
+        ],
+        "lv5InviteSucceed": [
+          "_Kizuna_Daiyousei_Invite_Succeed"
+        ],
+        "lv3RequestIngerdient": [
+          "_Kizuna_Daiyousei_Request_Ingerdient"
+        ],
+        "lv4RequestIngerdient": [
+          "_Kizuna_Daiyousei_Request_Ingerdient"
+        ],
+        "lv5RequestIngerdient": [
+          "_Kizuna_Daiyousei_Request_Ingerdient"
+        ],
+        "lv4RequestBeverage": [
+          "_Kizuna_Daiyousei_Request_Beverage"
+        ],
+        "lv5RequestBeverage": [
+          "_Kizuna_Daiyousei_Request_Beverage"
+        ],
+        "lv5Commision": [
+          "_Kizuna_Daiyousei_Commision"
+        ],
+        "lv5CommisionFinish": [
+          "_Kizuna_Daiyousei_Commision_Finish"
+        ],
         "commisionAreaLabel": "ScarletMansion"
       },
       "faceInNoteBook": 0,
@@ -364,7 +406,9 @@
           }
         ],
         "bevRequests": [],
-        "hateFoodTag": [7],
+        "hateFoodTag": [
+          7
+        ],
         "likeFoodTag": [
           {
             "tagId": 0,
@@ -901,7 +945,10 @@
           }
         ],
         "bevRequests": [],
-        "hateFoodTag": [18, 6],
+        "hateFoodTag": [
+          18,
+          6
+        ],
         "likeFoodTag": [
           {
             "tagId": -20,
@@ -1154,7 +1201,13 @@
           }
         ],
         "bevRequests": [],
-        "hateFoodTag": [-21, 6, 18, 2000, 24],
+        "hateFoodTag": [
+          -21,
+          6,
+          18,
+          2000,
+          24
+        ],
         "likeFoodTag": [
           {
             "tagId": 3,
@@ -1354,7 +1407,7 @@
         "foodRequests": [
           {
             "tagId": -2,
-            "request": "如果能少花点儿钱就好了。"
+            "request": "如果能少花点钱就好了。"
           },
           {
             "tagId": 17,
@@ -1365,12 +1418,21 @@
             "request": "像秋天一样凉爽的食物，也是一个不错的选择呢。"
           },
           {
+            "tagId": 23,
+            "request": "制造落叶可是很辛苦的……才不是因为踹不动树呢。"
+          },
+          {
             "tagId": 25,
             "request": "自古逢秋悲寂寥……"
           }
         ],
         "bevRequests": [],
-        "hateFoodTag": [0, 34, 2000, 6],
+        "hateFoodTag": [
+          0,
+          34,
+          2000,
+          6
+        ],
         "likeFoodTag": [
           {
             "tagId": -2,
@@ -1382,6 +1444,10 @@
           },
           {
             "tagId": 21,
+            "weight": 1
+          },
+          {
+            "tagId": 23,
             "weight": 1
           },
           {
@@ -1512,7 +1578,8 @@
         ],
         "conversation": [
           "红薯的话，烤一烤后会很好吃的！",
-          "不知道这家店的食物做得有没有我的烤红薯好吃呢？"
+          "不知道这家店的食物做得有没有我的烤红薯好吃呢？",
+          "姐姐她现在在干什么呢？"
         ],
         "foodRequests": [
           {
@@ -1537,7 +1604,12 @@
           }
         ],
         "bevRequests": [],
-        "hateFoodTag": [10, 11, 6, 2000],
+        "hateFoodTag": [
+          10,
+          11,
+          6,
+          2000
+        ],
         "likeFoodTag": [
           {
             "tagId": -2,
@@ -1649,7 +1721,11 @@
       "id": 10002,
       "name": "八云蓝",
       "label": "_YakumoRan",
-      "descriptions": ["使役式神程度的能力", "", ""],
+      "descriptions": [
+        "操控式神的式神妖怪，似乎是橙的监护人。明明是妖力很强的妖怪，却不管什么时候都是笑眯眯的。",
+        "式神什么的果然还是想不明白……有着不为人知的过去，还和那个饕餮尤魔有联系？明明是性格天差地别的两个人。",
+        "哇，原来还发生过这种事情。式神什么的好像也明白一点了。蓝小姐照顾橙，照顾紫小姐，性格温柔又体贴，真希望她能不这么辛苦。"
+      ],
       "type": "Special",
       "avatar": "assets/Character/10002/Avatar.png",
       "portraits": [
@@ -1661,9 +1737,234 @@
       ],
       "faceInNoteBook": 0,
       "spawnMarker": {
-        "mapLabel": "BeastForest",
-        "x": 999,
-        "y": 999
+        "mapLabel": "HakureiShrine",
+        "x": 36.23,
+        "y": 10.78
+      },
+      "guest": {
+        "fundRangeLower": 600,
+        "fundRangeUpper": 1200,
+        "evaluation": [
+          "紫大人做的饭都比你做的好吃！",
+          "和橙学着做饭的水平差不多呢。",
+          "嘛，还不错还不错。",
+          "怪不得紫大人会把希望寄托在你身上。",
+          "哪怕回到畜生界，都寻找不到这样合我口味的美食啊。",
+          "算天算地，算不到老板娘你的黑心！",
+          "给橙买木天蓼花的有点多了……",
+          "我连自己出来吃点东西都不行吗？",
+          "紫大人为什么要把希望寄托在这里呢……"
+        ],
+        "conversation": [
+          "一会吃完饭要给橙买木天蓼，给紫大人买吃的……",
+          "最近压力有点大，掉毛变多了。",
+          "这个味道……她怎么会来这里？",
+          "我可爱的橙，现在看见尸体就兴高采烈的……"
+        ],
+        "foodRequests": [
+          {
+            "tagId": -1,
+            "request": "请提供能让我给紫大人和橙打包一份回去的量。"
+          },
+          {
+            "tagId": 4,
+            "request": "八云家吃的东西多少是要高级一些的。"
+          },
+          {
+            "tagId": 5,
+            "request": "狐妖在这片土地上可是创造了许多传说的。"
+          },
+          {
+            "tagId": 6,
+            "request": "油炸豆腐虽然很好吃，但是偶尔也想吃点别的炸货。"
+          },
+          {
+            "tagId": 10,
+            "request": "水会弄湿衣服和尾巴，还是山比较让人喜欢。"
+          },
+          {
+            "tagId": 12,
+            "request": "狐狸可是和风的重要组成部分哦。"
+          },
+          {
+            "tagId": 23,
+            "request": "侍奉紫大人真是累人呀……"
+          },
+          {
+            "tagId": 27,
+            "request": "我的智慧，连三途川的长度都能计算出来。是不是很不可思议？"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [
+          1,
+          7,
+          22,
+          28
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": -1,
+            "weight": 1
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 5,
+            "weight": 1
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          },
+          {
+            "tagId": 10,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": 23,
+            "weight": 1
+          },
+          {
+            "tagId": 27,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 1,
+            "weight": 1
+          },
+          {
+            "tagId": 2,
+            "weight": 1
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          },
+          {
+            "tagId": 14,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 1
+          },
+          {
+            "tagId": 19,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 2000,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2001,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2002,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 3,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 4,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 6,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 7,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 8,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_YakumoRan",
+        "mainSprite": [
+          "assets/Character/10002/Sprite/Main_0, 0.png",
+          "assets/Character/10002/Sprite/Main_0, 1.png",
+          "assets/Character/10002/Sprite/Main_0, 2.png",
+          "assets/Character/10002/Sprite/Main_1, 0.png",
+          "assets/Character/10002/Sprite/Main_1, 1.png",
+          "assets/Character/10002/Sprite/Main_1, 2.png",
+          "assets/Character/10002/Sprite/Main_2, 0.png",
+          "assets/Character/10002/Sprite/Main_2, 1.png",
+          "assets/Character/10002/Sprite/Main_2, 2.png",
+          "assets/Character/10002/Sprite/Main_3, 0.png",
+          "assets/Character/10002/Sprite/Main_3, 1.png",
+          "assets/Character/10002/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/10002/Sprite/Eyes_0, 0.png",
+          "assets/Character/10002/Sprite/Eyes_0, 1.png",
+          "assets/Character/10002/Sprite/Eyes_0, 2.png",
+          "assets/Character/10002/Sprite/Eyes_0, 3.png",
+          "assets/Character/10002/Sprite/Eyes_1, 0.png",
+          "assets/Character/10002/Sprite/Eyes_1, 1.png",
+          "assets/Character/10002/Sprite/Eyes_1, 2.png",
+          "assets/Character/10002/Sprite/Eyes_1, 3.png",
+          "assets/Character/10002/Sprite/Eyes_2, 0.png",
+          "assets/Character/10002/Sprite/Eyes_2, 1.png",
+          "assets/Character/10002/Sprite/Eyes_2, 2.png",
+          "assets/Character/10002/Sprite/Eyes_2, 3.png",
+          "assets/Character/10002/Sprite/Eyes_3, 0.png",
+          "assets/Character/10002/Sprite/Eyes_3, 1.png",
+          "assets/Character/10002/Sprite/Eyes_3, 2.png",
+          "assets/Character/10002/Sprite/Eyes_3, 3.png",
+          "assets/Character/10002/Sprite/Eyes_4, 0.png",
+          "assets/Character/10002/Sprite/Eyes_4, 1.png",
+          "assets/Character/10002/Sprite/Eyes_4, 2.png",
+          "assets/Character/10002/Sprite/Eyes_4, 3.png",
+          "assets/Character/10002/Sprite/Eyes_5, 0.png",
+          "assets/Character/10002/Sprite/Eyes_5, 1.png",
+          "assets/Character/10002/Sprite/Eyes_5, 2.png",
+          "assets/Character/10002/Sprite/Eyes_5, 3.png"
+        ]
       }
     }
   ],
@@ -3174,7 +3475,11 @@
       "isMeat": false,
       "isVeg": false,
       "baseValue": 64,
-      "tags": [-3, 4, 20],
+      "tags": [
+        -3,
+        4,
+        20
+      ],
       "spritePath": "assets/Ingredient/11000.png"
     },
     {
@@ -3187,7 +3492,10 @@
       "isMeat": false,
       "isVeg": false,
       "baseValue": 8,
-      "tags": [17, 31],
+      "tags": [
+        17,
+        31
+      ],
       "spritePath": "assets/Ingredient/11001.png"
     },
     {
@@ -3200,7 +3508,10 @@
       "isMeat": false,
       "isVeg": true,
       "baseValue": 4,
-      "tags": [2, 2000],
+      "tags": [
+        2,
+        2000
+      ],
       "spritePath": "assets/Ingredient/11002.png"
     },
     {
@@ -3213,7 +3524,10 @@
       "isMeat": false,
       "isVeg": true,
       "baseValue": 1,
-      "tags": [2, 34],
+      "tags": [
+        2,
+        34
+      ],
       "spritePath": "assets/Ingredient/11003.png"
     },
     {
@@ -3226,7 +3540,10 @@
       "isMeat": false,
       "isVeg": true,
       "baseValue": 1,
-      "tags": [34, 2],
+      "tags": [
+        2,
+        34
+      ],
       "spritePath": "assets/Ingredient/11004.png"
     },
     {
@@ -3239,7 +3556,11 @@
       "isMeat": false,
       "isVeg": true,
       "baseValue": 1,
-      "tags": [17, 2, 3],
+      "tags": [
+        2,
+        3,
+        17
+      ],
       "spritePath": "assets/Ingredient/11005.png"
     },
     {
@@ -3252,7 +3573,9 @@
       "isMeat": false,
       "isVeg": false,
       "baseValue": 35,
-      "tags": [17],
+      "tags": [
+        17
+      ],
       "spritePath": "assets/Ingredient/11006.png"
     },
     {
@@ -3265,7 +3588,10 @@
       "isMeat": false,
       "isVeg": false,
       "baseValue": 15,
-      "tags": [17, 20],
+      "tags": [
+        17,
+        20
+      ],
       "spritePath": "assets/Ingredient/11007.png"
     }
   ],
@@ -3273,11 +3599,24 @@
     {
       "id": 11000,
       "name": "山泉双色果盘",
-      "description": "山泉水的冰镇作用让果子不会太甜，口感清凉温润，同时也能延长保存时间，让其鲜艳色彩保存得更久一点，不会变色。",
+      "description": "选取山间的泉水浸泡山上的野果而成的果盘，口感顺滑，冰凉甜美。由妖精制作的果盘更是可以保存数天而不变色，也许是妖精的生命力在起效。",
       "level": 2,
       "baseValue": 45,
-      "tags": [-5, 2, 17, 8, 28],
-      "banTags": [0, 22],
+      "tags": [
+        -5,
+        2,
+        7,
+        17,
+        21,
+        28,
+        31
+      ],
+      "banTags": [
+        0,
+        1,
+        24,
+        34
+      ],
       "spritePath": "assets/Food/11000.png"
     },
     {
@@ -3286,8 +3625,15 @@
       "description": "相比来自东方的原版鱼饼口味更清淡一些，外形上也针对雾之湖的鱼种进行了调整。是一道非常不错的解酒小吃，也很受孩子们的喜欢。",
       "level": 3,
       "baseValue": 52,
-      "tags": [-7, 1, 3, 8],
-      "banTags": [2],
+      "tags": [
+        -7,
+        1,
+        3,
+        8
+      ],
+      "banTags": [
+        2
+      ],
       "spritePath": "assets/Food/11001.png"
     },
     {
@@ -3296,8 +3642,21 @@
       "description": "简单而美观的茶碗蒸，使用白果替换了雾之湖少见的鲜虾，口味相比一般的茶碗蒸更显清淡。月光草作为点缀，为本来平凡的蒸蛋增加了一丝闪烁的灵光。如果放在上古时代，大概会是难得一见的名贵菜肴吧。",
       "level": 4,
       "baseValue": 98,
-      "tags": [-6, 4, 5, -3, 20, 25, 27, 7],
-      "banTags": [6, 0, -1],
+      "tags": [
+        -6,
+        4,
+        5,
+        -3,
+        20,
+        25,
+        27,
+        7
+      ],
+      "banTags": [
+        6,
+        0,
+        -1
+      ],
       "spritePath": "assets/Food/11002.png"
     },
     {
@@ -3306,7 +3665,13 @@
       "description": "形似甜甜圈而长了一对恶魔的角，说是甜品而其实完全就是芝士口味的汉堡包。不过由于中间有洞，吃的时候要尤其留意不要弄脏了衣服。",
       "level": 2,
       "baseValue": 48,
-      "tags": [-7, 0, 15, 6, 23],
+      "tags": [
+        -7,
+        0,
+        15,
+        6,
+        23
+      ],
       "banTags": [],
       "spritePath": "assets/Food/11003.png"
     },
@@ -3316,8 +3681,15 @@
       "description": "高甜度巧克力所制作雕塑，似乎描绘的是一道大笑着的黑红色身影将一道粉色的身影踩在脚下的景象。不过吃掉这个雕塑不就代表着破坏掉这个“正义执行”嘛……",
       "level": 3,
       "baseValue": 92,
-      "tags": [-5, 17, 13, 20],
-      "banTags": [15],
+      "tags": [
+        -5,
+        17,
+        13,
+        20
+      ],
+      "banTags": [
+        15
+      ],
       "spritePath": "assets/Food/11004.png"
     },
     {
@@ -3326,8 +3698,19 @@
       "description": "利用火焰魔法和束缚魔法固定住肉类然后烧烤的料理，视觉特效上值得满分。不过出于某人的奇妙心理，这道料理使用了超位级魔法，导致每次烹饪都像烟花表演。",
       "level": 4,
       "baseValue": 136,
-      "tags": [-8, 8, 0, 9, 15, 23, 35, 22],
-      "banTags": [31],
+      "tags": [
+        -8,
+        8,
+        0,
+        9,
+        15,
+        23,
+        35,
+        22
+      ],
+      "banTags": [
+        31
+      ],
       "spritePath": "assets/Food/11005.png"
     },
     {
@@ -3336,7 +3719,13 @@
       "description": "超级猎奇口味的三明治，外表做得五颜六色很可爱，然而内里的味道简直令人咋舌。或许有些人会喜欢吧……",
       "level": 1,
       "baseValue": 35,
-      "tags": [-5, 0, 1, 24, 34],
+      "tags": [
+        -5,
+        0,
+        1,
+        24,
+        34
+      ],
       "banTags": [],
       "spritePath": "assets/Food/11006.png"
     },
@@ -3346,7 +3735,15 @@
       "description": "利用了散碎的棉花糖模拟了绵羊般毛茸茸外表的西式汤。毛茸茸的表层下面是猩红色的肉汤，入口是极具侵略性和力量感的野味。是外表很可爱然而实际很暴力的料理呢。",
       "level": 3,
       "baseValue": 68,
-      "tags": [-9, 0, 10, 9, 16, 23, 26],
+      "tags": [
+        -9,
+        0,
+        10,
+        9,
+        16,
+        23,
+        26
+      ],
       "banTags": [],
       "spritePath": "assets/Food/11007.png"
     },
@@ -3356,7 +3753,16 @@
       "description": "对蕾米莉亚一顿普通下午茶的模仿。区别是本来的熟成牛排被替换成了更贴近小孩子口味的蜜汁牛肉，配套的煎蛋也换成了全熟。顺带一提，最正宗的做法是牛排三分甚至一分熟。",
       "level": 4,
       "baseValue": 105,
-      "tags": [-7, 9, 0, 6, 4, 18, 17, 30],
+      "tags": [
+        -7,
+        9,
+        0,
+        6,
+        4,
+        18,
+        17,
+        30
+      ],
       "banTags": [],
       "spritePath": "assets/Food/11008.png"
     },
@@ -3366,8 +3772,17 @@
       "description": "月之都为了纪念一位伟人而流传的零食。外形圆润如满月，口感细腻松软，带着淡淡的甜香，很适合小朋友食用。",
       "level": 1,
       "baseValue": 35,
-      "tags": [28, 17, -5, 25, 30],
-      "banTags": [0, 1],
+      "tags": [
+        28,
+        17,
+        -5,
+        25,
+        30
+      ],
+      "banTags": [
+        0,
+        1
+      ],
       "spritePath": "assets/Food/11009.png"
     },
     {
@@ -3376,8 +3791,17 @@
       "description": "永琳所研发的药膳，口味带着一丝苦味的清甜。可以通肺止咳，化瘀补气，适合虚弱的病人食用。",
       "level": 2,
       "baseValue": 55,
-      "tags": [3, 32, 7, 17, -6],
-      "banTags": [34, 6],
+      "tags": [
+        3,
+        32,
+        7,
+        17,
+        -6
+      ],
+      "banTags": [
+        34,
+        6
+      ],
       "spritePath": "assets/Food/11010.png"
     },
     {
@@ -3386,8 +3810,18 @@
       "description": "给食欲不振的病人开胃的甜点，使用了幻昙华和月光草模拟了星光和月光，而桃子的甜香底味可以很好的刺激病人的胃口，又不至于过于刺激。是非常精致又非常贴心的甜点呢，不愧是月之头脑的作品。",
       "level": 3,
       "baseValue": 68,
-      "tags": [20, 27, 17, 28, -5, 25, 12],
-      "banTags": [0],
+      "tags": [
+        20,
+        27,
+        17,
+        28,
+        -5,
+        25,
+        12
+      ],
+      "banTags": [
+        0
+      ],
       "spritePath": "assets/Food/11011.png"
     }
   ],
@@ -3398,7 +3832,14 @@
       "description": "露易兹去人间界旅游时，从西方国家带回的气泡饮料，经过魔界各位的品尝之后获得了一致好评。使用苏打水、薄荷以及生姜萃取物混合而成，和普通的苏打水相比，增添了一份生姜的辛辣。舞对此进行改良，使用魔法制作的特殊冰块为气泡更增添了一份层次感。值得一提的是，虽然名称叫做“Ginger Ale”，但是却不含酒精。",
       "level": 2,
       "baseValue": 40,
-      "tags": [16, 14, -1, 3, 19, 11],
+      "tags": [
+        16,
+        14,
+        -1,
+        3,
+        19,
+        11
+      ],
       "spritePath": "assets/Beverage/11000.png"
     },
     {
@@ -3407,7 +3848,13 @@
       "description": "露易兹去人间界旅游时从西方国家带回的气泡饮料，经过魔界各位的品尝之后获得了比较微妙的评价。使用树根提取物作为香精添加进汽水中，在禁酒令推行时期作为啤酒的替代品非常受欢迎。在根汁啤酒的传统制作流程中，杯子的选择是最重要的一环：最正宗的根汁啤酒必须盛放在啤酒同款的大号玻璃马克杯中，并且提前在冷库中冻上一整天。舞对此进行改良，使用魔法将马克杯表面冻得刚好结上一层霜，省去了繁杂的步骤。喝起来的味道非常奇妙，一向喜欢吃甜食的雪如此评价道：“就像是在吃可乐和香草味道的牙膏……”值得一提的是，虽然名称叫做“Root Beer”，外表看起来也像啤酒，但是却不含酒精。",
       "level": 2,
       "baseValue": 65,
-      "tags": [16, -1, 13, 3, 11],
+      "tags": [
+        16,
+        -1,
+        13,
+        3,
+        11
+      ],
       "spritePath": "assets/Beverage/11001.png"
     }
   ],
@@ -3415,84 +3862,134 @@
     {
       "id": 11000,
       "foodId": 11000,
-      "ingredients": [21, 36],
+      "ingredients": [
+        21,
+        36
+      ],
       "cookTime": 3,
       "cookerType": "CuttingBoard"
     },
     {
       "id": 11001,
       "foodId": 11001,
-      "ingredients": [11, 6, 5],
+      "ingredients": [
+        11,
+        6,
+        5
+      ],
       "cookTime": 4,
       "cookerType": "Fryer"
     },
     {
       "id": 11002,
       "foodId": 11002,
-      "ingredients": [0, 22, 33, 31],
+      "ingredients": [
+        0,
+        22,
+        33,
+        31
+      ],
       "cookTime": 5,
       "cookerType": "Steamer"
     },
     {
       "id": 11003,
       "foodId": 11003,
-      "ingredients": [30, 2, 2002],
+      "ingredients": [
+        30,
+        2,
+        2002
+      ],
       "cookTime": 4,
       "cookerType": "Fryer"
     },
     {
       "id": 11004,
       "foodId": 11004,
-      "ingredients": [5000, 5000, 11006],
+      "ingredients": [
+        5000,
+        5000,
+        11006
+      ],
       "cookTime": 5,
       "cookerType": "CuttingBoard"
     },
     {
       "id": 11005,
       "foodId": 11005,
-      "ingredients": [2, 3, 16, 11000],
+      "ingredients": [
+        2,
+        3,
+        16,
+        11000
+      ],
       "cookTime": 5,
       "cookerType": "CuttingBoard"
     },
     {
       "id": 11006,
       "foodId": 11006,
-      "ingredients": [14, 36, 35],
+      "ingredients": [
+        14,
+        36,
+        35
+      ],
       "cookTime": 3,
       "cookerType": "CuttingBoard"
     },
     {
       "id": 11007,
       "foodId": 11007,
-      "ingredients": [11007, 15, 17],
+      "ingredients": [
+        11007,
+        15,
+        17
+      ],
       "cookTime": 6,
       "cookerType": "Pot"
     },
     {
       "id": 11008,
       "foodId": 11008,
-      "ingredients": [16, 0, 24, 29],
+      "ingredients": [
+        16,
+        0,
+        24,
+        29
+      ],
       "cookTime": 5,
       "cookerType": "Fryer"
     },
     {
       "id": 11009,
       "foodId": 11009,
-      "ingredients": [33, 30],
+      "ingredients": [
+        33,
+        30
+      ],
       "cookTime": 4,
       "cookerType": "CuttingBoard"
     },
     {
       "id": 11010,
       "foodId": 11010,
-      "ingredients": [24, 22, 27],
+      "ingredients": [
+        24,
+        22,
+        27
+      ],
       "cookTime": 7,
       "cookerType": "Steamer"
     },
     {
       "id": 11011,
       "foodId": 11011,
-      "ingredients": [21, 26, 33, 27],
+      "ingredients": [
+        21,
+        26,
+        33,
+        27
+      ],
       "cookTime": 4,
       "cookerType": "CuttingBoard"
     }
@@ -3500,7 +3997,7 @@
   "missionNodes": [
     {
       "title": "请大妖精品尝一下「山泉双色果盘」吧！",
-      "description": "从大妖精那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "description": "从大妖精那得到了新料理的灵感，做出来以后请她尝一尝吧！",
       "label": "_Kizuna_Daiyousei_LV1_Upgrade_001_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
@@ -3519,7 +4016,9 @@
         }
       ],
       "postMissionsAfterPerformance": [],
-      "postEvents": ["_Kizuna_Daiyousei_LV2_Upgrade_001_Event"],
+      "postEvents": [
+        "_Kizuna_Daiyousei_LV2_Upgrade_001_Event"
+      ],
       "missionFinishEvent": {
         "eventType": "Dialog",
         "dialogPackageName": "_Kizuna_Daiyousei_LV1_002"
@@ -3533,7 +4032,7 @@
     },
     {
       "title": "请大妖精品尝一下「鱼饼」吧！",
-      "description": "从大妖精那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "description": "从大妖精那得到了新料理的灵感，做出来以后请她尝一尝吧！",
       "label": "_Kizuna_Daiyousei_LV2_Upgrade_001_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
@@ -3552,7 +4051,9 @@
         }
       ],
       "postMissionsAfterPerformance": [],
-      "postEvents": ["_Kizuna_Daiyousei_LV3_Upgrade_001_Event"],
+      "postEvents": [
+        "_Kizuna_Daiyousei_LV3_Upgrade_001_Event"
+      ],
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
@@ -3590,7 +4091,9 @@
         {
           "rewardType": "GiveItem",
           "objectType": "Recipe",
-          "rewardIntArray": [11002]
+          "rewardIntArray": [
+            11002
+          ]
         }
       ],
       "missionFinishEvent": {
@@ -3600,7 +4103,7 @@
     },
     {
       "title": "请大妖精品尝一下「白果灵盅」吧！",
-      "description": "从大妖精那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "description": "从大妖精那得到了新料理的灵感，做出来以后请她尝一尝吧！",
       "label": "_Kizuna_Daiyousei_LV3_Upgrade_002_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
@@ -3615,7 +4118,9 @@
           "amount": 11002
         }
       ],
-      "postEvents": ["_Kizuna_Daiyousei_LV4_Upgrade_001_Event"],
+      "postEvents": [
+        "_Kizuna_Daiyousei_LV4_Upgrade_001_Event"
+      ],
       "postMissionsAfterPerformance": [],
       "missionFinishEvent": {
         "eventType": "Dialog",
@@ -3648,7 +4153,9 @@
         {
           "rewardType": "GiveItem",
           "objectType": "Recipe",
-          "rewardIntArray": [11000]
+          "rewardIntArray": [
+            11000
+          ]
         }
       ],
       "postMissionsAfterPerformance": [
@@ -3674,7 +4181,9 @@
         {
           "rewardType": "GiveItem",
           "objectType": "Recipe",
-          "rewardIntArray": [11001]
+          "rewardIntArray": [
+            11001
+          ]
         }
       ],
       "postMissionsAfterPerformance": [
