@@ -16,7 +16,7 @@
       "FN57"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.5.7",
+    "version": "0.5.8",
     "license": "# MetaMystia 资源版权与使用许可说明\n\n本文件适用于 **MetaMystia** 项目\n 项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**\n\n本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。\n\n\n## 一、原作版权声明\n\n本 Mod 为基于以下作品的**非官方同人二次创作**：\n\n- 《东方Project》上海爱丽丝幻乐团@ZUN\n- 《东方夜雀食堂》二色幽紫蝶\n- 《东方秋神牧场》二色幽紫蝶\n\n与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。\n **MetaMystia 项目不对原作内容主张版权。**\n\n\n## 二、不属于本项目授权范围的游戏原始资源\n\n以下路径中的资源文件 **并非 MetaMystia 项目原创内容**，其美术资源版权归原游戏版权方所有。\n\n来自 **《东方夜雀食堂》二色幽紫蝶** 的资源：\n\n```\nassets/Character/9000/*\nassets/Character/9001/*\nassets/Character/9002/*\nassets/Character/9003/*\nassets/Character/9004/*\n```\n\n来自 **《东方秋神牧场》二色幽紫蝶** 的资源：\n\n```\nassets/Character/10000/Portrait/0.png\nassets/Character/10001/Portrait/0.png\nassets/Character/10002/Portrait/0.png\n```\n\n这些文件仅在原作者相关作品授权范围内使用，\n\n**不属于 MetaMystia 项目的原创资源，也不适用于下文的 CC 许可。**\n\nMetaMystia 项目不对这些资源授予任何再分发或二次创作授权。\n\n\n## 三、MetaMystia 项目原创资源许可\n\n除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：\n\n> **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International\n>  (CC BY-NC-SA 4.0)**\n\n你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。\n\n\n## 四、资源列表变更说明\n\nMetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。\n\n请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。\n\n\n## 五、免责声明\n\n本项目为非官方同人创作，与原作版权方无直接关联。\n\n如原版权方提出要求，项目可能对相关内容进行修改或移除。"
   },
   "characters": [
@@ -76,23 +76,28 @@
         "foodRequests": [
           {
             "tagId": 7,
-            "request": "那些我最爱的东西——水和风都是没有味道的。"
+            "request": "那些我最爱的东西——水和风都是没有味道的。",
+            "enable": true
           },
           {
             "tagId": 17,
-            "request": "甜味是这个世界上最本质、最美好的味道。"
+            "request": "甜味是这个世界上最本质、最美好的味道。",
+            "enable": true
           },
           {
             "tagId": 21,
-            "request": "我最喜欢湖面微凉的清风流过的感觉了。"
+            "request": "我最喜欢湖面微凉的清风流过的感觉了。",
+            "enable": true
           },
           {
             "tagId": 28,
-            "request": "整个世界的话，大概…只会比雾之湖大一点吧？"
+            "request": "整个世界的话，大概…只会比雾之湖大一点吧？",
+            "enable": true
           },
           {
             "tagId": 31,
-            "request": "我们妖精偶尔会去湖畔果树林摘点果子吃。"
+            "request": "我们妖精偶尔会去湖畔果树林摘点果子吃。",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -378,31 +383,38 @@
         "foodRequests": [
           {
             "tagId": 0,
-            "request": "纯种恶魔自然是要吃肉的！"
+            "request": "纯种恶魔自然是要吃肉的！",
+            "enable": true
           },
           {
             "tagId": 5,
-            "request": "高贵的，强大的恶魔血统自然需要最珍贵的料理！"
+            "request": "高贵的，强大的恶魔血统自然需要最珍贵的料理！",
+            "enable": true
           },
           {
             "tagId": 8,
-            "request": "带劲的酒精可以触动恶魔的内心…不过需要一道好菜配合。"
+            "request": "带劲的酒精可以触动恶魔的内心…不过需要一道好菜配合。",
+            "enable": true
           },
           {
             "tagId": 13,
-            "request": "帕秋莉她最喜欢的味道就是这种外国风味…这次让本姑娘也试试。"
+            "request": "帕秋莉她最喜欢的味道就是这种外国风味…这次让本姑娘也试试。",
+            "enable": true
           },
           {
             "tagId": 17,
-            "request": "书上说糖分可以快速补充因施法损耗的体力…才不是嘴馋呢。"
+            "request": "书上说糖分可以快速补充因施法损耗的体力…才不是嘴馋呢。",
+            "enable": true
           },
           {
             "tagId": 33,
-            "request": "图书馆严禁烟火，好不容易有了机会，本姑娘可得尝尝烧烤的滋味。"
+            "request": "图书馆严禁烟火，好不容易有了机会，本姑娘可得尝尝烧烤的滋味。",
+            "enable": true
           },
           {
             "tagId": 34,
-            "request": "带点辣味的东西才能刺激本姑娘的味蕾！"
+            "request": "带点辣味的东西才能刺激本姑娘的味蕾！",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -695,31 +707,38 @@
         "foodRequests": [
           {
             "tagId": 27,
-            "request": "有什么东西能比带着魔法的女仆长更神奇吗？"
+            "request": "有什么东西能比带着魔法的女仆长更神奇吗？",
+            "enable": true
           },
           {
             "tagId": 20,
-            "request": "外面的世界好美……好想多记住一些。"
+            "request": "外面的世界好美……好想多记住一些。",
+            "enable": true
           },
           {
             "tagId": 18,
-            "request": "没有做熟的食物和血散发着同一种味道呢。"
+            "request": "没有做熟的食物和血散发着同一种味道呢。",
+            "enable": true
           },
           {
             "tagId": 24,
-            "request": "可爱的玩偶总会玩腻的……想来点不一样的……"
+            "request": "可爱的玩偶总会玩腻的……想来点不一样的……",
+            "enable": true
           },
           {
             "tagId": 34,
-            "request": "辣味是一种痛觉哦，喜欢！"
+            "request": "辣味是一种痛觉哦，喜欢！",
+            "enable": true
           },
           {
             "tagId": 19,
-            "request": "世界肯定比我的房间大的多了！有什么有趣的东西吗？"
+            "request": "世界肯定比我的房间大的多了！有什么有趣的东西吗？",
+            "enable": true
           },
           {
             "tagId": 22,
-            "request": "姐姐从来不让我见到热辣辣的太阳，真好奇，好好奇呀。"
+            "request": "姐姐从来不让我见到热辣辣的太阳，真好奇，好好奇呀。",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -921,27 +940,33 @@
         "foodRequests": [
           {
             "tagId": 3,
-            "request": "如果拒绝接触家常些的东西的话，生命就会与现实疏离开来。"
+            "request": "如果拒绝接触家常些的东西的话，生命就会与现实疏离开来。",
+            "enable": true
           },
           {
             "tagId": 4001,
-            "request": "微毒的食物很多可以入药，人们总是忘记这一点。"
+            "request": "微毒的食物很多可以入药，人们总是忘记这一点。",
+            "enable": true
           },
           {
             "tagId": 5,
-            "request": "传说中的那些故事，在遥远的过去可能真实存在过。"
+            "request": "传说中的那些故事，在遥远的过去可能真实存在过。",
+            "enable": true
           },
           {
             "tagId": 25,
-            "request": "即使拥有无限的生命，人的阅历也短于文明的尺度。"
+            "request": "即使拥有无限的生命，人的阅历也短于文明的尺度。",
+            "enable": true
           },
           {
             "tagId": 29,
-            "request": "蝴蝶梦，梦蝴蝶……梦幻如现实，现实如梦幻。"
+            "request": "蝴蝶梦，梦蝴蝶……梦幻如现实，现实如梦幻。",
+            "enable": true
           },
           {
             "tagId": 30,
-            "request": "穷尽天文的脑力，也不可能明晰整个世界的变数。在某个角落，总会藏着独特的惊喜。"
+            "request": "穷尽天文的脑力，也不可能明晰整个世界的变数。在某个角落，总会藏着独特的惊喜。",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -1173,31 +1198,38 @@
         "foodRequests": [
           {
             "tagId": 3,
-            "request": "平时梦子酱准备的料理都充满了家乡的味道呢"
+            "request": "平时梦子酱准备的料理都充满了家乡的味道呢",
+            "enable": true
           },
           {
             "tagId": 4,
-            "request": "本魔神的用餐当然要高级感满满！"
+            "request": "本魔神的用餐当然要高级感满满！",
+            "enable": true
           },
           {
             "tagId": 5,
-            "request": "传说，曾有一位外界的高僧被封印在魔界......"
+            "request": "传说，曾有一位外界的高僧被封印在魔界......",
+            "enable": true
           },
           {
             "tagId": 13,
-            "request": "爱丽丝，露易兹......我引以为傲的作品们都充满了西方色彩呢。"
+            "request": "爱丽丝，露易兹......我引以为傲的作品们都充满了西方色彩呢。",
+            "enable": true
           },
           {
             "tagId": 17,
-            "request": "我的发圈看上去像樱桃一样甜，可惜不能吃"
+            "request": "我的发圈看上去像樱桃一样甜，可惜不能吃",
+            "enable": true
           },
           {
             "tagId": 27,
-            "request": "我所在的魔界也被称作不可思议之国哦！"
+            "request": "我所在的魔界也被称作不可思议之国哦！",
+            "enable": true
           },
           {
             "tagId": 29,
-            "request": "甜美梦幻的童话世界，说的就是魔界呢"
+            "request": "甜美梦幻的童话世界，说的就是魔界呢",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -1407,23 +1439,28 @@
         "foodRequests": [
           {
             "tagId": -2,
-            "request": "如果能少花点钱就好了。"
+            "request": "如果能少花点钱就好了。",
+            "enable": true
           },
           {
             "tagId": 17,
-            "request": "甜美的味道，能让人忘却忧伤。"
+            "request": "甜美的味道，能让人忘却忧伤。",
+            "enable": true
           },
           {
             "tagId": 21,
-            "request": "像秋天一样凉爽的食物，也是一个不错的选择呢。"
+            "request": "像秋天一样凉爽的食物，也是一个不错的选择呢。",
+            "enable": true
           },
           {
             "tagId": 23,
-            "request": "制造落叶可是很辛苦的……才不是因为踹不动树呢。"
+            "request": "制造落叶可是很辛苦的……才不是因为踹不动树呢。",
+            "enable": true
           },
           {
             "tagId": 25,
-            "request": "自古逢秋悲寂寥……"
+            "request": "自古逢秋悲寂寥……",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -1584,23 +1621,28 @@
         "foodRequests": [
           {
             "tagId": 3,
-            "request": "家常菜也是很美味的。"
+            "request": "家常菜也是很美味的。",
+            "enable": true
           },
           {
             "tagId": 9,
-            "request": "食物的存在，就是为了能够让人们填饱肚子啊。"
+            "request": "食物的存在，就是为了能够让人们填饱肚子啊。",
+            "enable": true
           },
           {
             "tagId": -2,
-            "request": "有时候价格高昂的食品会让人望而止步哦。"
+            "request": "有时候价格高昂的食品会让人望而止步哦。",
+            "enable": true
           },
           {
             "tagId": 17,
-            "request": "要是有能像烤红薯一样甜美的食物就好了。"
+            "request": "要是有能像烤红薯一样甜美的食物就好了。",
+            "enable": true
           },
           {
             "tagId": 33,
-            "request": "用火烤制出来的食物，一般都不会难吃吧。"
+            "request": "用火烤制出来的食物，一般都不会难吃吧。",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -1764,35 +1806,43 @@
         "foodRequests": [
           {
             "tagId": -1,
-            "request": "请提供能让我给紫大人和橙打包一份回去的量。"
+            "request": "请提供能让我给紫大人和橙打包一份回去的量。",
+            "enable": true
           },
           {
             "tagId": 4,
-            "request": "八云家吃的东西多少是要高级一些的。"
+            "request": "八云家吃的东西多少是要高级一些的。",
+            "enable": true
           },
           {
             "tagId": 5,
-            "request": "狐妖在这片土地上可是创造了许多传说的。"
+            "request": "狐妖在这片土地上可是创造了许多传说的。",
+            "enable": true
           },
           {
             "tagId": 6,
-            "request": "油炸豆腐虽然很好吃，但是偶尔也想吃点别的炸货。"
+            "request": "油炸豆腐虽然很好吃，但是偶尔也想吃点别的炸货。",
+            "enable": true
           },
           {
             "tagId": 10,
-            "request": "水会弄湿衣服和尾巴，还是山比较让人喜欢。"
+            "request": "水会弄湿衣服和尾巴，还是山比较让人喜欢。",
+            "enable": true
           },
           {
             "tagId": 12,
-            "request": "狐狸可是和风的重要组成部分哦。"
+            "request": "狐狸可是和风的重要组成部分哦。",
+            "enable": true
           },
           {
             "tagId": 23,
-            "request": "侍奉紫大人真是累人呀……"
+            "request": "侍奉紫大人真是累人呀……",
+            "enable": true
           },
           {
             "tagId": 27,
-            "request": "我的智慧，连三途川的长度都能计算出来。是不是很不可思议？"
+            "request": "我的智慧，连三途川的长度都能计算出来。是不是很不可思议？",
+            "enable": true
           }
         ],
         "bevRequests": [],
@@ -4027,6 +4077,36 @@
         0
       ],
       "spritePath": "assets/Food/11011.png"
+    },
+    {
+      "id": 11012,
+      "name": "樱绯星屑缀玉烩",
+      "description": "在外界似乎被称为“Risotto”的烩饭料理。魔界之神对此进行改良，使用糯米与帕尔马芝士糅合，添上辣椒碎与菌菇碎，在锅中炒热后，再撒上柔软的花瓣，这道西洋感满满的烩饭就做成了。香糯的芝士烩饭中，晶莹的菌菇碎如同满天星斗，照亮了遍布鲜花的原野。一口下去，是幻想乡春樱漫野结合魔界夜空般的甜辣。",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11012.png"
+    },
+    {
+      "id": 11013,
+      "name": "黯月魔境慕斯",
+      "description": "慕斯是一种混合鸡蛋、奶油和各种调味食材，口感香甜松软的甜品。魔界之神对此进行了改良，使用巧克力、香草与香芋的层层搭配，再放上两颗红色浆果，外观看上去犹如气派的魔界宫殿“万魔殿”。据说是神绮平时用来招待客人以及举办茶会时必备的高级甜点。",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11013.png"
+    },
+    {
+      "id": 11014,
+      "name": "烬色魔纹千层酥",
+      "description": "以魔神之翼为原型设计而成的咖啡色千层酥，苦涩与鲜香的夹心结合着酥脆的酥皮，一口咬下去别有一番风味。 最顶层使用成块的巧克力配上草莓果酱作为点缀，看起来就像魔神的翅膀一般。",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11014.png"
     }
   ],
   "beverages": [
@@ -4196,6 +4276,41 @@
       ],
       "cookTime": 4,
       "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11012,
+      "foodId": 11012,
+      "ingredients": [
+        35,
+        17,
+        4002,
+        32,
+        2002
+      ],
+      "cookTime": 1,
+      "cookerType": "Pot"
+    },
+    {
+      "id": 11013,
+      "foodId": 11013,
+      "ingredients": [
+        0,
+        1004
+      ],
+      "cookTime": 1,
+      "cookerType": "Pot"
+    },
+    {
+      "id": 11014,
+      "foodId": 11014,
+      "ingredients": [
+        30,
+        0,
+        5000,
+        29
+      ],
+      "cookTime": 1,
+      "cookerType": "Pot"
     }
   ],
   "missionNodes": [
