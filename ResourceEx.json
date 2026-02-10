@@ -100,7 +100,38 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": -1,
+            "request": "老板娘，我们妖精不喜欢酒精哦~",
+            "enable": false
+          },
+          {
+            "tagId": 0,
+            "request": "今天突然稍微想喝一点点酒呢~",
+            "enable": false
+          },
+          {
+            "tagId": 3,
+            "request": "和琪露诺玩得久了，连我也喜欢凉凉的东西呢~",
+            "enable": false
+          },
+          {
+            "tagId": 11,
+            "request": "对于妖精们来说，能直接喝就是最好的啦。",
+            "enable": false
+          },
+          {
+            "tagId": 13,
+            "request": "就像森林里的果子那样带点甜。",
+            "enable": false
+          },
+          {
+            "tagId": 16,
+            "request": "汽水那种奇妙的口感不是和奇妙的妖精很配吗？",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           22,
           24
@@ -417,7 +448,28 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 2,
+            "request": "只有最烈的酒才配得上本姑娘！",
+            "enable": false
+          },
+          {
+            "tagId": 4,
+            "request": "滚烫的饮品能激发恶魔内心的狂野！",
+            "enable": false
+          },
+          {
+            "tagId": 14,
+            "request": "不辛辣的烈酒哪有什么刺激可言？",
+            "enable": false
+          },
+          {
+            "tagId": 19,
+            "request": "为了重振精神，伟大的恶魔需要小酌一下。",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           7
         ],
@@ -741,7 +793,33 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 14,
+            "request": "辣味是一种美妙的刺激。",
+            "enable": false
+          },
+          {
+            "tagId": 12,
+            "request": "想要那种带着水果清香的神奇液体！",
+            "enable": false
+          },
+          {
+            "tagId": 4,
+            "request": "一杯热饮能不能温暖我孤独的内心呢......",
+            "enable": false
+          },
+          {
+            "tagId": 2,
+            "request": "那个喝一口嘴里就火辣辣的东西是什么呀？",
+            "enable": false
+          },
+          {
+            "tagId": 1,
+            "request": "看来得多试试没那么刺激的酒水来适应一下.......",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [],
         "likeFoodTag": [
           {
@@ -969,7 +1047,43 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 0,
+            "request": "微量的酒精有助于延年益寿。",
+            "enable": false
+          },
+          {
+            "tagId": 1,
+            "request": "过高的酒精浓度对身体有害。",
+            "enable": false
+          },
+          {
+            "tagId": 3,
+            "request": "冰镇的饮料口感甚好。",
+            "enable": false
+          },
+          {
+            "tagId": 6,
+            "request": "竹林里的麻雀偶尔也会酿造出可口的酒水。",
+            "enable": false
+          },
+          {
+            "tagId": 11,
+            "request": "药物总是需要做好直接入口的准备，我希望酒水也如此。",
+            "enable": false
+          },
+          {
+            "tagId": 13,
+            "request": "许多人喝甜的饮品心情都会变佳。",
+            "enable": false
+          },
+          {
+            "tagId": 17,
+            "request": "小酌时，我也偶会怀念旧时光景。",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           18,
           6
@@ -1232,7 +1346,33 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": -1,
+            "request": "酒精什么的才不需要呢。",
+            "enable": false
+          },
+          {
+            "tagId": 11,
+            "request": "饮料不是直接喝就好了吗？",
+            "enable": false
+          },
+          {
+            "tagId": 12,
+            "request": "魔界许多饮品里都有着水果的独特味道。",
+            "enable": false
+          },
+          {
+            "tagId": 13,
+            "request": "我认为先苦后甜是不对的，饮料就应该一直甜。",
+            "enable": false
+          },
+          {
+            "tagId": 17,
+            "request": "有哪种饮料可以让我回忆回忆以前的时光吗？",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           -21,
           6,
@@ -1463,7 +1603,28 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 4,
+            "request": "凉爽的秋天需要配一杯饮品暖暖身子。",
+            "enable": false
+          },
+          {
+            "tagId": 15,
+            "request": "无边落木萧萧下......",
+            "enable": false
+          },
+          {
+            "tagId": 14,
+            "request": "辛辣的刺激能够忘却忧伤......",
+            "enable": false
+          },
+          {
+            "tagId": 6,
+            "request": "秋季正是窖藏陈酿的时节。",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           0,
           34,
@@ -1645,7 +1806,23 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 12,
+            "request": "丰收的瓜果也可以用来酿酒呢。",
+            "enable": false
+          },
+          {
+            "tagId": 13,
+            "request": "完美的饮料能品尝出丰收的喜悦与甜蜜。",
+            "enable": false
+          },
+          {
+            "tagId": 0,
+            "request": "农家用粮食酿造的米酒就很对我胃口哦！",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           10,
           11,
@@ -1845,7 +2022,43 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 19,
+            "request": "侍奉紫大人以及照顾小橙令我些许疲惫。",
+            "enable": false
+          },
+          {
+            "tagId": 16,
+            "request": "感受气泡在舌尖跃动是一种不错的体验。",
+            "enable": false
+          },
+          {
+            "tagId": 14,
+            "request": "辛辣的刺激能让我保持头脑运转。",
+            "enable": false
+          },
+          {
+            "tagId": 6,
+            "request": "比起随意调配的酒水，我还是喜欢陈酿。",
+            "enable": false
+          },
+          {
+            "tagId": 4,
+            "request": "希望我带回家给橙喝的时候不会变凉......",
+            "enable": false
+          },
+          {
+            "tagId": 2,
+            "request": "下班了来一杯烈酒真是爽快。",
+            "enable": false
+          },
+          {
+            "tagId": 1,
+            "request": "不能老喝度数太高的酒水，容易让头脑发昏。",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           1,
           7,
