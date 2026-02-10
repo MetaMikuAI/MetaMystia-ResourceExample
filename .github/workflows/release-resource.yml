@@ -1,0 +1,26 @@
+name: Release Resource Zip
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create zip
+        run: |
+          ZIP_NAME="ResourceExample-${GITHUB_REF_NAME}.zip"
+          zip -r "$ZIP_NAME" ResourceEx.json assets/
+
+      - name: Create GitHub Release and upload zip
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ResourceExample-${{ github.ref_name }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
