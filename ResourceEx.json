@@ -759,28 +759,8 @@
         ],
         "foodRequests": [
           {
-            "tagId": 27,
-            "request": "有什么东西能比带着魔法的女仆长更神奇吗？",
-            "enable": true
-          },
-          {
-            "tagId": 20,
-            "request": "外面的世界好美……好想多记住一些。",
-            "enable": true
-          },
-          {
             "tagId": 18,
             "request": "没有做熟的食物和血散发着同一种味道呢。",
-            "enable": true
-          },
-          {
-            "tagId": 24,
-            "request": "可爱的玩偶总会玩腻的……想来点不一样的……",
-            "enable": true
-          },
-          {
-            "tagId": 34,
-            "request": "辣味是一种痛觉哦，喜欢！",
             "enable": true
           },
           {
@@ -789,25 +769,35 @@
             "enable": true
           },
           {
+            "tagId": 20,
+            "request": "外面的世界好美……好想多记住一些。",
+            "enable": true
+          },
+          {
             "tagId": 22,
             "request": "姐姐从来不让我见到热辣辣的太阳，真好奇，好好奇呀。",
+            "enable": true
+          },
+          {
+            "tagId": 24,
+            "request": "可爱的玩偶总会玩腻的……想来点不一样的……",
+            "enable": true
+          },
+          {
+            "tagId": 27,
+            "request": "有什么东西能比带着魔法的女仆长更神奇吗？",
+            "enable": true
+          },
+          {
+            "tagId": 34,
+            "request": "辣味是一种痛觉哦，喜欢！",
             "enable": true
           }
         ],
         "bevRequests": [
           {
-            "tagId": 14,
-            "request": "辣味的酒水对我来说是一种美妙的刺激哦。",
-            "enable": false
-          },
-          {
-            "tagId": 12,
-            "request": "想要那种带着水果清香的神奇液体！",
-            "enable": false
-          },
-          {
-            "tagId": 4,
-            "request": "一杯热饮能不能温暖我孤独的内心呢……",
+            "tagId": 1,
+            "request": "看来得多试试没那么刺激的酒水来适应一下……",
             "enable": false
           },
           {
@@ -816,8 +806,18 @@
             "enable": false
           },
           {
-            "tagId": 1,
-            "request": "看来得多试试没那么刺激的酒水来适应一下……",
+            "tagId": 4,
+            "request": "一杯热饮能不能温暖我孤独的内心呢……",
+            "enable": false
+          },
+          {
+            "tagId": 12,
+            "request": "想要那种带着水果清香的神奇液体！",
+            "enable": false
+          },
+          {
+            "tagId": 14,
+            "request": "辣味的酒水对我来说是一种美妙的刺激哦。",
             "enable": false
           }
         ],
@@ -882,19 +882,7 @@
             "onlySpawnWhenPlaceBeRecorded": false
           },
           {
-            "izakayaId": 9,
-            "relativeProb": 0.1,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
             "izakayaId": 7,
-            "relativeProb": 0.15,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 24,
             "relativeProb": 0.15,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
@@ -902,6 +890,18 @@
           {
             "izakayaId": 8,
             "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 9,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 24,
+            "relativeProb": 0.15,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
           },
@@ -1023,11 +1023,6 @@
             "enable": true
           },
           {
-            "tagId": 4001,
-            "request": "微毒的食物很多可以入药，人们总是忘记这一点。",
-            "enable": true
-          },
-          {
             "tagId": 5,
             "request": "传说中的那些故事，在遥远的过去可能真实存在过。",
             "enable": true
@@ -1045,6 +1040,11 @@
           {
             "tagId": 30,
             "request": "穷尽天文的脑力，也不可能明晰整个世界的变数。在某个角落，总会藏着独特的惊喜。",
+            "enable": true
+          },
+          {
+            "tagId": 4001,
+            "request": "微毒的食物很多可以入药，人们总是忘记这一点。",
             "enable": true
           }
         ],
@@ -1086,8 +1086,8 @@
           }
         ],
         "hateFoodTag": [
-          18,
-          6
+          6,
+          18
         ],
         "likeFoodTag": [
           {
@@ -1151,26 +1151,20 @@
         ],
         "spawn": [
           {
-            "izakayaId": 16,
-            "relativeProb": 0.1,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 22,
-            "relativeProb": 0.1,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 23,
-            "relativeProb": 0.1,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
             "izakayaId": 14,
             "relativeProb": 0.15,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 15,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 16,
+            "relativeProb": 0.1,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
           },
@@ -1187,7 +1181,7 @@
             "onlySpawnWhenPlaceBeRecorded": false
           },
           {
-            "izakayaId": 15,
+            "izakayaId": 20,
             "relativeProb": 0.1,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
@@ -1199,7 +1193,13 @@
             "onlySpawnWhenPlaceBeRecorded": false
           },
           {
-            "izakayaId": 20,
+            "izakayaId": 22,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 23,
             "relativeProb": 0.1,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
@@ -1378,8 +1378,8 @@
           -21,
           6,
           18,
-          2000,
-          24
+          24,
+          2000
         ],
         "likeFoodTag": [
           {
@@ -1453,24 +1453,6 @@
             "onlySpawnWhenPlaceBeRecorded": false
           },
           {
-            "izakayaId": 5003,
-            "relativeProb": 0.35,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 5004,
-            "relativeProb": 0.35,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 5005,
-            "relativeProb": 0.35,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
             "izakayaId": 3001,
             "relativeProb": 0.1,
             "onlySpawnAfterUnlocking": false,
@@ -1485,6 +1467,24 @@
           {
             "izakayaId": 3003,
             "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5003,
+            "relativeProb": 0.35,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5004,
+            "relativeProb": 0.35,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5005,
+            "relativeProb": 0.35,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
           }
@@ -1611,8 +1611,8 @@
             "enable": false
           },
           {
-            "tagId": 15,
-            "request": "秋天向来是最苦情的季节呢……",
+            "tagId": 6,
+            "request": "秋季正是窖藏陈酿的时节。",
             "enable": false
           },
           {
@@ -1621,16 +1621,16 @@
             "enable": false
           },
           {
-            "tagId": 6,
-            "request": "秋季正是窖藏陈酿的时节。",
+            "tagId": 15,
+            "request": "秋天向来是最苦情的季节呢……",
             "enable": false
           }
         ],
         "hateFoodTag": [
           0,
+          6,
           34,
-          2000,
-          6
+          2000
         ],
         "likeFoodTag": [
           {
@@ -1674,13 +1674,13 @@
         ],
         "spawn": [
           {
-            "izakayaId": 1001,
+            "izakayaId": 1000,
             "relativeProb": 0.2,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
           },
           {
-            "izakayaId": 1000,
+            "izakayaId": 1001,
             "relativeProb": 0.2,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
@@ -1782,6 +1782,11 @@
         ],
         "foodRequests": [
           {
+            "tagId": -2,
+            "request": "有时候价格高昂的食品会让人望而止步哦。",
+            "enable": true
+          },
+          {
             "tagId": 3,
             "request": "家常菜也是很美味的。",
             "enable": true
@@ -1789,11 +1794,6 @@
           {
             "tagId": 9,
             "request": "食物的存在，就是为了能够让人们填饱肚子啊。",
-            "enable": true
-          },
-          {
-            "tagId": -2,
-            "request": "有时候价格高昂的食品会让人望而止步哦。",
             "enable": true
           },
           {
@@ -1809,6 +1809,11 @@
         ],
         "bevRequests": [
           {
+            "tagId": 0,
+            "request": "农家用粮食酿造的米酒就很对我胃口哦！",
+            "enable": false
+          },
+          {
             "tagId": 12,
             "request": "丰收的瓜果也可以用来酿酒呢。",
             "enable": false
@@ -1817,17 +1822,12 @@
             "tagId": 13,
             "request": "完美的饮料能品尝出丰收的喜悦与甜蜜。",
             "enable": false
-          },
-          {
-            "tagId": 0,
-            "request": "农家用粮食酿造的米酒就很对我胃口哦！",
-            "enable": false
           }
         ],
         "hateFoodTag": [
+          6,
           10,
           11,
-          6,
           2000
         ],
         "likeFoodTag": [
@@ -1868,13 +1868,13 @@
         ],
         "spawn": [
           {
-            "izakayaId": 1001,
+            "izakayaId": 1000,
             "relativeProb": 0.2,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
           },
           {
-            "izakayaId": 1000,
+            "izakayaId": 1001,
             "relativeProb": 0.2,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
@@ -2025,28 +2025,8 @@
         ],
         "bevRequests": [
           {
-            "tagId": 19,
-            "request": "侍奉紫大人以及照顾小橙令我些许疲惫。",
-            "enable": false
-          },
-          {
-            "tagId": 16,
-            "request": "感受气泡在舌尖跃动是一种不错的体验。",
-            "enable": false
-          },
-          {
-            "tagId": 14,
-            "request": "辛辣的刺激能让我保持头脑运转。",
-            "enable": false
-          },
-          {
-            "tagId": 6,
-            "request": "比起随意调配的饮品，我还是喜欢慢慢酿造出的清酒。",
-            "enable": false
-          },
-          {
-            "tagId": 4,
-            "request": "希望我带回家给橙喝的时候不会变凉……",
+            "tagId": 1,
+            "request": "不能老喝度数太高的酒水，容易让头脑发昏。",
             "enable": false
           },
           {
@@ -2055,8 +2035,28 @@
             "enable": false
           },
           {
-            "tagId": 1,
-            "request": "不能老喝度数太高的酒水，容易让头脑发昏。",
+            "tagId": 4,
+            "request": "希望我带回家给橙喝的时候不会变凉……",
+            "enable": false
+          },
+          {
+            "tagId": 6,
+            "request": "比起随意调配的饮品，我还是喜欢慢慢酿造出的清酒。",
+            "enable": false
+          },
+          {
+            "tagId": 14,
+            "request": "辛辣的刺激能让我保持头脑运转。",
+            "enable": false
+          },
+          {
+            "tagId": 16,
+            "request": "感受气泡在舌尖跃动是一种不错的体验。",
+            "enable": false
+          },
+          {
+            "tagId": 19,
+            "request": "侍奉紫大人以及照顾小橙令我些许疲惫。",
             "enable": false
           }
         ],
@@ -2132,24 +2132,6 @@
         ],
         "spawn": [
           {
-            "izakayaId": 2000,
-            "relativeProb": 0.2,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 2001,
-            "relativeProb": 0.2,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
-            "izakayaId": 2002,
-            "relativeProb": 0.2,
-            "onlySpawnAfterUnlocking": false,
-            "onlySpawnWhenPlaceBeRecorded": false
-          },
-          {
             "izakayaId": 3,
             "relativeProb": 0.1,
             "onlySpawnAfterUnlocking": false,
@@ -2181,6 +2163,24 @@
           },
           {
             "izakayaId": 8,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2000,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2001,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2002,
             "relativeProb": 0.2,
             "onlySpawnAfterUnlocking": false,
             "onlySpawnWhenPlaceBeRecorded": false
@@ -4121,18 +4121,18 @@
       "level": 4,
       "baseValue": 98,
       "tags": [
+        -3,
         4,
         5,
-        -3,
+        7,
         20,
         25,
-        27,
-        7
+        27
       ],
       "banTags": [
-        6,
+        -1,
         0,
-        -1
+        6
       ],
       "spritePath": "assets/Food/11002.png"
     },
@@ -4144,8 +4144,8 @@
       "baseValue": 48,
       "tags": [
         0,
-        15,
         6,
+        15,
         23
       ],
       "banTags": [],
@@ -4158,8 +4158,8 @@
       "level": 3,
       "baseValue": 92,
       "tags": [
-        17,
         13,
+        17,
         20
       ],
       "banTags": [
@@ -4174,13 +4174,13 @@
       "level": 4,
       "baseValue": 136,
       "tags": [
-        8,
         0,
+        8,
         9,
         15,
+        22,
         23,
-        35,
-        22
+        35
       ],
       "banTags": [
         31
@@ -4210,8 +4210,8 @@
       "baseValue": 68,
       "tags": [
         0,
-        10,
         9,
+        10,
         16,
         23,
         26
@@ -4226,12 +4226,12 @@
       "level": 4,
       "baseValue": 105,
       "tags": [
-        9,
         0,
-        6,
         4,
-        18,
+        6,
+        9,
         17,
+        18,
         30
       ],
       "banTags": [],
@@ -4244,9 +4244,9 @@
       "level": 1,
       "baseValue": 35,
       "tags": [
-        28,
         17,
         25,
+        28,
         30
       ],
       "banTags": [
@@ -4263,13 +4263,13 @@
       "baseValue": 55,
       "tags": [
         3,
-        32,
         7,
-        17
+        17,
+        32
       ],
       "banTags": [
-        34,
-        6
+        6,
+        34
       ],
       "spritePath": "assets/Food/11010.png"
     },
@@ -4280,12 +4280,12 @@
       "level": 3,
       "baseValue": 68,
       "tags": [
-        20,
-        27,
+        12,
         17,
-        28,
+        20,
         25,
-        12
+        27,
+        28
       ],
       "banTags": [
         0
@@ -4331,12 +4331,12 @@
       "level": 2,
       "baseValue": 40,
       "tags": [
-        16,
-        14,
         -1,
         3,
-        19,
-        11
+        11,
+        14,
+        16,
+        19
       ],
       "spritePath": "assets/Beverage/11000.png"
     },
@@ -4347,11 +4347,11 @@
       "level": 2,
       "baseValue": 65,
       "tags": [
-        16,
         -1,
-        13,
         3,
-        11
+        11,
+        13,
+        16
       ],
       "spritePath": "assets/Beverage/11001.png"
     }
