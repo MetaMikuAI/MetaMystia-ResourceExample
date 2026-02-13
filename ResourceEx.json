@@ -2461,7 +2461,38 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": 4,
+            "request": "火系魔法使当然要喝热饮！",
+            "enable": false
+          },
+          {
+            "tagId": 11,
+            "request": "喝饮料还要讲究这么多事情吗……我不明白啦！",
+            "enable": false
+          },
+          {
+            "tagId": 12,
+            "request": "我喜欢喝橙汁、西瓜汁、葡萄汁……",
+            "enable": false
+          },
+          {
+            "tagId": 13,
+            "request": "如果甜点能放进饮料里就好了……",
+            "enable": false
+          },
+          {
+            "tagId": 16,
+            "request": "好想喝入口还带着“唰”的口感的饮料！",
+            "enable": false
+          },
+          {
+            "tagId": 18,
+            "request": "雪觉得现今的饮料就已经超级超级好喝了！",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           2,
           7,
@@ -2692,7 +2723,38 @@
             "enable": true
           }
         ],
-        "bevRequests": [],
+        "bevRequests": [
+          {
+            "tagId": -1,
+            "request": "酒精喝多了反应会下降呢，那样雪惹麻烦的时候就拉不住她了。",
+            "enable": false
+          },
+          {
+            "tagId": 3,
+            "request": "即使是加了冰块的饮料对于本魔法使来说也轻轻松松呢！",
+            "enable": false
+          },
+          {
+            "tagId": 11,
+            "request": "这种能够直接喝的饮料她似乎喜……我是说我喜欢！",
+            "enable": false
+          },
+          {
+            "tagId": 12,
+            "request": "魔界有许多特产的水果，其做出的饮料味道也很好。",
+            "enable": false
+          },
+          {
+            "tagId": 16,
+            "request": "咕！这是雪喜……学习如何优雅地喝气泡饮品。",
+            "enable": false
+          },
+          {
+            "tagId": 17,
+            "request": "真怀念我们还在魔界的时候……只是有一点点怀念而已！",
+            "enable": false
+          }
+        ],
         "hateFoodTag": [
           -1,
           0,
