@@ -17,7 +17,7 @@
       "Galaxy-Fall"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.6.3",
+    "version": "0.7.0",
     "license": "# MetaMystia 资源版权与使用许可说明\n\n本文件适用于 **MetaMystia** 项目\n项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**\n\n本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。\n\n## 一、原作版权声明\n\n本 Mod 为基于以下作品的**非官方同人二次创作**：\n\n- 《东方Project》上海爱丽丝幻乐团@ZUN\n- 《东方夜雀食堂》二色幽紫蝶\n- 《东方秋神牧场》二色幽紫蝶\n\n与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。\n**MetaMystia 项目不对原作内容主张版权。**\n\n## 二、不属于本项目授权范围的游戏原始资源\n\n以下路径中的资源文件 **并非 MetaMystia 项目原创内容**，其美术资源版权归原游戏版权方所有。\n\n来自 **《东方夜雀食堂》二色幽紫蝶** 的资源：\n\n```\nassets/Character/9000/*\nassets/Character/9001/*\nassets/Character/9002/*\nassets/Character/9003/*\nassets/Character/9004/*\n```\n\n来自 **《东方秋神牧场》二色幽紫蝶** 的资源：\n\n```\nassets/Character/10000/Portrait/0.png\nassets/Character/10001/Portrait/0.png\nassets/Character/10002/Portrait/0.png\n```\n\n这些文件仅在原作者相关作品授权范围内使用，\n\n**不属于 MetaMystia 项目的原创资源，也不适用于下文的 CC 许可。**\n\nMetaMystia 项目不对这些资源授予任何再分发或二次创作授权。\n\n\n## 三、MetaMystia 项目原创资源许可\n\n除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：\n\n> **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International\n> (CC BY-NC-SA 4.0)**\n\n你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。\n\n## 四、资源列表变更说明\n\nMetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。\n\n请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。\n\n## 五、免责声明\n\n本项目为非官方同人创作，与原作版权方无直接关联。\n\n如原版权方提出要求，项目可能对相关内容进行修改或移除。",
     "idRangeStart": 9000,
     "idRangeEnd": 12999,
@@ -27,7 +27,7 @@
     {
       "id": 9000,
       "name": "大妖精",
-      "label": "_Daiyousei",
+      "label": "_ResourceExample_Daiyousei",
       "descriptions": [
         "生活在雾之湖的连本名都成谜的奇妙妖精，似乎和琪露诺是好朋友，其他的情报就一概不知道了。",
         "其实是个很细心又很热心肠的家伙呢。琪露诺虽然嘴上说着不在乎啊无所谓啊什么的，但我还是能看出来她内心深处对大酱很是依赖呢。",
@@ -228,7 +228,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_Daiyousei",
+        "name": "_ResourceExample_Daiyousei",
         "mainSprite": [
           "assets/Character/9000/Sprite/Main_0, 0.png",
           "assets/Character/9000/Sprite/Main_0, 1.png",
@@ -271,86 +271,86 @@
         ]
       },
       "kizuna": {
-        "lv1UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
-        "lv2UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
-        "lv3UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
-        "lv4UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
+        "lv1UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
+        "lv2UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
+        "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
         "lv1Welcome": [
-          "_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_welcome"
         ],
         "lv2Welcome": [
-          "_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_welcome"
         ],
         "lv3Welcome": [
-          "_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_welcome"
         ],
         "lv4Welcome": [
-          "_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_welcome"
         ],
         "lv5Welcome": [
-          "_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_welcome"
         ],
         "lv1ChatData": [
-          "_Kizuna_Daiyousei_LV1_Chat_001",
-          "_Kizuna_Daiyousei_LV1_Chat_002"
+          "_ResourceExample_Kizuna_Daiyousei_LV1_Chat_001",
+          "_ResourceExample_Kizuna_Daiyousei_LV1_Chat_002"
         ],
         "lv2ChatData": [
-          "_Kizuna_Daiyousei_LV2_Chat_001",
-          "_Kizuna_Daiyousei_LV2_Chat_002"
+          "_ResourceExample_Kizuna_Daiyousei_LV2_Chat_001",
+          "_ResourceExample_Kizuna_Daiyousei_LV2_Chat_002"
         ],
         "lv3ChatData": [
-          "_Kizuna_Daiyousei_LV3_Chat_001",
-          "_Kizuna_Daiyousei_LV3_Chat_002"
+          "_ResourceExample_Kizuna_Daiyousei_LV3_Chat_001",
+          "_ResourceExample_Kizuna_Daiyousei_LV3_Chat_002"
         ],
         "lv4ChatData": [
-          "_Kizuna_Daiyousei_LV4_Chat_001",
-          "_Kizuna_Daiyousei_LV4_Chat_002"
+          "_ResourceExample_Kizuna_Daiyousei_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Daiyousei_LV4_Chat_002"
         ],
         "lv5ChatData": [
-          "_Kizuna_Daiyousei_LV4_Chat_001",
-          "_Kizuna_Daiyousei_LV4_Chat_002"
+          "_ResourceExample_Kizuna_Daiyousei_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Daiyousei_LV4_Chat_002"
         ],
         "lv2InviteSucceed": [
-          "_Kizuna_Daiyousei_Invite_Succeed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Succeed"
         ],
         "lv2InviteFailed": [
-          "_Kizuna_Daiyousei_Invite_Failed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Failed"
         ],
         "lv3InviteSucceed": [
-          "_Kizuna_Daiyousei_Invite_Succeed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Succeed"
         ],
         "lv3InviteFailed": [
-          "_Kizuna_Daiyousei_Invite_Failed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Failed"
         ],
         "lv4InviteSucceed": [
-          "_Kizuna_Daiyousei_Invite_Succeed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Succeed"
         ],
         "lv4InviteFailed": [
-          "_Kizuna_Daiyousei_Invite_Failed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Failed"
         ],
         "lv5InviteSucceed": [
-          "_Kizuna_Daiyousei_Invite_Succeed"
+          "_ResourceExample_Kizuna_Daiyousei_Invite_Succeed"
         ],
         "lv3RequestIngerdient": [
-          "_Kizuna_Daiyousei_Request_Ingerdient"
+          "_ResourceExample_Kizuna_Daiyousei_Request_Ingerdient"
         ],
         "lv4RequestIngerdient": [
-          "_Kizuna_Daiyousei_Request_Ingerdient"
+          "_ResourceExample_Kizuna_Daiyousei_Request_Ingerdient"
         ],
         "lv5RequestIngerdient": [
-          "_Kizuna_Daiyousei_Request_Ingerdient"
+          "_ResourceExample_Kizuna_Daiyousei_Request_Ingerdient"
         ],
         "lv4RequestBeverage": [
-          "_Kizuna_Daiyousei_Request_Beverage"
+          "_ResourceExample_Kizuna_Daiyousei_Request_Beverage"
         ],
         "lv5RequestBeverage": [
-          "_Kizuna_Daiyousei_Request_Beverage"
+          "_ResourceExample_Kizuna_Daiyousei_Request_Beverage"
         ],
         "lv5Commision": [
-          "_Kizuna_Daiyousei_Commision"
+          "_ResourceExample_Kizuna_Daiyousei_Commision"
         ],
         "lv5CommisionFinish": [
-          "_Kizuna_Daiyousei_Commision_Finish"
+          "_ResourceExample_Kizuna_Daiyousei_Commision_Finish"
         ],
         "commisionAreaLabel": "ScarletMansion"
       },
@@ -380,7 +380,7 @@
     {
       "id": 9001,
       "name": "小恶魔",
-      "label": "_Koakuma",
+      "label": "_ResourceExample_Koakuma",
       "descriptions": [
         "满脸写着杂鱼样的恶魔少女，不过似乎一直很用力地强调自己的存在感呢。",
         "是那位名为帕秋莉的魔法使的使魔，不过相比起主仆，看着更像冤家就是了。虽然明面上看起来对自家的主人们不屑一顾，但内心深处其实很在意红魔馆的大家呢。",
@@ -598,7 +598,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_Koakuma",
+        "name": "_ResourceExample_Koakuma",
         "mainSprite": [
           "assets/Character/9001/Sprite/Main_0, 0.png",
           "assets/Character/9001/Sprite/Main_0, 1.png",
@@ -679,7 +679,7 @@
     {
       "id": 9002,
       "name": "芙兰朵露",
-      "label": "_FlandreScarlet",
+      "label": "_ResourceExample_FlandreScarlet",
       "descriptions": [
         "传说中非常非常可怕的吸血鬼，妖精客人们一直提醒我要小心……虽然看起来明明是个小孩子嘛。",
         "芙兰朵露小姐的心理….似乎真的就是一个没接触过世界的小孩子的呢。到底是因为吸血鬼的长寿天赋导致的心智发育缓慢，还是极少接触外人所导致的呢？",
@@ -961,7 +961,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_FlandreScarlet",
+        "name": "_ResourceExample_FlandreScarlet",
         "mainSprite": [
           "assets/Character/9002/Sprite/Main_0, 0.png",
           "assets/Character/9002/Sprite/Main_0, 1.png",
@@ -1028,7 +1028,7 @@
     {
       "id": 9003,
       "name": "八意永琳",
-      "label": "_YagokoroEirin",
+      "label": "_ResourceExample_YagokoroEirin",
       "descriptions": [
         "隐居在竹林深处的谜之存在，浑身散发着高贵但平和的气质，总是表现出在思考着什么的样子。",
         "实际上是个很善良很温和的人啊。明明是“月之头脑”这么大的来头来着……完全感受不到架子呢，不过举手投足之间的高贵风范依然引人侧目就是了。",
@@ -1269,7 +1269,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_YagokoroEirin",
+        "name": "_ResourceExample_YagokoroEirin",
         "mainSprite": [
           "assets/Character/9003/Sprite/Main_0, 0.png",
           "assets/Character/9003/Sprite/Main_0, 1.png",
@@ -1322,7 +1322,7 @@
     {
       "id": 9004,
       "name": "神绮",
-      "label": "_Shinki",
+      "label": "_ResourceExample_Shinki",
       "descriptions": [
         "魔界的造物者，某种意义上是所有魔界居民的母亲。性格温柔，深受魔界居民的景仰，对于魔界的管理基本采用了放任模式。虽然是个了不起的人物，但似乎有着天然呆的一面？",
         "原本以为这样的大人物会很难交流，结果她却意外地好说话，有时甚至还跟小孩子一样……啊，这种事情果然还是保密吧！听说那个金发女仆是她亲手制作的，真厉害，我开始好奇她的一切了。",
@@ -1553,7 +1553,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_Shinki",
+        "name": "_ResourceExample_Shinki",
         "mainSprite": [
           "assets/Character/9004/Sprite/Main_0, 0.png",
           "assets/Character/9004/Sprite/Main_0, 1.png",
@@ -1605,7 +1605,7 @@
     {
       "id": 10000,
       "name": "秋静叶",
-      "label": "_AkiSizuha",
+      "label": "_ResourceExample_AkiSizuha",
       "descriptions": [
         "掌管着红叶的神明。虽然说是神明，但平常看到她都是独自一人，完全没有一个神明该有的样子，倒像是很孤独的一幅模样呢。",
         "她的妹妹是身为丰收之神的秋穰子，但貌似她并不怎么喜欢别人提及她的妹妹，似乎是由于她的妹妹比她更加受欢迎的缘故吧。不过她和她的妹妹一样，倒是挺喜欢甜食的。大概是因为红叶打扫起来很麻烦，信仰她的人也越来越少了，她貌似经常会为此苦恼。",
@@ -1756,7 +1756,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_AkiSizuha",
+        "name": "_ResourceExample_AkiSizuha",
         "mainSprite": [
           "assets/Character/10000/Sprite/Main_0, 0.png",
           "assets/Character/10000/Sprite/Main_0, 1.png",
@@ -1808,7 +1808,7 @@
     {
       "id": 10001,
       "name": "秋穰子",
-      "label": "_AkiMinoriko",
+      "label": "_ResourceExample_AkiMinoriko",
       "descriptions": [
         "掌握着幻想乡所有作物的丰收之神，听说她在人间之里很受欢迎，大概是因为每当她时出现都能带来作物的丰收吧。似乎现在能买到价格实惠的食材，她也是功不可没呢。",
         "明明是神明，但相处起来却非常容易，完全没有想象中那种身为神明该有的威严，是一个乐观开朗的神呢。和她的姐姐一样，似乎她也对甜食情有独钟，下一次招待她的话就多加点糖吧。",
@@ -1950,7 +1950,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_AkiMinoriko",
+        "name": "_ResourceExample_AkiMinoriko",
         "mainSprite": [
           "assets/Character/10001/Sprite/Main_0, 0.png",
           "assets/Character/10001/Sprite/Main_0, 1.png",
@@ -2002,7 +2002,7 @@
     {
       "id": 10002,
       "name": "八云蓝",
-      "label": "_YakumoRan",
+      "label": "_ResourceExample_YakumoRan",
       "descriptions": [
         "操控式神的式神妖怪，似乎是橙的监护人。明明是妖力很强的妖怪，却不管什么时候都是笑眯眯的。",
         "式神什么的果然还是想不明白……有着不为人知的过去，还和那个饕餮尤魔有联系？明明是性格天差地别的两个人。",
@@ -2250,7 +2250,7 @@
         ]
       },
       "characterSpriteSetCompact": {
-        "name": "_YakumoRan",
+        "name": "_ResourceExample_YakumoRan",
         "mainSprite": [
           "assets/Character/10002/Sprite/Main_0, 0.png",
           "assets/Character/10002/Sprite/Main_0, 1.png",
@@ -2296,7 +2296,7 @@
     {
       "id": 11000,
       "name": "雪",
-      "label": "_Yuki",
+      "label": "_ResourceExample_Yuki",
       "descriptions": [
         "在人类村子里摆摊贩卖食材的魔界人。名字虽然叫雪，但是修行的似乎却是火系魔法。平时经过人类村子的时候总能看见她不知疲倦的贩卖着囤积的各种食材，然后兑换成金币随身携带。",
         "和雪相处下来，会发现她是一个乐观开朗、非常重视友谊的孩子，不过在天真无邪的同时也有一点冒失，有点像是和我一样的鸟脑袋呢！除此之外，原来她和舞是好朋友呀，怪不得总能看见她俩在一起摆摊呢！不过雪一个人摆摊的时候经常会算错价格，或许应该给她推荐一下人里最好的私塾寺子屋呢！",
@@ -2358,7 +2358,7 @@
       },
       "faceInNoteBook": 0,
       "characterSpriteSetCompact": {
-        "name": "_Yuki",
+        "name": "_ResourceExample_Yuki",
         "mainSprite": [
           "assets/Character/11000/Sprite/Main_0, 0.png",
           "assets/Character/11000/Sprite/Main_0, 1.png",
@@ -2568,7 +2568,7 @@
     {
       "id": 11001,
       "name": "舞",
-      "label": "_Mai",
+      "label": "_ResourceExample_Mai",
       "descriptions": [
         "在人类村子里摆摊贩卖食材的魔界人，修行的似乎是冰系魔法。背后有着大大的白色翅膀，难道其实和我一样是鸟类妖怪吗？平时经过人类村子的时候总能看见她在贩卖自制的各种饮料，虽然满口的不情愿但是却忙前忙后乐此不疲的样子呢，真是奇怪！",
         "舞平时沉默寡言，但是一旦聊到雪相关的话题就会情不自禁地说一大堆呢。虽然她总是抱怨雪的各种缺点，嫌弃雪给自己拖后腿，并且还经常责备雪，但是两个人还是每天一起摆摊一起玩耍，似乎关系非常要好的样子！作为鸟脑袋，我完全理解不了她的想法呢……真是奇怪！",
@@ -2630,7 +2630,7 @@
       },
       "faceInNoteBook": 0,
       "characterSpriteSetCompact": {
-        "name": "_Mai",
+        "name": "_ResourceExample_Mai",
         "mainSprite": [
           "assets/Character/11001/Sprite/Main_0, 0.png",
           "assets/Character/11001/Sprite/Main_0, 1.png",
@@ -2861,7 +2861,7 @@
   ],
   "dialogPackages": [
     {
-      "name": "_Kizuna_Daiyousei_LV1_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV1_001",
       "dialogList": [
         {
           "characterId": 34,
@@ -3034,7 +3034,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV1_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV1_002",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3060,7 +3060,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV2_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV2_001",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3219,7 +3219,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV2_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV2_002",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3245,7 +3245,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV3_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV3_001",
       "dialogList": [
         {
           "characterId": 34,
@@ -3390,7 +3390,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV3_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV3_002",
       "dialogList": [
         {
           "characterId": 34,
@@ -3437,7 +3437,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV3_003",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV3_003",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3463,7 +3463,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV4_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV4_001",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3699,7 +3699,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_welcome",
+      "name": "_ResourceExample_Kizuna_Daiyousei_welcome",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3718,7 +3718,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV1_Chat_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV1_Chat_001",
       "dialogList": [
         {
           "characterId": 34,
@@ -3751,7 +3751,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV1_Chat_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV1_Chat_002",
       "dialogList": [
         {
           "characterId": 34,
@@ -3791,7 +3791,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV2_Chat_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV2_Chat_001",
       "dialogList": [
         {
           "characterId": 34,
@@ -3824,7 +3824,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV2_Chat_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV2_Chat_002",
       "dialogList": [
         {
           "characterId": 34,
@@ -3871,7 +3871,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV3_Chat_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV3_Chat_001",
       "dialogList": [
         {
           "characterId": 34,
@@ -3911,7 +3911,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV3_Chat_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV3_Chat_002",
       "dialogList": [
         {
           "characterId": 34,
@@ -3972,7 +3972,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV4_Chat_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV4_Chat_001",
       "dialogList": [
         {
           "characterId": 34,
@@ -4019,7 +4019,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV4_Chat_002",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV4_Chat_002",
       "dialogList": [
         {
           "characterId": 34,
@@ -4080,7 +4080,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Invite_Succeed",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Invite_Succeed",
       "dialogList": [
         {
           "characterId": 9000,
@@ -4120,7 +4120,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Invite_Failed",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Invite_Failed",
       "dialogList": [
         {
           "characterId": 9000,
@@ -4160,7 +4160,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Request_Ingerdient",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Request_Ingerdient",
       "dialogList": [
         {
           "characterId": 34,
@@ -4228,7 +4228,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Request_Beverage",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Request_Beverage",
       "dialogList": [
         {
           "characterId": 34,
@@ -4275,7 +4275,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Commision",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Commision",
       "dialogList": [
         {
           "characterId": 34,
@@ -4343,7 +4343,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Commision_Finish",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Commision_Finish",
       "dialogList": [
         {
           "characterId": 9000,
@@ -4355,7 +4355,7 @@
       ]
     },
     {
-      "name": "_Merchant_Yuki_Welcome_001",
+      "name": "_ResourceExample_Merchant_Yuki_Welcome_001",
       "dialogList": [
         {
           "characterId": 11000,
@@ -4367,7 +4367,7 @@
       ]
     },
     {
-      "name": "_Merchant_Yuki_Null_001",
+      "name": "_ResourceExample_Merchant_Yuki_Null_001",
       "dialogList": [
         {
           "characterId": 11000,
@@ -4379,7 +4379,7 @@
       ]
     },
     {
-      "name": "_Merchant_Mai_Welcome_001",
+      "name": "_ResourceExample_Merchant_Mai_Welcome_001",
       "dialogList": [
         {
           "characterId": 11001,
@@ -4391,7 +4391,7 @@
       ]
     },
     {
-      "name": "_Merchant_Mai_Null_001",
+      "name": "_ResourceExample_Merchant_Mai_Null_001",
       "dialogList": [
         {
           "characterId": 11001,
@@ -4990,11 +4990,11 @@
     {
       "title": "请大妖精品尝一下「山泉双色果盘」吧！",
       "description": "从大妖精那得到了新料理的灵感，做出来以后请她尝一尝吧！",
-      "label": "_Kizuna_Daiyousei_LV1_Upgrade_001_Mission",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV1_Upgrade_001_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
-      "sender": "_Daiyousei",
-      "reciever": "_Daiyousei",
+      "sender": "_ResourceExample_Daiyousei",
+      "reciever": "_ResourceExample_Daiyousei",
       "rewards": [],
       "finishConditions": [
         {
@@ -5003,33 +5003,33 @@
           "productType": "Beverage",
           "productId": 3,
           "productAmount": 9,
-          "label": "_Daiyousei",
+          "label": "_ResourceExample_Daiyousei",
           "amount": 11000
         }
       ],
       "postMissionsAfterPerformance": [],
       "postEvents": [
-        "_Kizuna_Daiyousei_LV2_Upgrade_001_Event"
+        "_ResourceExample_Kizuna_Daiyousei_LV2_Upgrade_001_Event"
       ],
       "missionFinishEvent": {
         "eventType": "Dialog",
-        "dialogPackageName": "_Kizuna_Daiyousei_LV1_002"
+        "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV1_002"
       },
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
-          "rewardId": "_Daiyousei"
+          "rewardId": "_ResourceExample_Daiyousei"
         }
       ]
     },
     {
       "title": "请大妖精品尝一下「鱼饼」吧！",
       "description": "从大妖精那得到了新料理的灵感，做出来以后请她尝一尝吧！",
-      "label": "_Kizuna_Daiyousei_LV2_Upgrade_001_Mission",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV2_Upgrade_001_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
-      "sender": "_Daiyousei",
-      "reciever": "_Daiyousei",
+      "sender": "_ResourceExample_Daiyousei",
+      "reciever": "_ResourceExample_Daiyousei",
       "rewards": [],
       "finishConditions": [
         {
@@ -5038,33 +5038,33 @@
           "productId": 2,
           "productAmount": 2,
           "productType": "Food",
-          "label": "_Daiyousei",
+          "label": "_ResourceExample_Daiyousei",
           "amount": 11001
         }
       ],
       "postMissionsAfterPerformance": [],
       "postEvents": [
-        "_Kizuna_Daiyousei_LV3_Upgrade_001_Event"
+        "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Event"
       ],
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
-          "rewardId": "_Daiyousei"
+          "rewardId": "_ResourceExample_Daiyousei"
         }
       ],
       "missionFinishEvent": {
         "eventType": "Dialog",
-        "dialogPackageName": "_Kizuna_Daiyousei_LV2_002"
+        "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV2_002"
       }
     },
     {
       "title": "采集月光",
       "description": "月光会是怎样神奇的味道呢……据有的妖精说，月光草这种食材在当今的地面已经不再罕见，如果我们可以找到一些用它们制作的料理的话……",
-      "label": "_Kizuna_Daiyousei_LV3_Upgrade_001_Mission",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
-      "sender": "_Daiyousei",
-      "reciever": "_Daiyousei",
+      "sender": "_ResourceExample_Daiyousei",
+      "reciever": "_ResourceExample_Daiyousei",
       "rewards": [],
       "finishConditions": [
         {
@@ -5076,7 +5076,7 @@
         }
       ],
       "postMissionsAfterPerformance": [
-        "_Kizuna_Daiyousei_LV3_Upgrade_002_Mission"
+        "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_002_Mission"
       ],
       "postEvents": [],
       "postRewards": [
@@ -5090,50 +5090,50 @@
       ],
       "missionFinishEvent": {
         "eventType": "Dialog",
-        "dialogPackageName": "_Kizuna_Daiyousei_LV3_002"
+        "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV3_002"
       }
     },
     {
       "title": "请大妖精品尝一下「白果灵盅」吧！",
       "description": "从大妖精那得到了新料理的灵感，做出来以后请她尝一尝吧！",
-      "label": "_Kizuna_Daiyousei_LV3_Upgrade_002_Mission",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_002_Mission",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
-      "sender": "_Daiyousei",
-      "reciever": "_Daiyousei",
+      "sender": "_ResourceExample_Daiyousei",
+      "reciever": "_ResourceExample_Daiyousei",
       "rewards": [],
       "finishConditions": [
         {
           "conditionType": "ServeInWork",
           "sellableType": "Food",
-          "label": "_Daiyousei",
+          "label": "_ResourceExample_Daiyousei",
           "amount": 11002
         }
       ],
       "postEvents": [
-        "_Kizuna_Daiyousei_LV4_Upgrade_001_Event"
+        "_ResourceExample_Kizuna_Daiyousei_LV4_Upgrade_001_Event"
       ],
       "postMissionsAfterPerformance": [],
       "missionFinishEvent": {
         "eventType": "Dialog",
-        "dialogPackageName": "_Kizuna_Daiyousei_LV3_003"
+        "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV3_003"
       },
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
-          "rewardId": "_Daiyousei"
+          "rewardId": "_ResourceExample_Daiyousei"
         }
       ]
     }
   ],
   "merchants": [
     {
-      "key": "_Yuki",
+      "key": "_ResourceExample_Yuki",
       "welcomeDialogPackageNames": [
-        "_Merchant_Yuki_Welcome_001"
+        "_ResourceExample_Merchant_Yuki_Welcome_001"
       ],
       "nullDialogPackageNames": [
-        "_Merchant_Yuki_Null_001"
+        "_ResourceExample_Merchant_Yuki_Null_001"
       ],
       "priceMultiplierMin": 0.5,
       "priceMultiplierMax": 0.7,
@@ -5197,12 +5197,12 @@
       ]
     },
     {
-      "key": "_Mai",
+      "key": "_ResourceExample_Mai",
       "welcomeDialogPackageNames": [
-        "_Merchant_Mai_Welcome_001"
+        "_ResourceExample_Merchant_Mai_Welcome_001"
       ],
       "nullDialogPackageNames": [
-        "_Merchant_Mai_Null_001"
+        "_ResourceExample_Merchant_Mai_Null_001"
       ],
       "priceMultiplierMin": 0.5,
       "priceMultiplierMax": 0.7,
@@ -5268,16 +5268,16 @@
   ],
   "eventNodes": [
     {
-      "label": "_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
       "debugLabel": "大妖精羁绊 LV1 前置",
       "scheduledEvent": {
         "trigger": {
           "triggerType": "KizunaCheckPoint",
-          "triggerId": "_Daiyousei"
+          "triggerId": "_ResourceExample_Daiyousei"
         },
         "eventData": {
           "eventType": "Dialog",
-          "dialogPackageName": "_Kizuna_Daiyousei_LV1_001"
+          "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV1_001"
         }
       },
       "rewards": [],
@@ -5291,21 +5291,21 @@
         }
       ],
       "postMissionsAfterPerformance": [
-        "_Kizuna_Daiyousei_LV1_Upgrade_001_Mission"
+        "_ResourceExample_Kizuna_Daiyousei_LV1_Upgrade_001_Mission"
       ],
       "postEvents": []
     },
     {
-      "label": "_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
       "debugLabel": "大妖精羁绊 LV2 前置",
       "scheduledEvent": {
         "trigger": {
           "triggerType": "KizunaCheckPoint",
-          "triggerId": "_Daiyousei"
+          "triggerId": "_ResourceExample_Daiyousei"
         },
         "eventData": {
           "eventType": "Dialog",
-          "dialogPackageName": "_Kizuna_Daiyousei_LV2_001"
+          "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV2_001"
         }
       },
       "rewards": [],
@@ -5319,48 +5319,48 @@
         }
       ],
       "postMissionsAfterPerformance": [
-        "_Kizuna_Daiyousei_LV2_Upgrade_001_Mission"
+        "_ResourceExample_Kizuna_Daiyousei_LV2_Upgrade_001_Mission"
       ],
       "postEvents": []
     },
     {
-      "label": "_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
       "debugLabel": "大妖精羁绊 LV3 前置",
       "scheduledEvent": {
         "trigger": {
           "triggerType": "KizunaCheckPoint",
-          "triggerId": "_Daiyousei"
+          "triggerId": "_ResourceExample_Daiyousei"
         },
         "eventData": {
           "eventType": "Dialog",
-          "dialogPackageName": "_Kizuna_Daiyousei_LV3_001"
+          "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV3_001"
         }
       },
       "rewards": [],
       "postRewards": [],
       "postMissionsAfterPerformance": [
-        "_Kizuna_Daiyousei_LV3_Upgrade_001_Mission"
+        "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Mission"
       ],
       "postEvents": []
     },
     {
-      "label": "_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
       "debugLabel": "大妖精羁绊 LV4 前置",
       "scheduledEvent": {
         "trigger": {
           "triggerType": "KizunaCheckPoint",
-          "triggerId": "_Daiyousei"
+          "triggerId": "_ResourceExample_Daiyousei"
         },
         "eventData": {
           "eventType": "Dialog",
-          "dialogPackageName": "_Kizuna_Daiyousei_LV4_001"
+          "dialogPackageName": "_ResourceExample_Kizuna_Daiyousei_LV4_001"
         }
       },
       "rewards": [],
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
-          "rewardId": "_Daiyousei"
+          "rewardId": "_ResourceExample_Daiyousei"
         }
       ],
       "postMissionsAfterPerformance": [],
