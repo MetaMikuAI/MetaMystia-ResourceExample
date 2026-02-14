@@ -4755,30 +4755,64 @@
       "id": 11012,
       "name": "樱绯星屑缀玉烩",
       "description": "在外界似乎被称为“Risotto”的烩饭料理。魔界之神对此进行改良，使用糯米与帕尔马芝士糅合，添上辣椒碎与菌菇碎，在锅中炒热后，再撒上柔软的花瓣，这道西洋感满满的烩饭就做成了。香糯的芝士烩饭中，晶莹的菌菇碎如同满天星斗，照亮了遍布鲜花的原野。一口下去，是幻想乡春樱漫野结合魔界夜空般的甜辣。",
-      "level": 1,
-      "baseValue": 1,
-      "tags": [],
-      "banTags": [],
+      "level": 5,
+      "baseValue": 180,
+      "tags": [
+        -1,
+        3,
+        4,
+        9,
+        13,
+        15,
+        16,
+        20,
+        26,
+        29,
+        34
+      ],
+      "banTags": [
+        28,
+        4001
+      ],
       "spritePath": "assets/Food/11012.png"
     },
     {
       "id": 11013,
       "name": "黯月魔境慕斯",
       "description": "慕斯是一种混合鸡蛋、奶油和各种调味食材，口感香甜松软的甜品。魔界之神对此进行了改良，使用巧克力、香草与香芋的层层搭配，再放上两颗红色浆果，外观看上去犹如气派的魔界宫殿“万魔殿”。据说是神绮平时用来招待客人以及举办茶会时必备的高级甜点。",
-      "level": 1,
-      "baseValue": 1,
-      "tags": [],
-      "banTags": [],
+      "level": 2,
+      "baseValue": 28,
+      "tags": [
+        4,
+        13,
+        17,
+        28
+      ],
+      "banTags": [
+        0,
+        1,
+        4001
+      ],
       "spritePath": "assets/Food/11013.png"
     },
     {
       "id": 11014,
       "name": "烬色魔纹千层酥",
       "description": "以魔神之翼为原型设计而成的咖啡色千层酥，苦涩与鲜香的夹心结合着酥脆的酥皮，一口咬下去别有一番风味。 最顶层使用成块的巧克力配上草莓果酱作为点缀，看起来就像魔神的翅膀一般。",
-      "level": 1,
-      "baseValue": 1,
-      "tags": [],
-      "banTags": [],
+      "level": 3,
+      "baseValue": 65,
+      "tags": [
+        4,
+        13,
+        17,
+        20,
+        29
+      ],
+      "banTags": [
+        0,
+        1,
+        4001
+      ],
       "spritePath": "assets/Food/11014.png"
     }
   ],
@@ -4960,8 +4994,8 @@
         32,
         2002
       ],
-      "cookTime": 1,
-      "cookerType": "Pot"
+      "cookTime": 20,
+      "cookerType": "Fryer"
     },
     {
       "id": 11013,
@@ -4970,8 +5004,8 @@
         0,
         1004
       ],
-      "cookTime": 1,
-      "cookerType": "Pot"
+      "cookTime": 8,
+      "cookerType": "CuttingBoard"
     },
     {
       "id": 11014,
@@ -4982,8 +5016,8 @@
         5000,
         29
       ],
-      "cookTime": 1,
-      "cookerType": "Pot"
+      "cookTime": 8,
+      "cookerType": "Grill"
     }
   ],
   "missionNodes": [
