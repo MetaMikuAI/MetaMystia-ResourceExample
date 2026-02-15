@@ -4819,6 +4819,66 @@
         4001
       ],
       "spritePath": "assets/Food/11014.png"
+    },
+    {
+      "id": 11015,
+      "name": "肉汁奶酪薯条",
+      "description": "",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11015.png"
+    },
+    {
+      "id": 11016,
+      "name": "俄罗斯酸辣汤",
+      "description": "",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11016.png"
+    },
+    {
+      "id": 11017,
+      "name": "奶油甜煎饼卷",
+      "description": "",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11017.png"
+    },
+    {
+      "id": 11018,
+      "name": "烤玉米",
+      "description": "",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11018.png"
+    },
+    {
+      "id": 11019,
+      "name": "俄罗斯冻汤",
+      "description": "",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11019.png"
+    },
+    {
+      "id": 11020,
+      "name": "西班牙冷汤",
+      "description": "",
+      "level": 1,
+      "baseValue": 1,
+      "tags": [],
+      "banTags": [],
+      "spritePath": "assets/Food/11020.png"
     }
   ],
   "beverages": [
