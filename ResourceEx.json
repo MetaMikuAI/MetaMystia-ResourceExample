@@ -3468,7 +3468,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_Daiyousei_LV4_001",
+      "name": "_Kizuna_Daiyousei_LV4_001",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3669,37 +3669,121 @@
         {
           "characterId": 9000,
           "characterType": "Special",
-          "pid": 2,
+          "pid": 0,
           "position": "Left",
-          "text": "……"
+          "text": "原来老板娘你是这么想的呀？"
         },
         {
           "characterId": 9000,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "好像……说的没错诶。"
-        },
-        {
-          "characterId": 9000,
-          "characterType": "Special",
-          "pid": 0,
-          "position": "Left",
-          "text": "如果用这种方法的话，好像确实可以让日子变得更简单。谢谢你啦，老板娘。"
-        },
-        {
-          "characterId": 9000,
-          "characterType": "Special",
-          "pid": 0,
-          "position": "Left",
-          "text": "对了，说到演唱会，演唱会的门票可以给我留一张吗？我会满怀热情的去期待的。"
+          "text": "把无穷无尽的生命，转换成有穷的，可见的一个个目标吗……"
         },
         {
           "characterId": 34,
           "characterType": "Special",
-          "pid": 16,
+          "pid": 0,
           "position": "Right",
-          "text": "太好了！我会热情的欢迎每一位朋友的到来！"
+          "text": "是啊，既然最美好的一分钟也会变成平淡的一分钟，那就去创造一个个更美好的一分钟吧！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "如果用这种方法的话，好像确实可以让日子变得更简单呢！谢谢你啦，老板娘。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我现在突然就有好多好多个目标呢，比如带着琪露诺酱再去出一趟远门！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "哈哈哈，大酱和琪露诺酱关系真的很好呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "对啦，说到一分钟，你要不要来看我的演唱会？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "一定会让你感受到生命中最独特的一分钟！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "虽然还不知道什么时候开呢……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "好呀好呀，老板娘真会给我寻找目标呢。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "作为回报，我也送给老板娘一个每日目标吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "诶……难道是我每天营业还要达成大酱的目标吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不是不是啦，是我自己的小目标啦。以后我可以在开店之前给老板娘摘点新鲜的水果哦！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "按我们妖精的话来说，有好东西就要一起分享！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "哇，大酱你真好！那这张演唱会门票给你，总有一天我会邀请你来看演唱会的！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "好呀，老板娘的演唱会，我会满怀热情的去期待的！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "嗯！我一定不会让大酱失望的！"
         }
       ]
     },
@@ -4280,21 +4364,21 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_Daiyousei_Commision",
+      "name": "_Kizuna_Daiyousei_Commision",
       "dialogList": [
         {
           "characterId": 34,
           "characterType": "Special",
           "pid": 0,
           "position": "Right",
-          "text": "好多果子……这些都是雾之湖这一带出产的吗？"
+          "text": "大酱，今天也能帮我完成一次小目标吗？"
         },
         {
           "characterId": 9000,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "没错哦。这一片的果树最近长势很喜人呢。"
+          "text": "好呀，正好雾之湖这一片的果树最近长势很喜人呢。"
         },
         {
           "characterId": 9000,
@@ -4304,18 +4388,11 @@
           "text": "要是把这些果子做成菜，不知道是什么样的美味……"
         },
         {
-          "characterId": 9000,
-          "characterType": "Special",
-          "pid": 0,
-          "position": "Left",
-          "text": "嘿嘿。我们妖精是很有品位哒。"
-        },
-        {
           "characterId": 34,
           "characterType": "Special",
           "pid": 9,
           "position": "Right",
-          "text": "可以给我一些吗……作为料理用途？"
+          "text": "那大酱面前的这些果子……"
         },
         {
           "characterId": 9000,
@@ -4325,37 +4402,79 @@
           "text": "抱歉……这些果子是给妖精伙伴们准备的。"
         },
         {
-          "characterId": 9000,
+          "characterId": 34,
           "characterType": "Special",
-          "pid": 2,
-          "position": "Left",
-          "text": "不过嘛，给老板娘你弄些食材也不是不可以。"
+          "pid": 9,
+          "position": "Right",
+          "text": "那我们约好的……"
         },
         {
           "characterId": 9000,
           "characterType": "Special",
           "pid": 2,
           "position": "Left",
-          "text": "我在这附近搜集一些吧。大概在老板娘你开始营业之前就能送到。"
+          "text": "我在这附近再搜集一些就好啦，正好借这个机会可以和大家玩捉迷藏呢！"
         },
         {
           "characterId": 9000,
           "characterType": "Special",
           "pid": 1,
           "position": "Left",
-          "text": "嘻嘻，从一个妖怪，人类，甚至是那些神神秘秘的贤者都找不到的地方弄到的食材哦~"
+          "text": "嘻嘻，我要去一个妖怪，人类，甚至是那些神神秘秘的贤者都找不到的地方给老板娘找水果哦~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "（说完，大妖精就飞走了，只留下一个立牌在原地）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "妖精们还真是行动派呢……"
         }
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_Daiyousei_Commision_Finish",
+      "name": "_Kizuna_Daiyousei_Commision_Finish",
       "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "诶…刚才还没有呢，一转头这里怎么突然多了一块立牌？"
+        },
         {
           "characterId": 9000,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "文案还没写 >_<"
+          "text": "我来啦老板娘！今天捉迷藏的时候顺路给你带了新鲜的水果哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "感谢大酱！明天也能拜托你吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "喂——已经变成立牌了吗！"
         }
       ]
     },
