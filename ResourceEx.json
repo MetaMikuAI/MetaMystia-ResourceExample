@@ -3468,7 +3468,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_LV4_001",
+      "name": "_ResourceExample_Kizuna_Daiyousei_LV4_001",
       "dialogList": [
         {
           "characterId": 9000,
@@ -4364,7 +4364,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Commision",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Commision",
       "dialogList": [
         {
           "characterId": 34,
@@ -4439,7 +4439,7 @@
       ]
     },
     {
-      "name": "_Kizuna_Daiyousei_Commision_Finish",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Commision_Finish",
       "dialogList": [
         {
           "characterId": 34,
