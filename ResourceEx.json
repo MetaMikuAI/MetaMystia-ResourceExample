@@ -1824,31 +1824,80 @@
         "lv2UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV2_Upgrade_001_Event",
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_001_Event",
-        "lv1Welcome": [],
-        "lv2Welcome": [],
-        "lv3Welcome": [],
-        "lv4Welcome": [],
-        "lv5Welcome": [],
-        "lv1ChatData": [],
-        "lv2ChatData": [],
-        "lv3ChatData": [],
-        "lv4ChatData": [],
-        "lv5ChatData": [],
+        "lv1Welcome": [
+          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+        ],
+        "lv2Welcome": [
+          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+        ],
+        "lv3Welcome": [
+          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+        ],
+        "lv4Welcome": [
+          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+        ],
+        "lv5Welcome": [
+          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+        ],
+        "lv1ChatData": [
+          "_ResourceExample_Kizuna_AkiShizuha_LV1_Chat_001",
+          "_ResourceExample_Kizuna_AkiShizuha_LV1_Chat_002"
+        ],
+        "lv2ChatData": [
+          "_ResourceExample_Kizuna_AkiShizuha_LV2_Chat_001",
+          "_ResourceExample_Kizuna_AkiShizuha_LV2_Chat_002"
+        ],
+        "lv3ChatData": [
+          "_ResourceExample_Kizuna_AkiShizuha_LV3_Chat_001",
+          "_ResourceExample_Kizuna_AkiShizuha_LV3_Chat_002"
+        ],
+        "lv4ChatData": [
+          "_ResourceExample_Kizuna_AkiShizuha_LV4_Chat_001",
+          "_ResourceExample_Kizuna_AkiShizuha_LV4_Chat_002"
+        ],
+        "lv5ChatData": [
+          "_ResourceExample_Kizuna_AkiShizuha_LV4_Chat_001",
+          "_ResourceExample_Kizuna_AkiShizuha_LV4_Chat_002"
+        ],
         "lv1InviteSucceed": [],
         "lv1InviteFailed": [],
-        "lv2InviteSucceed": [],
-        "lv2InviteFailed": [],
-        "lv3InviteSucceed": [],
-        "lv3InviteFailed": [],
-        "lv4InviteSucceed": [],
-        "lv4InviteFailed": [],
-        "lv5InviteSucceed": [],
+        "lv2InviteSucceed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Succeed"
+        ],
+        "lv2InviteFailed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Failed"
+        ],
+        "lv3InviteSucceed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Succeed"
+        ],
+        "lv3InviteFailed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Failed"
+        ],
+        "lv4InviteSucceed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Succeed"
+        ],
+        "lv4InviteFailed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Failed"
+        ],
+        "lv5InviteSucceed": [
+          "_ResourceExample_Kizuna_AkiShizuha_Invite_Succeed"
+        ],
         "lv5InviteFailed": [],
-        "lv3RequestIngerdient": [],
-        "lv4RequestIngerdient": [],
-        "lv5RequestIngerdient": [],
-        "lv4RequestBeverage": [],
-        "lv5RequestBeverage": [],
+        "lv3RequestIngerdient": [
+          "_ResourceExample_Kizuna_AkiShizuha_Request_Ingredient"
+        ],
+        "lv4RequestIngerdient": [
+          "_ResourceExample_Kizuna_AkiShizuha_Request_Ingredient"
+        ],
+        "lv5RequestIngerdient": [
+          "_ResourceExample_Kizuna_AkiShizuha_Request_Ingredient"
+        ],
+        "lv4RequestBeverage": [
+          "_ResourceExample_Kizuna_AkiShizuha_Request_Beverage"
+        ],
+        "lv5RequestBeverage": [
+          "_ResourceExample_Kizuna_AkiShizuha_Request_Beverage"
+        ],
         "lv5Commision": [],
         "lv5CommisionFinish": [],
         "commisionAreaLabel": ""
