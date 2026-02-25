@@ -276,19 +276,24 @@
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
         "lv1Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_Welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_001",
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_002"
         ],
         "lv2Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_Welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_001",
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_002"
         ],
         "lv3Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_Welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_001",
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_002"
         ],
         "lv4Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_Welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_001",
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_002"
         ],
         "lv5Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_Welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_001",
+          "_ResourceExample_Kizuna_Daiyousei_Welcome_002"
         ],
         "lv1ChatData": [
           "_ResourceExample_Kizuna_Daiyousei_LV1_Chat_001",
@@ -1825,19 +1830,24 @@
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_001_Event",
         "lv1Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_001",
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_002"
         ],
         "lv2Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_001",
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_002"
         ],
         "lv3Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_001",
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_002"
         ],
         "lv4Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_001",
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_002"
         ],
         "lv5Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_001",
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome_002"
         ],
         "lv1ChatData": [
           "_ResourceExample_Kizuna_AkiShizuha_LV1_Chat_001",
@@ -3936,7 +3946,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_Daiyousei_Welcome",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Welcome_001",
       "dialogList": [
         {
           "characterId": 9000,
@@ -3944,7 +3954,12 @@
           "pid": 0,
           "position": "Left",
           "text": "今天晚饭吃什么？这是一个终极哲学问题～"
-        },
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Daiyousei_Welcome_002",
+      "dialogList": [
         {
           "characterId": 9000,
           "characterType": "Special",
@@ -5486,7 +5501,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_AkiShizuha_Welcome",
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Welcome_001",
       "dialogList": [
         {
           "characterId": 10000,
@@ -5494,6 +5509,17 @@
           "pid": 0,
           "position": "Left",
           "text": "愿意清扫红叶的人越来越少了……"
+        }
+      ]
+    },{
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Welcome_002",
+      "dialogList": [
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "妹妹不会又拿我的树叶来烤红薯了吧……"
         }
       ]
     },
