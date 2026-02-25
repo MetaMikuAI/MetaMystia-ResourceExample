@@ -276,19 +276,19 @@
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
         "lv1Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome"
         ],
         "lv2Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome"
         ],
         "lv3Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome"
         ],
         "lv4Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome"
         ],
         "lv5Welcome": [
-          "_ResourceExample_Kizuna_Daiyousei_welcome"
+          "_ResourceExample_Kizuna_Daiyousei_Welcome"
         ],
         "lv1ChatData": [
           "_ResourceExample_Kizuna_Daiyousei_LV1_Chat_001",
@@ -1825,19 +1825,19 @@
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_001_Event",
         "lv1Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
         ],
         "lv2Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
         ],
         "lv3Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
         ],
         "lv4Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
         ],
         "lv5Welcome": [
-          "_ResourceExample_Kizuna_AkiShizuha_welcome"
+          "_ResourceExample_Kizuna_AkiShizuha_Welcome"
         ],
         "lv1ChatData": [
           "_ResourceExample_Kizuna_AkiShizuha_LV1_Chat_001",
@@ -3936,7 +3936,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_Daiyousei_welcome",
+      "name": "_ResourceExample_Kizuna_Daiyousei_Welcome",
       "dialogList": [
         {
           "characterId": 9000,
@@ -5486,7 +5486,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_AkiShizuha_welcome",
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Welcome",
       "dialogList": [
         {
           "characterId": 10000,
