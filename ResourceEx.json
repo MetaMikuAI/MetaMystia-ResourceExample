@@ -4807,13 +4807,6 @@
       "name": "_ResourceExample_Kizuna_AkiShizuha_LV2_001",
       "dialogList": [
         {
-          "characterId": "**额外触发",
-          "characterType": "Special",
-          "pid": 0,
-          "position": "Left",
-          "text": "稀客「秋穰子」暂时从妖怪之山移除**"
-        },
-        {
           "characterId": 34,
           "characterType": "Special",
           "pid": 0,
