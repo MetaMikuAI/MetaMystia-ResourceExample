@@ -7251,21 +7251,6 @@
         28
       ],
       "banTags": [],
-      "spritePath": "assets/Food/11020.png"
-    },
-    {
-      "id": 11021,
-      "name": "板栗饼",
-      "description": "板栗煮熟后去壳碾碎，与黄油和适量糖拌成馅料，包裹在饼皮内烤制而成。外皮酥脆，内馅软甜，栗香浓郁，每一口都宣告着秋天的到来。",
-      "level": 1,
-      "baseValue": 24,
-      "tags": [
-        -2,
-        9,
-        17,
-        28
-      ],
-      "banTags": [],
       "spritePath": "assets/Food/11021.png"
     },
     {
@@ -7279,7 +7264,6 @@
         9,
         13,
         17,
-        21,
         25,
         29,
         35
@@ -7576,6 +7560,41 @@
         1000
       ],
       "cookTime": 13,
+      "cookerType": "CuttingBoard"
+          },
+    {
+      "id": 11021,
+      "foodId": 11021,
+      "ingredients": [
+        29,
+        30,
+        3003
+      ],
+      "cookTime": 6,
+      "cookerType": "Grill"
+    },
+    {
+      "id": 11022,
+      "foodId": 11022,
+      "ingredients": [
+        36,
+        3001,
+        3003,
+        11006
+      ],
+      "cookTime": 10,
+      "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11023,
+      "foodId": 11023,
+      "ingredients": [
+        24,
+        3001,
+        3003,
+        11000
+      ],
+      "cookTime": 16,
       "cookerType": "CuttingBoard"
     }
   ],
