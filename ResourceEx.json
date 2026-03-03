@@ -4693,14 +4693,14 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "老板娘你也好~并且欢迎你来妖怪山玩！"
+          "text": "老板娘你也好~并且欢迎你来山里玩！"
         },
         {
           "characterId": 34,
           "characterType": "Special",
           "pid": 0,
           "position": "Right",
-          "text": "说到妖怪山，一到秋天了就会想着来这里呢。"
+          "text": "说到妖怪之山，一到秋天了就会想着来这里呢。"
         },
         {
           "characterId": 34,
@@ -4805,7 +4805,7 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "这么说来，每到秋天，妖怪山的大家也忙碌起来了。"
+          "text": "这么说来，每到秋天，山里的大家也忙碌起来了。"
         },
         {
           "characterId": 10000,
@@ -4854,14 +4854,14 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Right",
-          "text": "板栗？妖怪山还有板栗吗？"
+          "text": "板栗？妖怪之山还有板栗吗？"
         },
         {
           "characterId": 10000,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "妖怪山的板栗都长在很高的树上哦。"
+          "text": "妖怪之山的板栗都长在很高的树上哦。"
         },
         {
           "characterId": 10000,
@@ -5023,7 +5023,7 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Right",
-          "text": "那今天你为什么待在妖怪山呢？"
+          "text": "那今天你为什么待在山上呢？"
         },
         {
           "characterId": 10000,
@@ -6130,7 +6130,7 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Right",
-          "text": "妖怪山上洒落的漫山红叶，正是你所创造的美景呀。"
+          "text": "妖怪之山上洒落的漫山红叶，正是你所创造的美景呀。"
         },
         {
           "characterId": 34,
