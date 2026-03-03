@@ -14,7 +14,9 @@
       "山雏",
       "昨夜惊梦",
       "FN57",
-      "Galaxy-Fall"
+      "Galaxy-Fall",
+      "洛秋网又炸了",
+      "梦璃雨"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
     "version": "0.7.5",
@@ -6652,6 +6654,60 @@
       ]
     },
     {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Clothes_Unfinished",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "静叶小姐，我又来玩啦~"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "羁绊值似乎提升了呢~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "静叶小姐？你在说什么呢？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "但是我的衣装还没制作完成呢~老板娘以后再来找我吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "今天的静叶小姐有点奇怪呀？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "敬请期待后续内容~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "？？？"
+        }
+      ]
+    },
+    {
       "name": "_ResourceExample_Merchant_Yuki_Welcome_001",
       "dialogList": [
         {
@@ -7807,7 +7863,7 @@
     },
     {
       "title": "请秋静叶品尝一下「胜春朝」吧！",
-      "description": "那得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "description": "从秋静叶那得到了新料理的灵感，做出来以后请她尝一尝吧！",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
       "sender": "_ResourceExample_AkiSizuha",
@@ -7839,7 +7895,7 @@
     },
     {
       "title": "请秋静叶品尝一下「秋神的工作」吧！",
-      "description": "那得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "description": "从秋静叶那得到了新料理的灵感，做出来以后请她尝一尝吧！",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
       "sender": "_ResourceExample_AkiSizuha",
@@ -7859,7 +7915,8 @@
         "dialogPackageName": "_ResourceExample_Kizuna_AkiShizuha_LV3_002"
       },
       "postEvents": [
-        "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_001_Event"
+        "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_001_Event",
+        "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_002_Event"
       ],
       "postRewards": [
         {
@@ -8113,7 +8170,7 @@
     },
     {
       "label": "_ResourceExample_Kizuna_AkiShizuha_LV1_Upgrade_001_Event",
-      "debugLabel": "秋静叶羁绊LV1前置",
+      "debugLabel": "秋静叶羁绊 LV1 前置",
       "scheduledEvent": {
         "eventData": {
           "eventType": "Dialog",
@@ -8133,7 +8190,7 @@
     },
     {
       "label": "_ResourceExample_Kizuna_AkiShizuha_LV2_Upgrade_001_Event",
-      "debugLabel": "秋静叶羁绊LV2前置",
+      "debugLabel": "秋静叶羁绊 LV2 前置",
       "scheduledEvent": {
         "eventData": {
           "eventType": "Dialog",
@@ -8161,7 +8218,7 @@
     },
     {
       "label": "_ResourceExample_Kizuna_AkiShizuha_LV3_Upgrade_001_Event",
-      "debugLabel": "秋静叶羁绊LV3前置",
+      "debugLabel": "秋静叶羁绊 LV3 前置",
       "scheduledEvent": {
         "eventData": {
           "eventType": "Dialog",
@@ -8189,7 +8246,7 @@
     },
     {
       "label": "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_001_Event",
-      "debugLabel": "秋静叶羁绊LV4前置",
+      "debugLabel": "秋静叶羁绊 LV4 前置",
       "scheduledEvent": {
         "eventData": {
           "eventType": "Dialog",
@@ -8197,7 +8254,7 @@
         },
         "trigger": {
           "triggerType": "KizunaCheckPoint",
-          "triggerId": "_ResourceExample_AkiSizuha"
+          "triggerId": "Orin_Ghost"
         }
       },
       "rewards": [],
@@ -8209,6 +8266,21 @@
       ],
       "postMissionsAfterPerformance": [],
       "postEvents": []
+      },
+    {
+      "debugLabel": "秋静叶羁绊 LV4 服装未完成",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_AkiShizuha_Clothes_Unfinished"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_AkiSizuha"
+        }
+      },
+      "postMissionsAfterPerformance": [],
+      "label": "_ResourceExample_Kizuna_AkiShizuha_LV4_Upgrade_002_Event"
     }
   ]
 }
