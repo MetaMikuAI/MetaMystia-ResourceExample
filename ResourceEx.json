@@ -5818,7 +5818,86 @@
       ]
     }
   ],
-  "clothes": [],
+  "clothes": [
+    {
+      "id": 9000,
+      "name": "OL装",
+      "description": "N/A",
+      "spritePath": "assets/Clothes/9000/icon.png",
+      "portraitPath": "assets/Clothes/9000/portrait.png",
+      "pixelFullConfig": {
+        "name": "_ResourceExample_Clothes_9000_OL装",
+        "mainSprite": [
+          "assets/Clothes/9000/Sprite/Main_0, 0.png",
+          "assets/Clothes/9000/Sprite/Main_0, 1.png",
+          "assets/Clothes/9000/Sprite/Main_0, 2.png",
+          "assets/Clothes/9000/Sprite/Main_1, 0.png",
+          "assets/Clothes/9000/Sprite/Main_1, 1.png",
+          "assets/Clothes/9000/Sprite/Main_1, 2.png",
+          "assets/Clothes/9000/Sprite/Main_2, 0.png",
+          "assets/Clothes/9000/Sprite/Main_2, 1.png",
+          "assets/Clothes/9000/Sprite/Main_2, 2.png",
+          "assets/Clothes/9000/Sprite/Main_3, 0.png",
+          "assets/Clothes/9000/Sprite/Main_3, 1.png",
+          "assets/Clothes/9000/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Clothes/9000/Sprite/Eyes_0, 0.png",
+          "assets/Clothes/9000/Sprite/Eyes_0, 1.png",
+          "assets/Clothes/9000/Sprite/Eyes_0, 2.png",
+          "assets/Clothes/9000/Sprite/Eyes_0, 3.png",
+          "assets/Clothes/9000/Sprite/Eyes_1, 0.png",
+          "assets/Clothes/9000/Sprite/Eyes_1, 1.png",
+          "assets/Clothes/9000/Sprite/Eyes_1, 2.png",
+          "assets/Clothes/9000/Sprite/Eyes_1, 3.png",
+          "assets/Clothes/9000/Sprite/Eyes_2, 0.png",
+          "assets/Clothes/9000/Sprite/Eyes_2, 1.png",
+          "assets/Clothes/9000/Sprite/Eyes_2, 2.png",
+          "assets/Clothes/9000/Sprite/Eyes_2, 3.png",
+          "assets/Clothes/9000/Sprite/Eyes_3, 0.png",
+          "assets/Clothes/9000/Sprite/Eyes_3, 1.png",
+          "assets/Clothes/9000/Sprite/Eyes_3, 2.png",
+          "assets/Clothes/9000/Sprite/Eyes_3, 3.png",
+          "assets/Clothes/9000/Sprite/Eyes_4, 0.png",
+          "assets/Clothes/9000/Sprite/Eyes_4, 1.png",
+          "assets/Clothes/9000/Sprite/Eyes_4, 2.png",
+          "assets/Clothes/9000/Sprite/Eyes_4, 3.png",
+          "assets/Clothes/9000/Sprite/Eyes_5, 0.png",
+          "assets/Clothes/9000/Sprite/Eyes_5, 1.png",
+          "assets/Clothes/9000/Sprite/Eyes_5, 2.png",
+          "assets/Clothes/9000/Sprite/Eyes_5, 3.png"
+        ],
+        "hairSprite": [
+          "assets/Clothes/9000/Sprite/Hair_0, 0.png",
+          "assets/Clothes/9000/Sprite/Hair_0, 1.png",
+          "assets/Clothes/9000/Sprite/Hair_0, 2.png",
+          "assets/Clothes/9000/Sprite/Hair_1, 0.png",
+          "assets/Clothes/9000/Sprite/Hair_1, 1.png",
+          "assets/Clothes/9000/Sprite/Hair_1, 2.png",
+          "assets/Clothes/9000/Sprite/Hair_2, 0.png",
+          "assets/Clothes/9000/Sprite/Hair_2, 1.png",
+          "assets/Clothes/9000/Sprite/Hair_2, 2.png",
+          "assets/Clothes/9000/Sprite/Hair_3, 0.png",
+          "assets/Clothes/9000/Sprite/Hair_3, 1.png",
+          "assets/Clothes/9000/Sprite/Hair_3, 2.png"
+        ],
+        "backSprite": [
+          "assets/Clothes/9000/Sprite/Back_0, 0.png",
+          "assets/Clothes/9000/Sprite/Back_0, 1.png",
+          "assets/Clothes/9000/Sprite/Back_0, 2.png",
+          "assets/Clothes/9000/Sprite/Back_1, 0.png",
+          "assets/Clothes/9000/Sprite/Back_1, 1.png",
+          "assets/Clothes/9000/Sprite/Back_1, 2.png",
+          "assets/Clothes/9000/Sprite/Back_2, 0.png",
+          "assets/Clothes/9000/Sprite/Back_2, 1.png",
+          "assets/Clothes/9000/Sprite/Back_2, 2.png",
+          "assets/Clothes/9000/Sprite/Back_3, 0.png",
+          "assets/Clothes/9000/Sprite/Back_3, 1.png",
+          "assets/Clothes/9000/Sprite/Back_3, 2.png"
+        ]
+      }
+    }
+  ],
   "eventNodes": [
     {
       "label": "_ResourceExample_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
