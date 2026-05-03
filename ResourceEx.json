@@ -2544,9 +2544,9 @@
       "name": "雪",
       "label": "_ResourceExample_Yuki",
       "descriptions": [
-        "在人类村子里摆摊贩卖食材的魔界人。名字虽然叫雪，但是修行的似乎却是火系魔法。平时经过人类村子的时候总能看见她不知疲倦的贩卖着囤积的各种食材，然后兑换成金币随身携带。",
-        "和雪相处下来，会发现她是一个乐观开朗、非常重视友谊的孩子，不过在天真无邪的同时也有一点冒失，有点像是和我一样的鸟脑袋呢！除此之外，原来她和舞是好朋友呀，怪不得总能看见她俩在一起摆摊呢！不过雪一个人摆摊的时候经常会算错价格，或许应该给她推荐一下人里最好的私塾寺子屋呢！",
-        "雪本人似乎没有察觉到，她身边的所有人都在默默关心帮助她。虽然有点担心雪的天真，但我相信只要有舞在她身后默默关心并保护着她，她肯定不会遇到危险的！身处在如此温暖的大家庭的照料之下，雪也在健康快乐地成长呢！"
+        "在人类村子里摆摊贩卖食材的魔界人。名字虽然叫雪，但是修行的似乎却是火系魔法。平时经过人类村子的时候总能看见她不知疲倦地贩卖着囤积的各种食材，然后兑换成金币随身携带。",
+        "和雪相处下来，会发现她是一个乐观开朗、非常重视友谊的孩子，不过在天真无邪的同时也有一点冒失，有点像是和我一样的鸟脑袋呢！雪一个人摆摊的时候经常会算错价格，或许应该给她推荐一下附近最好的私塾寺子屋呢！除此之外，原来她和舞是好朋友呀，虽然共同的爱好完全相反，但是她俩总是形影不离一直在一起呢！",
+        "雪本人似乎没有察觉到，她身边的所有人都在默默关心帮助她。虽然有点担心雪的天真，但我相信只要有舞小姐在她身后默默关心并保护着她，再加上她自身强力的火焰魔法，肯定不会遇到危险的！身处在如此温暖的大家庭的照料之下，雪也在健康快乐地成长呢！"
       ],
       "type": "Special",
       "portraits": [
@@ -2851,6 +2851,79 @@
             "onlySpawnWhenPlaceBeRecorded": false
           }
         ]
+      },
+      "kizuna": {
+        "lv1UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV1_Upgrade_001_Event",
+        "lv2UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_001_Event",
+        "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV3_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV4_Upgrade_001_Event",
+        "lv1Welcome": [],
+        "lv2Welcome": [],
+        "lv3Welcome": [],
+        "lv4Welcome": [],
+        "lv5Welcome": [],
+        "lv1ChatData": [
+          "_ResourceExample_Kizuna_Yuki_LV1_Chat_001",
+          "_ResourceExample_Kizuna_Yuki_LV1_Chat_002"
+        ],
+        "lv2ChatData": [
+          "_ResourceExample_Kizuna_Yuki_LV2_Chat_001",
+          "_ResourceExample_Kizuna_Yuki_LV2_Chat_002"
+        ],
+        "lv3ChatData": [
+          "_ResourceExample_Kizuna_Yuki_LV3_Chat_001",
+          "_ResourceExample_Kizuna_Yuki_LV3_Chat_002"
+        ],
+        "lv4ChatData": [
+          "_ResourceExample_Kizuna_Yuki_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Yuki_LV4_Chat_002"
+        ],
+        "lv5ChatData": [
+          "_ResourceExample_Kizuna_Yuki_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Yuki_LV4_Chat_002"
+        ],
+        "lv1InviteSucceed": [],
+        "lv1InviteFailed": [],
+        "lv2InviteSucceed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Succeed"
+        ],
+        "lv2InviteFailed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Failed"
+        ],
+        "lv3InviteSucceed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Succeed"
+        ],
+        "lv3InviteFailed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Failed"
+        ],
+        "lv4InviteSucceed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Succeed"
+        ],
+        "lv4InviteFailed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Failed"
+        ],
+        "lv5InviteSucceed": [
+          "_ResourceExample_Kizuna_Yuki_Invite_Succeed"
+        ],
+        "lv5InviteFailed": [],
+        "lv3RequestIngerdient": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV3"
+        ],
+        "lv4RequestIngerdient": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV4_LV5"
+        ],
+        "lv5RequestIngerdient": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV4_LV5"
+        ],
+        "lv4RequestBeverage": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Beverage"
+        ],
+        "lv5RequestBeverage": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Beverage"
+        ],
+        "lv5Commision": [],
+        "lv5CommisionFinish": [],
+        "commisionAreaLabel": ""
       }
     },
     {
@@ -2858,9 +2931,9 @@
       "name": "舞",
       "label": "_ResourceExample_Mai",
       "descriptions": [
-        "在人类村子里摆摊贩卖食材的魔界人，修行的似乎是冰系魔法。背后有着大大的白色翅膀，难道其实和我一样是鸟类妖怪吗？平时经过人类村子的时候总能看见她在贩卖自制的各种饮料，虽然满口的不情愿但是却忙前忙后乐此不疲的样子呢，真是奇怪！",
-        "舞平时沉默寡言，但是一旦聊到雪相关的话题就会情不自禁地说一大堆呢。虽然她总是抱怨雪的各种缺点，嫌弃雪给自己拖后腿，并且还经常责备雪，但是两个人还是每天一起摆摊一起玩耍，似乎关系非常要好的样子！作为鸟脑袋，我完全理解不了她的想法呢……真是奇怪！",
-        "原来舞是刀子嘴豆腐心，虽然满口的不在乎雪，但是实际上非常关心她呢！虽然我不是很理解为什么舞她不愿意直接把内心的想法全部表达出来，或许那样的话就不会让雪有那么多的误会了……不过看着她俩开心地一起玩耍一起摆摊，我应该不需要担心那么多了吧！"
+        "在人类村子里摆摊贩卖饮料的魔界人，修行的似乎是冰系魔法。背后有着大大的白色翅膀，难道其实和我一样是鸟类妖怪吗？平时经过人类村子的时候总能看见她在贩卖自制的饮料，虽然满口的不情愿但是却忙前忙后乐此不疲的样子呢，真是奇怪！",
+        "舞平时沉默寡言，但是一旦聊到雪相关的话题就会情不自禁地变得话痨起来。虽然总是抱怨雪的各种缺点、责备雪给自己拖后腿，但是两人还是每天一起摆摊一起玩耍，似乎关系非常好的样子！虽然我不清楚为什么舞小姐不愿意直接把内心想法全部表达出来，或许那样的话就不会让雪有那么多的误会了……作为鸟脑袋，我完全理解不了舞小姐的个性呢……",
+        "原来舞是刀子嘴豆腐心。虽然满口的不在乎雪，但是实际上非常关心她呢！作为魔界人之中外貌独一无二的存在，舞小姐过去或许经历过许多挫折，因此才变成了现在这样的性格……不过看着她现在正在尝试积极改变自己，慢慢变得坦率起来，每天开心地和雪一起研究新饮料的灵感，我应该不需要担心那么多了吧！"
       ],
       "type": "Special",
       "portraits": [
@@ -2908,6 +2981,21 @@
           "pid": 8,
           "path": "assets/Character/11001/Portrait/8.png",
           "label": "舞 得意"
+        },
+        {
+          "pid": 9,
+          "path": "assets/Character/11001/Portrait/9.png",
+          "label": "舞 昏昏欲睡"
+        },
+        {
+          "pid": 10,
+          "path": "assets/Character/11001/Portrait/10.png",
+          "label": "舞 已急哭"
+        },
+        {
+          "pid": 11,
+          "path": "assets/Character/11001/Portrait/11.png",
+          "label": "舞 脸红"
         }
       ],
       "spawnMarker": {
@@ -3144,6 +3232,79 @@
             "onlySpawnWhenPlaceBeRecorded": false
           }
         ]
+      },
+      "kizuna": {
+        "lv1UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV1_Upgrade_001_Event",
+        "lv2UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV2_Upgrade_001_Event",
+        "lv3UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV3_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV4_Upgrade_001_Event",
+        "lv1Welcome": [],
+        "lv2Welcome": [],
+        "lv3Welcome": [],
+        "lv4Welcome": [],
+        "lv5Welcome": [],
+        "lv1ChatData": [
+          "_ResourceExample_Kizuna_Mai_LV1_Chat_001",
+          "_ResourceExample_Kizuna_Mai_LV1_Chat_002"
+        ],
+        "lv2ChatData": [
+          "_ResourceExample_Kizuna_Mai_LV2_Chat_001",
+          "_ResourceExample_Kizuna_Mai_LV2_Chat_002"
+        ],
+        "lv3ChatData": [
+          "_ResourceExample_Kizuna_Mai_LV3_Chat_001",
+          "_ResourceExample_Kizuna_Mai_LV3_Chat_002"
+        ],
+        "lv4ChatData": [
+          "_ResourceExample_Kizuna_Mai_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Mai_LV4_Chat_002"
+        ],
+        "lv5ChatData": [
+          "_ResourceExample_Kizuna_Mai_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Mai_LV4_Chat_002"
+        ],
+        "lv1InviteSucceed": [],
+        "lv1InviteFailed": [],
+        "lv2InviteSucceed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Succeed_LV2_LV3"
+        ],
+        "lv2InviteFailed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Failed_LV2_LV3"
+        ],
+        "lv3InviteSucceed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Succeed_LV2_LV3"
+        ],
+        "lv3InviteFailed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Failed_LV2_LV3"
+        ],
+        "lv4InviteSucceed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Succeed_LV4_LV5"
+        ],
+        "lv4InviteFailed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Failed_LV4"
+        ],
+        "lv5InviteSucceed": [
+          "_ResourceExample_Kizuna_Mai_Invite_Succeed_LV4_LV5"
+        ],
+        "lv5InviteFailed": [],
+        "lv3RequestIngerdient": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV3"
+        ],
+        "lv4RequestIngerdient": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV4_LV5"
+        ],
+        "lv5RequestIngerdient": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV4_LV5"
+        ],
+        "lv4RequestBeverage": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Beverage"
+        ],
+        "lv5RequestBeverage": [
+          "_ResourceExample_Kizuna_Yuki&Mai_Request_Beverage"
+        ],
+        "lv5Commision": [],
+        "lv5CommisionFinish": [],
+        "commisionAreaLabel": ""
       }
     }
   ],
@@ -7024,6 +7185,1564 @@
       ]
     },
     {
+      "name": "_ResourceExample_Kizuna_Yuki_LV1_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "说起来，最近人类村庄里似乎新开了一家人气很高的杂货店呢，不知道店主是一个怎么样的人呢。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "瞧一瞧！看一看！最棒的陈年奶酪，经由魔法……后半句怎么说的来着？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "（从人群中挤过来）请问，您就是店主吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "你好呀，你是在附近开深夜食堂的老板娘吧，叫我雪就可以了（超大声）！然后然后，站在我旁边的这位是舞舞酱！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪小姐、舞小姐，初次见面请多指教，我叫米斯蒂娅，直接喊米斯琪就好。我最近刚注意到附近开了一家新的店铺，就想着过来看看。你们这里都卖些什么呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "……饮料。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "炼乳、大葱、甚至仙人掌，各种食材应有尽有！全都是人里出产的上好食材！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "说起来，为什么要选在人里开店呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……其实是雪这笨蛋屯了太多食材，如果交给神绮做料理的话会很产生非常恐怖的后果，所以梦子把她训了一顿，喊我监督她过来把食材全都卖掉——才不是我怕她算错价格才主动提出来帮她的，真的哦。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "神绮……梦子……好耳熟呢，似乎在哪里听到过这些名字？欸，雪舞二位不是幻想乡的本地人吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "……怎么可能是嘛。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，不是哦，我们是来自遥远国度魔界的魔界人哦。我是修行火系魔法的魔法使，而舞舞她修行的是冰系魔法。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "原来二位是来自魔界的呀！神绮大人就是那位魔界的创世神大人吧！顺带一提，梦子小姐有时候也会来我的店铺里帮忙呢。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "欸欸，那可是魔界实力最强的梦子姐姐呢！米斯琪真厉害，居然连那么厉害的大人物都认识！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "既然是梦子姐姐和神绮大人的朋友，那么我们也会给你折扣的！原价18块钱一份的芝士，按友情价50块钱2个卖给你吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "太棒了！其实我最近也想用新的食材来进行料理创作，以后我会经常光顾的！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "对了对了！如果要创作料理的话，正好最近魔界有道很流行的菜，也是我个人的最爱。米斯琪要不要试着做一下？要是你也能还原出这个味道，那我和舞舞酱不用回魔界也能吃上啦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "竟然是人气料理！要是放在食堂售卖的话……请务必教我这道菜的做法，雪小姐！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这道菜叫做肉汁奶酪薯条，其实做法很简单啦……只需要用芝士块、薯条还有肉汁就能完成呢！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "对了对了，你看这个，是露易兹小姐在社交平台上发文推荐的网红食谱呢，在薯条上还额外添加了煎蛋、龙虾肉、羊肉条、手撕牛肉、牛油果以及墨西哥辣椒呢！看起来就特别美味，真想快点卖完所有食材回魔界品尝一下呢……"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "注意形象！口水都流到我翅膀上了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "（看着如此高热量的油炸食品）各种高热量的肉类以及奶酪堆起来，简直都变成一座塔了，这种热量炸弹真的会好吃吗……"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嗯嗯，肯定的哦，多就是好，相信舞舞她肯定也会喜欢的！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "那种热量那么高的油炸食品，我才不感兴趣呢（小声嘀咕）"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "总之，非常期待老板娘亲手做的肉汁奶酪薯条哦，在人间界品尝不到正宗的家乡味道，我都馋得流口水了，真想现在就把嘴巴里全部塞满！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "那样的话会变得和仓鼠一样呢，正好雪那家伙也喜欢囤各种东西，真不让人省心。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "如果今晚我能卖完所有囤积的料理的话，就会和舞舞一起来品尝的哦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……我才不想去呢！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV1_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪小姐、舞小姐，我来做肉汁奶酪薯条的回访啦。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "实在是太好吃啦，尤其是肉汁，熬得恰到好处！舞舞酱也很喜欢呢！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "……才没有！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，舞舞酱就是这样的哦，嘴上说着不喜欢，实际上心里想的却是……"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "快给我闭嘴！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "（原来舞小姐是这样的性格吗，平时话很少的样子，但是一提到雪小姐就会开始不自觉地话多呢，二人的关系真好！）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV2_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "雪雪我又来找你采购料理啦！欸，雪雪今天似乎有什么心事的样子？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "最近，我总觉得舞舞酱在有意无意地避开我……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "不要着急，会不会是有什么误会呢，请慢慢说。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "是这么一回事，前几天我收摊之后就想和往常一样去找舞舞酱一起玩，但是她看到我之后就转头跑开了。会不会是我做错了事情，惹得舞舞酱生气了呢……米斯琪我应该怎么办才好呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "听起来似乎和平时没有什么区别呢，在摆摊的时候有没有遇到什么事情呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "让我仔细想想。会不会是那天白天的时候连续找零找错了五次？又或者是不小心打翻了舞舞的烤玉米？还是上个星期不小心把饮料全部洒在舞舞裙子上了？呜呜呜呜呜呜。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "雪雪不要紧张啦，平时你摆摊时候的努力有目共睹，应该不是这方面的问题才对。或许是和舞小姐之间有什么其他误会也说不定呢，不如直接去和她道个歉然后问清楚原因比较好？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "说的也是呢，是应该好好地去跟舞舞道个歉。不过神绮大人说过，在道歉之前必须要有诚意，是不是应该要准备一点礼物比较好呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "如果要送礼物的话，最好是选她比较喜欢的东西比较好呢。舞小姐她最喜欢的是什么呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "欸，薯片？玉米？蜜瓜巴菲？呜呜，雪雪不清楚呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "对了，雪雪既然是魔界料理方面的行家，不如我们一起做一道舞小姐可能会喜欢的料理送给她吧！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "对哦对哦！舞舞她修行的是冰系魔法，平时看起来就非常冷，必须要让她多注重保暖方面才比较好呢。而且舞舞她非常挑食，神绮大人做的料理她都不怎么爱吃，除了汤羹之外的料理都是全部给我吃的。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "说起来，明明神绮大人做的料理这么好吃，但是无论是舞舞酱还是露易兹姐姐都会经常找借口说自己有事，不去参加晚宴，究竟是为什么呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "看起来舞小姐喜欢喝汤呢，不如我们做一道能够让她暖暖身子的料理吧！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "好呀好呀，不过用什么食材做出来的汤能够做到这一点呢？米斯琪帮我想一想吧！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV2_002",
+      "dialogList": [
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "没错！只有像这样酸酸辣辣的浓汤，喝完才能有用不完的力量，舞舞她肯定会喜欢的！正好，在我们魔界也有一道类似的又酸又辣的料理呢。而且做起来也不难，只需要用人间之里产出的各种蔬菜就可以了，我来教你！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "那就再好不过啦，做完之后我会让舞小姐她来尝一尝的！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那就拜托米斯琪啦！我相信舞舞喝完我推荐的料理之后，很快就会和我和好的！要第一时间回来告诉我结果哦！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV2_003",
+      "dialogList": [
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "怎么样怎么样，舞舞吃完之后是不是马上就说要原谅我了？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "唔，似乎并没有的样子。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "那么那么，舞舞吃完之后是不是开心到说非常好吃？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "唔……该怎么说呢，也没有。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "呜呜，究竟是哪里做错了呢。明明是我最喜欢的料理之一呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "果然，要想让舞小姐原谅你的话，还是得准备好诚恳的道歉信呢。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "道歉信？那是什么呀?"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "听起来似乎很复杂的样子，我还是回去问问露易兹姐姐吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "（突然又重新变得振作起来了呢，真羡慕雪雪这样永远开朗的性格呢。相信两人很快就能达成和解了吧！）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV3_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "雪雪酱，上次的事情之后，你和舞小姐和解了吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "呜呜，别提了，自从上次给舞舞品尝了酸辣汤之后，她更加不理我了。现在就连摆摊的时候她都一直嘟着嘴，不肯正脸看我，我都不知道该怎么办了……"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "为了能够得到舞舞的原谅，我还特地找露易兹姐姐请教，写了一封道歉信给舞舞。正好，米斯琪你听我给你朗读一遍吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "雪雪你快看，舞小姐过来了，你直接朗读给她听吧。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "不行不行，我还没有提前排练过呢！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……干嘛？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "尊敬的舞舞酱，非常报歉在百忙之中打扰您，我在此诚执地为自己的所作所为进行千悔，希望能够得到您的原凉。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "……你在说什么东西啊！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "（这真的是雪雪自己写的吗）"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "很抱歉上周不小心打翻了您的烤玉米，害得您没有午饭吃，以及在下午的时候没有认出您的本体，差点当成了普通鸽——"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "……可恶，快停下啊！不准再继续说下去了！都说了不是你的错了！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "呜呜，可是，肯定是因为我做错了什么事情，才害得舞舞酱你不理我了。雪雪知道错了啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……真是个无可救药的笨蛋！你这样会害得我也不知道该怎么办才好了啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "……这样，听着！其实，其实我根本就没有生你的气！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "可是可是，最近为什么每次舞舞酱看到我，都要假装没看见的样子，然后突然转身走开！难道不是讨厌我的表现吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "呜，这个，这个是因为……雪你这家伙实在是太不让人放心了！平时一直都在为我操心，比如你经常晚上用好不容易攒来的金币偷偷去夜雀食堂打包烤玉米回来给我吃，自己却饿着肚子吃不上饭；还有还有，说什么囤积这么多食材都是为了和我分享什么的，结果被梦子姐姐骂了一顿……"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "可是可是，我们不是最好的朋友嘛？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "正是因为是朋友，我才实在是不忍心看着你一直关心我却忽视了自己呀！所以，我就想，或许稍微保持一点距离，你就会多照顾照顾你自己了。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "呜呜，我不能没有你啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "雪你个笨蛋，我当然知道啦……你非要让我亲口说出来吗！我们一直都是好朋友！（脸红）"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，要永远做最好的朋友哦~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "所以说，这样就算完美解决了吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "才没有！还有你，老板娘！雪这家伙不聪明，你难道和她一样吗，为什么要请我吃那些只有雪那家伙会喜欢吃的料理！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "呜呜，明明是那么美味的料理来着，舞舞酱难道不喜欢吗。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "谁会喜欢吃那种又酸又辣的东西啊！再怎么说我也是鸽……冰系魔法使，当然要吃冷的甜品啦！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "呜呜，可是甜品就要油炸的、热乎乎的才好吃啦。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "这样的话，有没有什么甜品能够同时满足雪雪和舞小姐两人的口味呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "对了对了！我怎么把这个给忘了！神绮大人经常用魔法做的奶油甜煎饼卷不是就刚好符合咱俩的口味吗！最外层的酥皮是用热油油炸而成的，酥脆可口，而内馅填充了冰凉的奶油冰激凌，刚好舞舞也喜欢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "才，才没有！自从上次吃过一次神绮她不用魔法而是亲自下厨做的奶油甜煎饼卷之后，我已经再也不想吃了！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "欸欸，可是那次明明做得很好吃的来着。舞舞酱挑食可不好哦。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "……你这家伙真是没救了！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "对了对了，按照这样的菜谱做出来的奶油甜煎饼卷，最上面除了糖霜和巧克力酱之外，感觉还缺少了一样东西呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "是什么呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，当然是一种和我收集来的金币一样金光闪闪、亮晶晶、还可以吃的食材哦，提示：我这里就可以买得到哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "金箔？那种东西真的可以吃吗。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "当然当然，这可是魔界特制的可食用金箔哦，最近从冰激凌到提拉米苏，只要撒上一点就能瞬间化身为高人气网红料理哦。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "太好啦，那么我就来试着制作一下奶油甜煎饼卷吧，做完之后你们一定要来尝一尝！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "当然会来的，米斯琪！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "……真没办法，那我也一起去吧！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV3_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "雪小姐、舞小姐，我来做奶油甜煎饼卷的回访啦。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "好好吃！简直和家乡的味道完全一致！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "……就连我也不得不说一句，老板娘你的厨艺确实精湛。或许未来我可以尝试去说服神绮，叫她聘请你当魔界的御用厨师，这样就不用劳驾她老人家亲自下厨了。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "呜呜，可是神绮大人做的甜品也很好吃哦？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "对了，在奶油甜煎饼卷上面撒金箔这件事情，是谁想出来的？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "欸，舞小姐对这个配料不满意吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "是我是我！是我想出来的！嘿嘿，雪雪厉害吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "……好吧好吧，不得不承认你在料理这块确实有天赋。用金箔作为料理之上点缀，无论是外观还是口感都能更上一个档次，希望你以后做其他事情也能像这样多动动脑。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "好耶好耶，被舞舞酱夸奖了！雪雪好开心！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "（看来二人已经重归于好了，那我也放心了了。话说，舞小姐是不是慢慢变得比之前更加坦率了呢？）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV4_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "抱歉，让一让——让一让——雪雪，今天这里怎么这么热闹呀。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，今天是促销大甩卖——是舞舞主动提出来的哦。只有趁着现在搞活动把库存全部清完，我才能去囤新的食材。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "你居然还想囤新的食材吗？不想早点卖完之后回魔界吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "呜呜，雪雪的确想家了，好想回去吃好多好多薯片！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "果然还是要更加努力地吆喝，早点卖完才好呢！原价3块钱一份的海苔，现在促销价只要10块钱3份——"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "打住打住，就是3块钱一份！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "雪这家伙算账太不靠谱了，果然还是得靠我来。你就负责吆喝吆喝，象征性地发点免费的葱和蒜给大家做宣传吧。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "好哦好哦，交给我吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "（两个人忙前忙后的，看起来很辛苦，我果然还是过一会再回来吧）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "一段时间后……",
+          "actions": [
+            {
+              "actionType": "CG",
+              "sprite": "assets/CG/black.png"
+            }
+          ]
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "雪！帮我拿点大葱来，这位顾客要5根！",
+          "actions": [
+            {
+              "actionType": "CG",
+              "shouldSet": false
+            }
+          ]
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "大葱？可是已经全部发完了呢~"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "哈？让你给大家发一点，没叫你全发完啊！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，可是大家似乎拿到葱和蒜之后都很开心的样子，雪雪只是想让大家开心起来呢！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "雪你啊，总是这样考虑别人，偶尔也考虑考虑自己吧。你看看你，吆喝了一整天，结果喉咙都肿了。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "欸欸，我都没发现耶！（声音沙哑）"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "真拿你没办法，真不让人省心。别乱动，就帮你这一次哦（使用清凉的冰系魔法制造冰块敷在雪雪的脖子上）"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "不愧是舞舞！好厉害，喉咙一下子就不疼了！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "闭嘴，这全都是为了不影响生意。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "看来两人的关系已经完全修复了呢，那我也放心了~雪雪，今天的食材也全部卖完了呢，辛苦啦。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿没事的哦，只要大家都能买到需要的食材，雪雪我也就开心啦。对了对了，今天老板娘来找我有什么事情吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "实际上，我正打算举办一场盛大的演唱会，如果雪雪你不介意的话，这是演唱会的入场券，请务必收下！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "好呀好呀，雪雪还从来没有看过演唱会呢，我会把舞舞也喊过来的哦。以及，（从小摊上拿出来一个达摩外形的吉祥物），米斯琪既然你送给我这么重要的礼物，那么我也必须要回礼才对，这是神绮大人教导我的哦！请务必收下这个！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "这是什么东西呀？看起来像是一个不倒翁的样子。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "这是达摩雪雪，是我和舞舞酱一起设计的，也是我们店里的吉祥物。把它放在店里就会给你带来好运！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "这么重要的东西，我真的可以收下吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "当然没问题，实际上舞舞画完之后每次看到它就会脸红，一直都在催促我赶紧把它送给别人呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "……才没有！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "既然这么说，那么我就收下啦，我会把它放在店铺里作为吉祥物的哦。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV1_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "最新消息，都来听啊！……只有我这，才有最好的买卖！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "（雪小姐似乎在很卖力地吆喝的样子）雪小姐，为什么要如此扯着嗓子大声吆喝呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "只有用最大的嗓门喊出宣传口号，才能让附近的顾客更有购买欲望！这是萨拉姐姐教我的！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "就连吆喝的内容也是吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "是啊是啊，她平时看守魔界大门的时候，也是像这样大声喊叫防止魔界人偷偷跑出去去人间界玩的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "那岂不是完全没有任何效果吗？"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV1_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "雪小姐，大葱怎么卖？多少钱一斤？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "嘿嘿，1块钱一斤！米斯琪你经常光顾我的店呢，所以给你雪雪的特别优惠，十块钱就能买5斤哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "那太好啦，那么帮我称五斤吧。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "好哦，唔，这个称是怎么用的来着？去皮，嗯大葱没有皮所以不用去，然后这个，这个数字后面的kg是什么意思来着?"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "雪这家伙真是笨得没救了，（小声嘀咕）果然还是必须要有我在这里帮着她才行呢。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV2_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "雪雪酱，舞小姐最近的样子是不是有些奇怪？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "是啊，明明雪雪想不起来有做过什么很过分的事情，但是却莫名其妙地就被舞舞讨厌了呢。万一她再也不理我了怎么办。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "不要担心这么多啦。说起来，舞小姐她到底是什么样的性格呢，平时摆摊的时候见到我的时候似乎从来没有给过我好脸色；晚上来吃饭的时候，就算吃得两眼放光，都要嘟着嘴说不好吃，真奇怪呢。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，舞舞酱其实嘴上不饶人，心里却一直在乎关心着别人哦，特别是我！比如就是她主动提出来要陪着我一起摆摊的呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "欸，可是舞小姐和我说，是梦子小姐强迫她来的，真是奇怪呢。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV2_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐平时都喜欢吃什么样的料理呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "让我想想，首先最喜欢的肯定是烤玉米！平时经常可以看到舞舞酱偷偷躲起来啃撒上焦糖的烤玉米呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "那么送她烤玉米如何呢？舞小姐肯定会喜欢的吧？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "不行不行，如果主动给她买烤玉米的话，她会生气地拒绝的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "如果是自己最喜欢的料理，为什么会生气呢？以及，为什么作为冰系魔法使会钟爱烧烤料理呢？真是搞不清楚舞小姐的爱好呢。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV3_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "说起来，雪雪修行的是火系魔法没错吧？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "没错哦，雪雪很聪明吧！火系魔法可不是所有魔法使都能掌握的哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "既然修行的是火系魔法，那么为什么名字却是含义相反的雪呢？真奇怪。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我们魔界人的名字都是造物主神绮大人给我们取的哦。至于选择职业之类的，神绮大人是允许我们自己做决定的。比如露易兹小姐选择到处旅游，成为了网红博主，而萨拉小姐则选择防止入侵者侵袭，成为了魔界的守门人。像我选择成为了魔法使，修行火系魔法，这也都是我自己的选择呢~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "那雪雪选择成为魔法使的契机是什么呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "如果遇到坏人，我要用强大的火焰之力来保护舞舞呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "果然两人之间关系很好呢！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV3_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "说起来，雪雪在魔界的时候，一般住在哪里呀？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "唔，虽然说神绮大人在万魔殿里有给我和舞舞准备了专门的房间，但是一般我们都不住在那里，而是住在冰雪世界呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "冰雪世界？那是一个什么样的地方呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "冰雪世界是在魔界地方都市附近的一片常年被冰封的地区哦，周围被高耸的雪山环绕，在正中心还有全魔界最大的湖泊哦，风景非常美丽！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "听起来居住条件很艰苦的样子，真的适合常住吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "住的时间长也就习惯了，主要是舞舞说万魔殿里太热了，想要找一片比较适合居住的地方练习冰系魔法呢，所以就主动邀请我也一起住过去了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "话虽这么说，不过总是在雪雪旁边，岂不是会更热吗？舞小姐却从来没有抱怨过呢，真奇怪。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV4_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪之前提到过，来人类村庄摆摊是因为囤积太多食材的原因吧。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嗯嗯，没错哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "那么为什么要囤这么多食材呢，已经多到根本吃不完了吧？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "其实其实，是因为舞舞她比较挑食，很多我喜欢吃的料理她都不喜欢，而且她不喜欢主动告诉别人她的爱好，因此我打算用这么多不同的食材慢慢研究搭配，争取做出能让舞舞满意的料理！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪原来一直都在考虑舞舞的感受呢，你们之间的友谊真的非常深厚呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "不过，囤积这么多食材，被梦子小姐训斥也不要紧吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "没关系的哦，每次被梦子姐姐斥责之后，我都会把多余的食材带到人间之里卖掉。这里的村民总有需要用得上的！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_LV4_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "收藏又变多了（将魔界的纪念币收进口袋里）！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "说起来，平时经常看到雪雪口袋里有许多金币，那些都是卖食材赚到的钱吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "不是哦，这些是魔界的金币，是我拿着从人间界赚到的钱交给梦子姐姐后，她奖励我的零花钱！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "那么，雪雪平时卖食材赚到零花钱，会拿来买东西吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "魔界和人间界的货币是不通用的，就算有许多零花钱，在这里也没办法使用。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "既然如此，为什么还要把金币每天都带在身上呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "这是因为，我喜欢囤各种各样的东西，包括金币！而且，如果不放在身上的话，我可能又会和上次一样，不记得放在哪里结果全部弄丢了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "像这样全部带在身上真的安全吗？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "非常安全哦，只要小心不要平地摔就好了，每次摔跤金币都会掉得到处都是呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "听上去完全不安全的样子啊。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_Invite_Succeed",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪都会些什么样的魔法呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "我会的法术可多啦，比如简单的火球术、炎爆术之类的。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "对了对了！要不要给你表演一个龙息术？不过我只成功发动过一次哦，是在上次舞舞酱让我品尝她摘得辣椒之后。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "听上去雪雪你是被舞小姐捉弄了呢。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "才没有呢。吃完舞舞酱给的辣椒之后，突然就感觉魔法能量大大提高，甚至都学会喷火这样的高级魔法了呢！雪雪还想再吃一次！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "既然如此，雪雪酱晚上有空的话，不如来我的店里坐一坐吧，我会给你准备能让你感受到灼热感的辛辣料理的！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "好哦好哦，那么今天晚上我就提前收摊，然后抓紧时间过来尝一尝吧！雪雪已经等不及要给舞舞再表演一次龙息术了呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "喷火什么的还是算了吧！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki_Invite_Failed",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪都会些什么样的魔法呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "我会的法术可多啦，比如简单的火球术、炎爆术之类的。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "对了对了！要不要给你表演一个龙息术？不过我只成功发动过一次哦，是在上次舞舞酱让我品尝她摘的辣椒之后。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "听上去雪雪你是被舞小姐捉弄了呢。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "才没有呢。吃完舞舞酱给的辣椒之后，突然就感觉魔法能量大大提高，甚至都学会喷火这样的高级魔法了呢！雪雪还想再吃一次！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "既然如此，雪雪酱晚上有空的话，不如来我的店里坐一坐吧，我会给你准备能让你感受到灼热感的辛辣料理的！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "今天剩下的料理还有点多，如果卖不完的话回去又要被梦子姐姐责备了。说不定还会被神绮大人下达禁足令……"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "如果今晚之前可以把食材全部卖完的话，我就会来的哦！还会带着舞舞一起来，我保证！"
+        }
+      ]
+    },
+    {
       "name": "_ResourceExample_Merchant_Mai_Welcome_001",
       "dialogList": [
         {
@@ -7031,7 +8750,7 @@
           "characterType": "Special",
           "pid": 7,
           "position": "Left",
-          "text": "真麻烦，要不是神绮大人让我监督雪这家伙，顺便卖点魔界特产饮料，我才不想来呢。"
+          "text": "真麻烦，要不是梦子姐姐让我监督雪这家伙，顺便卖点魔界特产饮料，我才不想来呢。"
         }
       ]
     },
@@ -7044,6 +8763,2363 @@
           "pid": 1,
           "position": "Left",
           "text": "我制作的饮料果然卖得很好呢，一下子就全部售罄了。这下有时间去雪那边帮一下……不，没什么哦。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV1_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "雪雪酱，舞小姐，我又来采购食材和饮料啦！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "欢迎欢迎，正好我今天又进了一批新的货！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "欸，怎么又进了这么多货啊，明明是为了卖掉之前堆积的食材才来摆摊的来着。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "说起来，舞小姐平时一直沉默寡言的呢，和雪雪你的性格完全不一样。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "所以我们才能相辅相成，成为最好的朋友嘛！平时我负责吆喝拉客，舞舞她负责收银找零，简直是事倍功半呢！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "是事半功倍才对吧！话说，舞小姐平时虽然话不多，但是总感觉今天少了点什么呢。对了，少了舞小姐的吐槽。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "（肚子咕咕叫）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "原来舞小姐是饿得没有精神了吗。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "……才没有！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "明明是舞舞自己在咕咕叫啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "……好吧，确实是肚子饿了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "摆摊固然重要，但是也不能伤着自己的健康呀，正好我晚上也经常在人类村庄附近经营着属于自己的小店，如果二位感兴趣的话……"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "好呀好呀，雪雪想来！舞舞酱今晚也一起去嘛!"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "才不要！才不想特地出去吃饭呢，哼！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "哈哈，舞舞她就是这样别扭的性格，米斯琪你别放在心上。说起来，今天想要买点什么食材呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "拿点大葱，再拿点大蒜之类的调味料就行了。对了，再拿点玉米吧。有没有什么料理能用得上玉米呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "好哦，大葱、大蒜，还有玉米。欸，玉米怎么少了几根？刚刚还在这里的来着。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "不光是玉米，舞小姐也一起不见了呢！（看向店里面）啊，舞小姐好像背着身坐在店的角落里呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "（凑近）舞小姐，在这里做什么呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "？！！哈？你是怎么进来的？明明门上写了“闲人勿入”，快出去啦（怒）！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "呜啊，对不起，不过舞小姐这是在啃生玉米吗。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "我我我我在吃什么关你什么事！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "别看我这样，我好歹算个料理人吧。如果真的饿了的话还是晚上来我店里吃饭吧，毕竟比起生玉米棒，我还是希望舞小姐能吃到烤熟的玉米呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……哼，既然这样那我也不是不能考虑一下。不过你必须得给我做我最喜欢的料理！不然我以后就再也不来了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "舞小姐最喜欢的料理，会是什么呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，谜底已经在谜面上啦！米斯琪刚刚都说出来了哦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "哈？不准瞎说，雪你这个笨蛋！我我我我才不稀罕吃玉米呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "明明刚刚就在啃的说。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "那…那是因为平时店里太忙了，没有时间做饭，只能随便拿点能吃的充饥，才不是什么喜欢玉米好吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "明明满嘴都是玉米粒呢，说出来一点都没有说服力……舞小姐，想想那充满黄油与焦糖的香味、散发焦香气息的刚出炉的烤玉米~"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "（翅膀不停地来回扇）事先说好，我可不是因为想吃烤玉米！我只是因为太饿了，所以不得不去你的店里吃饭，你可别搞错了啊！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "好好好，那只要你来，我就请你吃全幻想乡最好吃的烤玉米！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "哼！就连我也不得不稍微对你的厨艺期待一下了呢~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "（舞小姐还真是喜欢玉米呢……不过为什么一定是烤玉米呢？明明平常喜欢吃冷的食物来着。不过总之，下次她来的时候请她尝尝烤玉米吧！）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV1_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "舞小姐，我来做烤玉米的回访啦。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "咕咕……咳，还凑合吧！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嘿嘿，舞舞的意思是特别好吃哦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "闭，闭嘴！不需要你来翻译！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "没有否认好吃这一点呢~"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "才，才没有！明明就是……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "（嘿嘿，看来二人的关系一如既往的好呢~雪的坦率和舞的内敛，或许在某种程度上也能形成互补呢）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV2_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "舞小姐，我又来买饮料了！舞小姐？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "舞小姐平时总是沉默寡言的，完全搞不懂心里在想什么呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "哼！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐貌似在一个人生闷气呢，是有什么烦恼吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……就算说了也没人理解！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "为什么呢？如果舞小姐有烦恼的话完全可以找雪雪倾诉吧，毕竟你俩是最好的朋友呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "哈？谁愿意和那种笨蛋一起做朋友啊！就算有什么苦恼跟她说，她也只会一个劲地傻笑，根本帮不到我。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "说起来今天没有看到雪雪呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "我明明能一个人照顾好自己，雪那个笨蛋非要担心我，又是给我推荐我不喜欢的料理，又是晚上给我多盖被子说怕我着凉！真是的！就是因为有那种碍事的家伙在，害得我也变得多愁善感了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "所以说舞小姐是在生雪雪的气吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "……唔，只是雪那家伙害得我想起了另一个童心未泯的笨蛋而已。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "是谁呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "那是一个和雪类似，把天赋点都加给了魔法，结果导致明明自己拥有极其强大的魔法天赋，却在其他方面都变得非常迟钝的笨蛋。她明明拥有足以创世的魔力，以及统治整个王国的地位，却每天任性地耍小孩子脾气。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "说着什么要靠魔界的自然风光和本土特产来带动旅游业发展，然后自己创了个旅行团，说着什么“本魔神要让所有外界的客人享受到顶级的异世界珍馐“，最后灵机一动做了一堆特产料理把所有来投资的客人都吓跑了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "听上去很熟悉的感觉呢……她做了些什么料理呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "什么巧克力咖喱，肉馅羊肚，蓝纹奶酪焗饭……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "听起来好可怕……"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "不仅如此，我都已经这么大了，她还把我当小孩子对待。每年我生日的时候都要亲手织毛衣送给我穿，结果织的衣服上面全是小熊、鸽子这种幼稚的图案！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "除此之外，明明自己做饭做得不好吃，却还非要围着围裙亲自下厨，每周还搞什么魔界聚餐，经常让露易兹都直接吓得找借口出去旅游了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "听起来舞小姐很讨厌她呢。等一下，刚才说的难道是……？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "所以说为了远离那两个笨蛋，我才故意去冰雪世界定居修行冰系魔法的。结果没想到雪那个碍事的家伙也跟着一起来了。我是实在没办法了才和她一起住的！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "真的是这样吗？那现在来人类村庄开店的事情呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "是神绮那个家伙一直唠叨着这个事情，之后梦子就喊着让雪来开店。我才不想跟着一起来呢！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不过能远离魔界，收获真正的自由，我倒是挺满足的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "那舞小姐为什么现在还在伤心呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "真是的！因，因为，无论是神绮，梦子，还是雪，为什么大家都这么关心我！讨厌！最讨厌了！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "但，但是……我想她们了，想万魔殿的大家了，想冰雪世界温馨的木屋了。我……居然想家了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "结果舞小姐果然还是想家了嘛，嘴上不饶人心里却还是惦记着大家呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "……于是，这就是我的烦恼了。没想到我居然不知不觉和你聊了这么多，把心里想法都不小心说出来了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "那么有没有什么是我能帮到你的呢？带你回到魔界之类的我暂时做不到，但是如果是舞小姐心中的家乡风味料理的话，我说不定能做出来。舞小姐有没有什么特别想吃的料理呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "好吧，那我就再信你一次。你有没有听说过所谓的“俄罗斯冻汤”？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "俄罗斯？冻汤？那是什么样的料理呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那是一道在魔界非常流行的料理。一般来说，提到浓汤都会想到热腾腾的龙虾浓汤或者蛤蜊浓汤吧？但是这道浓汤料理却是冷的，非常不寻常吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "还是第一次听说呢，这是为什么呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实是因为在漫长的夏季，就连冰雪世界也会变得十分炎热，因此才需要一道能够消暑降温的汤羹。因此，在魔界的大家经常会使用夏季常见的蔬菜，如黄瓜、大葱、甜菜之类的，将其混合在一起后加入炼乳及格瓦斯，搅拌均匀后放入冷柜冷冻，觉得热的时候直接拿出来就可以饮用，非常方便。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "听起来似乎并不复杂，我也可以尝试着做一下，如果能够帮助舞小姐解决烦恼、缓解思乡之情的话，我会非常乐意帮忙的。当然，希望舞小姐也能尽快振作起来，毕竟雪雪最近也非常担心你呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "雪那个笨蛋真不让人省心，我会去找她说清楚的！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV2_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "舞小姐，我来做关于俄罗斯冻汤的回访啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "……没想到你这个鸟脑袋，居然真的能够按照我教给你的方法来做。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "所以说，味道怎么样呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "还说过得去吧。至少，真的能稍微缓解一点思乡之情了……只是一点而已哦。和平时雪那家伙做的相比，炼乳放得没有那么多，冷冻的冰凉感也恰到好处。也只有雪那个笨蛋才会在俄罗斯冻汤里不要钱似的拼命加炼乳了。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "可恶!为什么我又不知不觉想起雪那个家伙了……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "既然如此，不如赶快去雪雪和好吧，她最近也在因为舞小姐的事情而感到烦恼呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……知道了，真是没办法呢。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV3_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "（舞小姐貌似正在一个人想着什么心事的样子）舞小姐，在做什么呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "欸欸，不不行！我还没准备好！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐怎么突然脸这么红……"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "咕，我其实是在试着如何表达自己的感受！明明已经练习过很多次了，还和老板娘你约定好要做出改变，变得坦率起来，可是却还是说不出来！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "不过舞小姐现在就已经把内心想法表达出来了呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "面对老板娘你的时候倒是还好啦，但是一旦看到雪那家伙，我之前提前演练好的台词就全部忘记了，然后又会变成之前那样，最后红着脸把雪骂一顿……我该如何做出改变呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "要想做出改变，首先舞小姐得列举一下之前都做过了些什么错事，需要以后避免的。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "唔，首先就是不应该经常看雪那家伙好欺负就欺骗她拿她寻开心。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "没错，还有就是以后不能再喊雪“那家伙”了，对其他人也是！不然别人会觉得舞小姐作为魔界的大小姐却没有礼貌，然后可能就会疏远你。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "还，还有，不应该经常……心，心口不一！有时候我明明非常想表达出感激之情，但是却羞愧得不敢开口。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "有什么不敢开口的呢？对其他人交心，表达自己的真实想法才能交到真心的朋友呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "我知道的啦！不过就是……不敢开口！我想试着改变自己，慢慢改变心口不一这一坏习惯，不过在这之前我需要一个新朋友来陪我练习。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "所，所以，老板娘，不对，麻雀小姐，请问你可以成为我的朋友吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "在我看来，我们早已经是朋友了哦？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "欸，麻雀小姐你不会因为我背后有个大大的翅膀就嫌弃我吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "这有什么好奇怪的，在幻想乡鸟类妖怪数不胜数，幻想乡的大家都已经对带有翅膀的物种习以为常了。再说了，你看我也有一对大大的翅膀，既然同样都是鸟类妖怪，更没有什么好感到奇怪的啦。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "都说了我不是鸽子啦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "哈哈，看来习惯还是很难一下子改掉呢。不过没关系，改正错误是一个长期的过程。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "你别看我现在开着一家小有人气深夜食堂，无论是妖怪、神明还是人类，都会习以为常地一起来我这里聚餐，但以前我还是一个经常靠着歌声让路过的行人患上夜盲，然后吸引他们来我这里花费高价购买八目鳗来解除夜盲症的无良黑心商贩呢！意识到自己做错事情之后，需要认错、补救、改进，这样才能慢慢提升自己。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "交朋友也是一样吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "没错，曾经的我也是几乎没有任何朋友，甚至还被那位负责撰写史书的稗田阿求小姐记载为“友好度恶劣的妖怪”。不过你看，现在我也靠着改变形象慢慢交到了许多真心朋友呢，相信舞小姐也可以做得到的！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "……谢谢你愿意对我说这么多。既然是朋友，那我也必须做点力所能及的事情！其实我也早就注意到了，麻雀小姐平时也在后厨堆放了许多用不上的食材吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "欸，舞小姐是怎么注意到的？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "再怎么说，我也是和雪共同经营着杂货铺的店主呢，雪那家伙就特别喜欢囤积东西，老板娘你可不能学她，这样下去也会变成每天囤积各种东西的小仓鼠的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "之前为了防止店铺人气过旺，供不应求，因此我额外采购了许多食材，但是总有一部分食材使用频率比其他的少，结果最后就不知不觉越堆越多了，有没有什么能够处理掉的方法呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "先让我看看都有些什么食材。唔，西红柿、黄瓜、大蒜……有了！其实在魔界正好有一道料理能够用得上这些食材，而且也是我平时经常做的料理，可以教给你哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "那太好啦！这样的话这些多余的食材就有用武之地了呢，这道料理叫什么名字呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "叫西班牙冷汤，似乎最早是在大航海时代的时候，商队进行贸易时从各个国家采购来不同的蔬菜水果及香料，混合在一起制作成的船餐，简单快捷而且还富有营养！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "需要使用异域的蔬菜，那么采购食材不会很困难吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "在现代社会已经不需要大费周章地去采购各种蔬菜了，毕竟在魔界想要种植什么作物使用熟成魔法就行，这也是这道菜能够在我的家乡流行起来的先决条件也说不定呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "要去魔界才能找到这道菜所需各种各样的蔬菜吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘛，对你来说魔界应该没那么容易去吧。不过我以前从爱丽丝那听说妖怪之山上的妖怪也有外界产品的获取途径，麻雀小姐或许可以去看看？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "另外，这道菜使用的蔬菜和水果其实没有特定的讲究，卷心菜、西红柿、蔓越莓等等，用手头现成的就好。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "这样呀，那么我就按照舞小姐所教的去试着烹饪一下。当然，等到料理完成之后我会请你来品尝一下的！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "那，那么，一言为定！我非常期待麻雀小姐的手艺！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV3_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "舞小姐，我来做关于西班牙冷汤的回访啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "麻雀小姐，你知道的，我这个人不太擅长夸奖……所以如果我有说错什么，请多多担待。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "所以说，味道怎么样呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "不得不说，简直是……一口下去就让我想起了家乡的味道。简直是比神绮……不，比全魔界技术最好的大厨做的西班牙冷汤都更加正宗！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "舞小姐能够喜欢就再好不过啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "特别是，在其中额外加入了鲜花的花瓣作为缀饰，简直是点睛之笔！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "毕竟舞小姐之前提到过，这道菜所使用的蔬菜没有特别的讲究呢。因此我就琢磨着，或许在舞小姐提供的食谱基础上增加花瓣之类的作为装饰说不定效果会更好！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "麻雀小姐你简直是料理方面的天才！其实露易兹之前推荐的网红做法也添加了许多额外食材，比如虾肉、火腿以及牛肉粒，不过添加肉类反而会使得口感均衡被打破，添加花瓣不仅不会改变口感，反而还能起到装饰作用，简直是最完美的增补！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "这一切也多亏了舞小姐提供的食谱呢，让更多食材有了用武之地！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "不，更应该感谢你帮我修改食谱呢！我要把它记下来，以后做西班牙冷汤的时候也按照这样修改后的食谱来制作好了。唔，名字就叫米斯琪特制西班牙冷汤好了！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV4_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "舞小姐，今天店门口怎么这么热闹呀，还有桌子上为什么放了这么多的柠檬水呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "桌子前的横幅，读一下就知道了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "要是我识字的话就好了。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "原来麻雀小姐你也不识字吗。上面写的是“免费柠檬水派送”。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "怪不得有络绎不绝的客人来光顾呢。话说这样不会亏本吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "虽然会亏本没错。不过，从开店的选址再到招牌的设计，都少不了本地村民的帮助。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "原来如此呢，不过为什么是柠檬水呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "我平时生活的冰雪世界虽然常年被积雪覆盖，但到了盛夏也会酷暑难耐到整个人都要化掉了一样，更何况是在人间界呢。这里的村民平时经常需要参与体力劳动，肯定非常需要冰凉的饮料来解乏。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "舞小姐，似乎不知不觉之间变得越来越能坦诚地对别人表达出好意了呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这也是多亏了麻雀小姐你的帮助。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "还有雪雪哦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "没错，你们都是我重要的朋友！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "所以说我以后可以喊舞舞酱了吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "这个还是不行！话说回来，麻雀小姐，其实我本来就有事想找你，不过实在不知道该如何开口。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "没关系的，尽管说吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "（从裙子上摘下鸽子挂件）来，这个送给你！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "欸欸，这个，是舞小姐平时挂在裙子上的挂件吧？这肯定是对舞小姐来说非常重要的东西，为什么要突然送给我呢?"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "才不是什么重要的东西呢！我已经不需要了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "舞小姐又不坦率了呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "咕！……这个，确实曾经对我来说是非常珍贵的东西呢。其实以前的我因为性格原因比较孤僻，再加上背后有一对大大的翅膀，和别的魔界人都不同，因此交不到什么朋友，还被大家叫做“背叛的白翼”。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "原来舞小姐还有这样的过去啊，不过只要稍微接触一下就会发现舞小姐其实是一个很好的人呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "雪她也是这样说的。可能是我比较吸引笨蛋吧，总之她确实算是我为数不多的朋友之一了。别看我平时满嘴不在乎，其实我也是会感到孤独的。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "有一次我哭着问神绮，为什么我和其他魔界人长得不一样，她却轻轻地的摸了摸我的头，告诉我说所有魔界人都是独一无二的存在，应该感到自豪才对。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "神绮大人居然难得地靠谱了一回呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "然后她就掏出了一个鸽子的挂件，挂在了我的连衣裙上，告诉我说我就像是一只独一无二的白鸽，在人群之中会永远是最突出最闪亮的那一位，让我努力地去结交新朋友。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "后来每当我感受到孤独，我就会看着这个鸽子挂件，想象着和鸽子一样群飞的感觉。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "不过现在我已经不需要它了，因为我意识到周围有那么多关心我的人，比如人间之里的大家、魔界的大家、还有麻雀小姐你。而且我已经不需要再用刻薄的言语来保护自己了，以后我会变得更加坦率的。因此请收下这份礼物吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "原来如此，那我就当作是与过去舞小姐告别礼收下了哦，请多关照，新的舞小姐！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "嗯，以后也请多多关照，老板娘！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "既然舞小姐给了我如此贵重的告别礼，那我也必须要进行回礼呢！舞小姐，请收下这个！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "这是？演唱会的门票？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "没错！我正打算和响子一起举办一场盛大的演唱会，舞小姐也可以借着这个机会来现场观赏，同时结交新的朋友。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "我吗？唔，好吧，那我收下了。正好，音乐节的乐趣，该配上冰雪！我也会在现场调配制作各种饮料的！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "那么到时候不见不散！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV1_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "舞舞酱！我来找你买饮料啦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "…嗯？等等，你刚刚喊我什么？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞舞酱呀。平时雪雪酱都是这样喊的。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "不准那样喊我！这是只有雪一个人才能……不对！我俩的关系还没有好到像雪……也不对！总之，不允许你喊我舞舞酱！（红着脸飞走了）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV1_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "雪，你知道吗，只要配料表上没写有多少卡路里的，就是0卡哦？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "什么是卡路里？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "……就是说，只要不去在意料理中的食材有哪些，无论吃多少也不会胖呢！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "哦哦！原来如此呢！雪雪又学到新知识了！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "……（看起来舞小姐又在欺负雪了）"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "顺带一提，如果在野外遇到熊，就要原地躺下来装死哦？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "什么是撞死？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "就是说原地躺下然后一动不动。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "哦哦！原来如此……不对！你竟敢！"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "不准拿雪雪寻开心！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "怎么突然生气了？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "哼，雪雪可不笨，遇到熊当然应该用火系魔法直接把它打退才对呢！雪雪的魔法可是很厉害的！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "……（原来这才是重点吗？）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV2_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐似乎有什么烦心事的样子呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "……哼！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "如果不介意的话，要不要和我说说看？毕竟我和舞小姐一样，都是鸟类妖怪呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "都说了我是魔界人，不是鸟类妖怪了啦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "但是，舞小姐明明每天都在裙子上挂着小鸽子的挂件呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "唔（脸红），这是，这是……总之，无论是平时魔界鸽子们喜欢停在我头上也好，还是喜欢烤玉米也罢，都只是巧合而已哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "舞小姐明明有天使般洁白无暇的翅膀，嘴上却总是不饶人呢……"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV2_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "舞小姐作为魔界人，为什么有这样大大的翅膀呢，和其他魔界人都不一样呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "果然很显眼吧，幻想乡的住民肯定也会因为我的翅膀而害怕我吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "怎么可能呢？幻想乡包容一切。要是真的有人感到害怕的话，舞小姐和雪雪的小摊肯定也不会每天都这样门庭若市呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "……谢谢你，不过我的心情可不会因为一两句恭维就变好的哦？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "所以，舞小姐究竟为什么有这样的翅膀呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "或许是神绮那家伙灵机一动，又或者是参考了住在魔界的另一位天使大人的样貌设计的吧？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "说起来麻雀小姐你也和那位天使有许多共同点呢，呼呼~"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV3_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "雪，你手上拿着什么？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "哎呀，这个吗？是最新一期的《文文。新闻》哦！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "又在订阅这种没用的报纸，快拿过来，正好包蔬菜用。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "舞舞酱，才不是啦，文小姐说只要每个月订阅报纸，就允许我们在上面打广告用来宣传店铺哦。 我用了好多金币的零钱才刊登了广告的！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "唔……虽然不觉得那家伙的报纸会有人看，不过也算互利互惠的好事，让我看看雪你在上面写了些啥内容——“大茐限吋打拆1块钱1个→5块钱2个”？……"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "雪，你！……不，没事哦，看到雪这么努力地在为了店铺做宣传，我也很开心呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "（看起来舞小姐也正在努力向着好的方向改变呢）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV3_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "说起来，舞小姐修行的是冰系魔法没错吧？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "没错，在魔界，小到夏季的消暑降温特饮派送，大到冬季的人工降雪，都是我用魔法生成的，冰系魔法很方便吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "听起来似乎确实挺厉害的！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "除此之外……老板娘，你猜冰雪世界正中间的冰川湖为何一年四季都被冰封着呢？哼哼，比起只有碍事的家伙会学习的火系魔法，果然还是高级优雅的冰霜魔法更加强大呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "既然如此，舞小姐成为冰系魔法使的契机是什么呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "这个嘛，难道麻雀小姐你不觉得，趁着雪睡着的时候偷偷用雪花在她脸上画出圣诞老人般滑稽的小胡子，或者是趁着雪不注意偷偷地把她准备喝的热汤变成冰雕什么的很有意思吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐原来这么喜欢恶作剧吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "反正雪也不会发现是谁干的呢~"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV4_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "舞小姐，跟我多聊聊关于魔界的事情吧？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "麻雀小姐你已经去过魔界很多次了呢，你眼中的魔界是什么样的地方呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "该怎么说呢，每天都能看到许多魔界人穿着华丽又有些滑稽的服装聚集在一起开茶会，除此之外还有各种充满魔力的动植物，简直就像是进入了童话里一般呢！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "没错，不过你所去过的只是魔界的一小部分而已呢！魔界除了童话世界之外，还有大部分魔界人所居住的魔界地方都市、神绮大人每天处理工作以及研究新甜品的万魔殿、魔法使修行魔法的修炼所、以及我和雪所居住的冰雪世界。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "原来魔界这么大呀？不过光是听描述很难想象那些地方的样子呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "（掏出素描本）只凭描述很难清晰表达出魔界的美丽，正好，给你看看我画的素描！这是冰雪世界的雪山；这是魔界地方都市正中心的神绮雕像；还有在空中飞行的鸽群……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "哇，简直是栩栩如生呢！这些全都是舞小姐画的吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "那当然！画画其实也是我培养的小爱好，毕竟在冰雪世界修行的时候实在过于无聊，而且我也特别想把身边的美景记录下来，久而久之就开始画素描了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "欸，最后一页这个一只手压低帽檐、一只手正在施展火系魔法，看起来很帅的魔法使是谁呀？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "欸欸？这，这个……我不知道！这个不是我画的！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_LV4_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "（似乎正在专心画画的样子）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "欸，有一只鸽子停在舞小姐的头上了呢。舞小姐似乎非常招鸽子们的喜欢呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘘，小心不要吓到它了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "舞小姐非常擅长和鸽子打交道的样子呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "没错，毕竟我也长着类似的翅膀，可能是被它们不小心当作同类了吧。在魔界的时候也是这样，最开始我还感到很困扰，后来就慢慢习惯了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "魔界也有非常多鸽子吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "没错，到处都是。之前神绮吵着闹着非要办个什么旅行社，然后就拿鸽子作为logo，还要作为旅行社的官方吉祥物。甚至就连魔界旅行的其中一个景点都是号称有上千只鸽子栖息的喷泉广场，真是不理解。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "为什么魔界会有这么多的鸽子呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "听说是魔界的一位和神绮平起平坐的天使认为鸽子是月神的象征，同时也能代表魔界长久以来的和平，因此特地从外界引进的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "那位天使是一位怎么样的人呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "作为月之天使，她以前还能说出什么“以鲜花和荆棘之名、以月神和长枪之名，我将赐予你湮灭”之类的名言，结果现在也被神绮那家伙带得变得不正经了起来……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "魔界的大家真的不要紧吗……"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_Invite_Succeed_LV2_LV3",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "舞小姐，舞小姐？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "zzzzzzz……咕咕~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "舞小姐看起来似乎很累的样子，平时忙前忙后摆摊的同时还要照看雪雪果然很辛苦呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "zzzz……嗯？我刚才是，睡着了吗？明明我记得刚才还在研究新饮料的混合配方的来着……不好意思让你见笑了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐真的没事吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "没事，只是稍微有点饿了而已，说起来上一顿是在……想不起来了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐，太劳累可不行，身体才是最重要的！这样吧，不如今天晚上来我这里吃顿晚饭好好犒劳一下自己吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "听起来似乎是一个很不错的主意呢，偶尔确实也该给自己稍微放个假才行。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "正好雪最近也越来越让人放心了，今晚就背着雪偷偷地来吃点丰盛的吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "好的，那么晚上不见不散啦！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_Invite_Succeed_LV4_LV5",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "舞小姐，舞小姐？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "zzzzzzz……咕咕~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "舞小姐看起来似乎很累的样子，平时忙前忙后摆摊的同时还要照看雪雪果然很辛苦呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "zzzz……嗯？我刚才是，睡着了吗？明明我记得刚才还在研究新饮料的混合配方的来着……不好意思让麻雀小姐见笑了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐真的没事吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "没事，只是稍微有点饿了而已，说起来上一顿是在……想不起来了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐，太劳累可不行，身体才是最重要的！这样吧，不如今天晚上来我这里吃顿晚饭好好犒劳一下自己吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "听起来似乎是一个很不错的主意呢，偶尔确实也该给自己稍微放个假才行。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "正好雪最近也越来越让人放心了，今晚就背着雪偷偷地来吃点丰盛的吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "好的，那么晚上不见不散啦！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_Invite_Failed_LV2_LV3",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "舞小姐，舞小姐？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "zzzzzzz……咕咕~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "舞小姐看起来似乎很累的样子，平时忙前忙后摆摊的同时还要照看雪雪果然很辛苦呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "zzzz……嗯？我刚才是，睡着了吗？明明我记得刚才还在研究新饮料的混合配方的来着……不好意思让你见笑了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐真的没事吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "没事，只是稍微有点饿了而已，说起来上一顿是在……想不起来了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐，太劳累可不行，身体才是最重要的！这样吧，不如今天晚上来我这里吃顿晚饭好好犒劳一下自己吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "虽说如此，不过今天答应过雪要研发新的饮料品种，除此之外营业结束之后还要和雪一起清点物资，实在是有点走不开……要不还是改天吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "可是，这样也就意味着舞小姐今天的晚饭也吃不上了吧。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "不要紧，今天卖的食材还有剩余，晚上就用玉米垫垫肚子好了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "舞小姐的身体真的不要紧吗？"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Mai_Invite_Failed_LV4",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "舞小姐，舞小姐？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "zzzzzzz……咕咕~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "舞小姐看起来似乎很累的样子，平时忙前忙后摆摊的同时还要照看雪雪果然很辛苦呢。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Left",
+          "text": "zzzz……嗯？我刚才是，睡着了吗？明明我记得刚才还在研究新饮料的混合配方的来着……不好意思让麻雀小姐见笑了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "舞小姐真的没事吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "没事，只是稍微有点饿了而已，说起来上一顿是在……想不起来了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐，太劳累可不行，身体才是最重要的！这样吧，不如今天晚上来我这里吃顿晚饭好好犒劳一下自己吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "虽说如此，不过今天答应过雪要研发新的饮料品种，除此之外营业结束之后还要和雪一起清点物资，实在是有点走不开……要不还是改天吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "可是，这样也就意味着舞小姐今天的晚饭也吃不上了吧。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "不要紧，今天卖的食材还有剩余，晚上就用玉米垫垫肚子好了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "舞小姐的身体真的不要紧吗？"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV3",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪酱，舞小姐，今天也是一如既往的繁忙吗?"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "是啊是啊，明明忙了一整个上午，却还有一大堆食材没卖完。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "欸，舞小姐呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "在后面忙着改善新的汽水呢，毕竟雪雪之前拜托她帮忙研究一下怎么样调配香蕉味樱桃汽水才能变得更好喝呢~"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "像那种又甜又腻的饮料，大概受众只会有雪一个人吧……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐似乎很忙碌的样子，那我先采购一些食材吧！还有些什么食材剩下的呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "让我看看，大葱、炼乳、还有仙人掌！根本没有人来买仙人掌嘛！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "如果没有全部卖完，是不是晚上就没办法来吃晚饭了？要不我多买点食材，正好晚上用来做菜会用得上的。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "那怎么行呢，米斯琪你也是我们这里的老顾客，不如我免费给你送一点吧！你想要什么随便挑！一方面是我也想吃你用这些料理做出来的美食，另一方面也是为了感谢你成功帮我和舞舞和解呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "（偷偷看一眼舞）雪雪这样子送给我这么多食材，舞小姐不会生气的吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "（嘟着嘴）才没有哦！毕竟，毕竟无论怎么说，我也要感谢你的帮助呢!"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "那我就不客气啦，各种食材都拿一点吧！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki&Mai_Request_Ingredient_LV4_LV5",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪酱，舞小姐，今天也是一如既往的繁忙吗?"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "是啊是啊，明明忙了一整个上午，却还有一大堆食材没卖完。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "欸，舞小姐呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "在后面忙着改善新的汽水呢，毕竟雪雪之前拜托她帮忙研究一下怎么样调配香蕉味樱桃汽水才能变得更好喝呢~"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "像那种又甜又腻的饮料，大概受众只会有雪一个人吧……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "舞小姐似乎很忙碌的样子，那我先采购一些食材吧！还有些什么食材剩下的呢？"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "让我看看，大葱、炼乳、还有仙人掌！根本没有人来买仙人掌嘛！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "如果没有全部卖完，是不是晚上就没办法来吃晚饭了？要不我多买点食材，正好晚上用来做菜会用得上的。"
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "那怎么行呢，米斯琪你也是我们这里的老顾客，不如我免费给你送一点吧！你想要什么随便挑！一方面是我也想吃你用这些料理做出来的美食，另一方面也是为了感谢你成功帮我和舞舞和解呢！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "（偷偷看一眼舞）雪雪这样子送给我这么多食材，舞小姐不会生气的吗？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "（嘟着嘴）才没有哦！毕竟……我们已经是朋友了呢，麻雀小姐。作为朋友，想要什么就随便拿！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "那我就不客气啦，各种食材都拿一点吧！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Yuki&Mai_Request_Beverage",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "雪雪酱，舞小姐，今天也是一如既往的繁忙吗?"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "是啊，多亏了雪她从卖怪药的旅商那边借来了大喇叭，半个村庄的居民都能听到她的叫卖声了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "看起来排队买食材的队伍都已经排到寺子屋门口了，我还是先采购一些饮料吧！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "正好，麻雀小姐你先尝尝这个。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "这是什么，外表看起来像是橙汁的样子呢？"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "我也不知道叫什么，好像叫什么什么bru，又是露易兹从西方国家带回来的什么纪念品，我没敢喝。"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "每次她带回来的都说是什么网红饮料，结果没有经过我的改良根本不会有人愿意喝！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "这样啊，不过既然是露易兹小姐带回来的，那么味道应该（喝一口）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Right",
+          "text": "呜哇！这是什么味道！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "不好喝吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Right",
+          "text": "又酸又甜，气泡特别足，感觉就像喝下去一整口奶油泡沫一般腻……"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "那么赶紧用这边的茶来解一下腻吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "谢谢（一口全部喝下）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "噗，这又是什么饮料啊！又苦又涩，根本没法喝啊！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "唔，这也是露易兹带回来的，叫什么马什么茶的……果然，不经过改良还是不行啊，这下有的忙了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "原来我被当作小白鼠了吗！"
+        },
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "对不起，麻雀小姐，为了表达歉意，全场的饮料全部免费送给你了！等我调整完配方之后再给你尝尝吧！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "不，不用了！"
         }
       ]
     }
@@ -8204,6 +12280,249 @@
         "dialogPackageName": "_ResourceExample_Kizuna_Koakuma_LV3_003"
       },
       "postMissionsAfterPerformance": []
+    },
+    {
+      "title": "请雪、舞品尝一下「肉汁奶酪薯条」吧！",
+      "description": "从雪那儿得到了新料理的灵感，做出来以后请她和舞小姐尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Yuki",
+      "reciever": "_ResourceExample_Yuki",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Yuki",
+          "amount": 11015
+        },
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Mai",
+          "amount": 11015
+        }
+      ],
+      "label": "_ResourceExample_Kizuna_Yuki_LV1_Upgrade_001_Mission",
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Yuki"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV1_002"
+      },
+      "postEvents": [
+        "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_001_Event"
+      ],
+      "postMissionsAfterPerformance": []
+    },
+    {
+      "title": "汤一定要趁热喝！",
+      "description": "用什么食材做出来的汤能够让舞舞酱暖暖身子呢？米斯琪，帮我想一想吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Yuki",
+      "reciever": "_ResourceExample_Yuki",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "SubmitByTags",
+          "sellableType": "Food",
+          "tag": 31,
+          "tags": [
+            22,
+            32
+          ],
+          "amount": 5
+        }
+      ],
+      "label": "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_001_Mission",
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV2_002"
+      },
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_002_Mission"
+      ],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11016
+          ]
+        }
+      ],
+      "postEvents": []
+    },
+    {
+      "title": "请舞品尝一下「俄罗斯酸辣汤」吧！",
+      "description": "从雪那儿得到了新料理的灵感，做出来以后请舞小姐尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Yuki",
+      "reciever": "_ResourceExample_Yuki",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Mai",
+          "amount": 11016
+        }
+      ],
+      "label": "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_002_Mission",
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Yuki"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV2_003"
+      },
+      "postEvents": [
+        "_ResourceExample_Kizuna_Yuki_LV3_Upgrade_001_Event"
+      ],
+      "postMissionsAfterPerformance": []
+    },
+    {
+      "title": "请雪、舞品尝一下「奶油甜煎饼卷」吧！",
+      "description": "从雪那儿得到了新料理的灵感，做出来以后请她和舞小姐尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Yuki",
+      "reciever": "_ResourceExample_Yuki",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Yuki",
+          "amount": 11017
+        },
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Mai",
+          "amount": 11017
+        }
+      ],
+      "label": "_ResourceExample_Kizuna_Yuki_LV3_Upgrade_001_Mission",
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Yuki"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV3_002"
+      },
+      "postEvents": [
+        "_ResourceExample_Kizuna_Yuki_LV4_Upgrade_001_Event"
+      ],
+      "postMissionsAfterPerformance": []
+    },
+    {
+      "title": "请舞品尝一下「烤玉米」吧！",
+      "description": "从舞那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Mai",
+      "reciever": "_ResourceExample_Mai",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Mai",
+          "amount": 11018
+        }
+      ],
+      "label": "_ResourceExample_Mai_LV1_Upgrade_001_Mission",
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Mai"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV1_002"
+      },
+      "postMissionsAfterPerformance": [],
+      "postEvents": [
+        "_ResourceExample_Mai_LV2_Upgrade_001_Event"
+      ]
+    },
+    {
+      "title": "请舞品尝一下「俄罗斯冻汤」吧！",
+      "description": "从舞那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Mai",
+      "reciever": "_ResourceExample_Mai",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Mai",
+          "amount": 11019
+        }
+      ],
+      "label": "_ResourceExample_Mai_LV2_Upgrade_001_Mission",
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Mai"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV2_002"
+      },
+      "postEvents": [
+        "_ResourceExample_Mai_LV3_Upgrade_001_Event"
+      ],
+      "postMissionsAfterPerformance": []
+    },
+    {
+      "title": "请舞品尝一下「奶油甜煎饼卷」吧！",
+      "description": "从舞那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_Mai",
+      "reciever": "_ResourceExample_Mai",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_Mai",
+          "amount": 11017
+        }
+      ],
+      "label": "_ResourceExample_Mai_LV3_Upgrade_001_Mission",
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Mai"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV3_002"
+      },
+      "postEvents": [
+        "_ResourceExample_Mai_LV4_Upgrade_001_Event"
+      ],
+      "postMissionsAfterPerformance": []
     }
   ],
   "merchants": [
@@ -8625,6 +12944,226 @@
         {
           "rewardType": "UpgradeKizunaLevel",
           "rewardId": "_ResourceExample_Koakuma"
+        }
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Yuki_LV1_Upgrade_001_Event",
+      "debugLabel": "雪羁绊 LV1 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV1_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Yuki"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11015
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Yuki_LV1_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_001_Event",
+      "debugLabel": "雪羁绊 LV2 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV2_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Yuki"
+        }
+      },
+      "rewards": [],
+      "postRewards": [],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Yuki_LV3_Upgrade_001_Event",
+      "debugLabel": "雪羁绊 LV3 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV3_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Yuki"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11017
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Yuki_LV3_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Yuki_LV4_Upgrade_001_Event",
+      "debugLabel": "雪羁绊 LV4 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV4_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Yuki"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Yuki"
+        },
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Ingredient",
+          "rewardIntArray": [
+            11000
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Mai_LV1_Upgrade_001_Event",
+      "debugLabel": "舞羁绊 LV1 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV1_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Mai"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11018
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Mai_LV1_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Mai_LV2_Upgrade_001_Event",
+      "debugLabel": "舞羁绊 LV2 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV2_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Mai"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11019
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Mai_LV2_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Mai_LV3_Upgrade_001_Event",
+      "debugLabel": "舞羁绊 LV3 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV3_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Mai"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11020
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Mai_LV3_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Mai_LV4_Upgrade_001_Event",
+      "debugLabel": "舞羁绊 LV4 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV4_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_Mai"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Mai"
+        },
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Ingredient",
+          "rewardIntArray": [
+            11007
+          ]
         }
       ],
       "postMissionsAfterPerformance": [],
