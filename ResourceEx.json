@@ -12493,7 +12493,7 @@
       "postMissionsAfterPerformance": []
     },
     {
-      "title": "请舞品尝一下「奶油甜煎饼卷」吧！",
+      "title": "请舞品尝一下「西班牙冷汤」吧！",
       "description": "从舞那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
@@ -12505,7 +12505,7 @@
           "conditionType": "ServeInWork",
           "sellableType": "Food",
           "label": "_ResourceExample_Mai",
-          "amount": 11017
+          "amount": 11020
         }
       ],
       "label": "_ResourceExample_Mai_LV3_Upgrade_001_Mission",
