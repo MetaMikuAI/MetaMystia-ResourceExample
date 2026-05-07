@@ -35,26 +35,26 @@
         "妖精们每天的生活想必会很有趣吧？如果从责任和义务这些角度来想，大酱她相比起其她妖精在这方面考虑得可能更多一些，但恰好是不至于负累又不会变成笨蛋的平衡点呢。真是让鸟脑袋都羡慕的生活态度啊。"
       ],
       "type": "Special",
-      "avatar": "assets/Character/9000/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/9000/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/9000/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/9000/Portrait/0.png",
           "label": "大妖精 微笑"
         },
         {
           "pid": 1,
-          "path": "assets/Character/9000/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/9000/Portrait/1.png",
           "label": "大妖精 微笑张嘴"
         },
         {
           "pid": 2,
-          "path": "assets/Character/9000/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/9000/Portrait/2.png",
           "label": "大妖精 低沉"
         },
         {
           "pid": 3,
-          "path": "assets/Character/9000/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/9000/Portrait/3.png",
           "label": "大妖精 张嘴"
         }
       ],
@@ -231,44 +231,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_Daiyousei",
         "mainSprite": [
-          "assets/Character/9000/Sprite/Main_0, 0.png",
-          "assets/Character/9000/Sprite/Main_0, 1.png",
-          "assets/Character/9000/Sprite/Main_0, 2.png",
-          "assets/Character/9000/Sprite/Main_1, 0.png",
-          "assets/Character/9000/Sprite/Main_1, 1.png",
-          "assets/Character/9000/Sprite/Main_1, 2.png",
-          "assets/Character/9000/Sprite/Main_2, 0.png",
-          "assets/Character/9000/Sprite/Main_2, 1.png",
-          "assets/Character/9000/Sprite/Main_2, 2.png",
-          "assets/Character/9000/Sprite/Main_3, 0.png",
-          "assets/Character/9000/Sprite/Main_3, 1.png",
-          "assets/Character/9000/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/9000/Sprite/Eyes_0, 0.png",
-          "assets/Character/9000/Sprite/Eyes_0, 1.png",
-          "assets/Character/9000/Sprite/Eyes_0, 2.png",
-          "assets/Character/9000/Sprite/Eyes_0, 3.png",
-          "assets/Character/9000/Sprite/Eyes_1, 0.png",
-          "assets/Character/9000/Sprite/Eyes_1, 1.png",
-          "assets/Character/9000/Sprite/Eyes_1, 2.png",
-          "assets/Character/9000/Sprite/Eyes_1, 3.png",
-          "assets/Character/9000/Sprite/Eyes_2, 0.png",
-          "assets/Character/9000/Sprite/Eyes_2, 1.png",
-          "assets/Character/9000/Sprite/Eyes_2, 2.png",
-          "assets/Character/9000/Sprite/Eyes_2, 3.png",
-          "assets/Character/9000/Sprite/Eyes_3, 0.png",
-          "assets/Character/9000/Sprite/Eyes_3, 1.png",
-          "assets/Character/9000/Sprite/Eyes_3, 2.png",
-          "assets/Character/9000/Sprite/Eyes_3, 3.png",
-          "assets/Character/9000/Sprite/Eyes_4, 0.png",
-          "assets/Character/9000/Sprite/Eyes_4, 1.png",
-          "assets/Character/9000/Sprite/Eyes_4, 2.png",
-          "assets/Character/9000/Sprite/Eyes_4, 3.png",
-          "assets/Character/9000/Sprite/Eyes_5, 0.png",
-          "assets/Character/9000/Sprite/Eyes_5, 1.png",
-          "assets/Character/9000/Sprite/Eyes_5, 2.png",
-          "assets/Character/9000/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/9000/Sprite/Eyes_5, 3.png"
         ]
       },
       "kizuna": {
@@ -388,121 +388,121 @@
         "还真是要强的性子啊。能看出来她虽不愿意承认，但还是非常在乎自己能不能得到肯定和拥有价值呢。不过我从帕秋莉那里得到的消息是她早就承认小恶魔作为一位助手的能力和水平了，只是在长久的相处之下不知道怎么去开这个口。或许，她只是在因为心里的那点傲气坚持着吧？"
       ],
       "type": "Special",
-      "avatar": "assets/Character/9001/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/9001/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/9001/Portrait/0.png"
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/0.png"
         },
         {
           "pid": 1,
-          "path": "assets/Character/9001/Portrait/1.png"
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/1.png"
         },
         {
           "pid": 2,
-          "path": "assets/Character/9001/Portrait/2.png"
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/2.png"
         },
         {
           "pid": 3,
-          "path": "assets/Character/9001/Portrait/3.png"
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/3.png"
         },
         {
           "pid": 4,
-          "path": "assets/Character/9001/Portrait/4.png"
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/4.png"
         },
         {
           "pid": 5,
-          "path": "assets/Character/9001/Portrait/5.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/5.png",
           "label": "小恶魔 落寞"
         },
         {
           "pid": 6,
-          "path": "assets/Character/9001/Portrait/6.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/6.png",
           "label": "小恶魔 坏笑"
         },
         {
           "pid": 7,
-          "path": "assets/Character/9001/Portrait/7.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/7.png",
           "label": "小恶魔 勇敢"
         },
         {
           "pid": 8,
-          "path": "assets/Character/9001/Portrait/8.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/8.png",
           "label": "小恶魔 咧嘴笑"
         },
         {
           "pid": 9,
-          "path": "assets/Character/9001/Portrait/9.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/9.png",
           "label": "小恶魔 呆1"
         },
         {
           "pid": 10,
-          "path": "assets/Character/9001/Portrait/10.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/10.png",
           "label": "小恶魔 呆2"
         },
         {
           "pid": 11,
-          "path": "assets/Character/9001/Portrait/11.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/11.png",
           "label": "小恶魔 幻想"
         },
         {
           "pid": 12,
-          "path": "assets/Character/9001/Portrait/12.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/12.png",
           "label": "小恶魔 抱怨"
         },
         {
           "pid": 13,
-          "path": "assets/Character/9001/Portrait/13.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/13.png",
           "label": "小恶魔 得意"
         },
         {
           "pid": 14,
-          "path": "assets/Character/9001/Portrait/14.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/14.png",
           "label": "小恶魔 坏笑"
         },
         {
           "pid": 15,
-          "path": "assets/Character/9001/Portrait/15.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/15.png",
           "label": "小恶魔 微笑"
         },
         {
           "pid": 16,
-          "path": "assets/Character/9001/Portrait/16.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/16.png",
           "label": "小恶魔 橙火 得意"
         },
         {
           "pid": 17,
-          "path": "assets/Character/9001/Portrait/17.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/17.png",
           "label": "小恶魔 橙火 坏笑"
         },
         {
           "pid": 18,
-          "path": "assets/Character/9001/Portrait/18.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/18.png",
           "label": "小恶魔 橙火 微笑"
         },
         {
           "pid": 19,
-          "path": "assets/Character/9001/Portrait/19.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/19.png",
           "label": "小恶魔 橙火 正常"
         },
         {
           "pid": 20,
-          "path": "assets/Character/9001/Portrait/20.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/20.png",
           "label": "小恶魔 紫火 得意"
         },
         {
           "pid": 21,
-          "path": "assets/Character/9001/Portrait/21.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/21.png",
           "label": "小恶魔 紫火 坏笑"
         },
         {
           "pid": 22,
-          "path": "assets/Character/9001/Portrait/22.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/22.png",
           "label": "小恶魔 紫火 微笑"
         },
         {
           "pid": 23,
-          "path": "assets/Character/9001/Portrait/23.png",
+          "path": "res://ResourceExample/assets/Character/9001/Portrait/23.png",
           "label": "小恶魔 紫火 正常"
         }
       ],
@@ -696,44 +696,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_Koakuma",
         "mainSprite": [
-          "assets/Character/9001/Sprite/Main_0, 0.png",
-          "assets/Character/9001/Sprite/Main_0, 1.png",
-          "assets/Character/9001/Sprite/Main_0, 2.png",
-          "assets/Character/9001/Sprite/Main_1, 0.png",
-          "assets/Character/9001/Sprite/Main_1, 1.png",
-          "assets/Character/9001/Sprite/Main_1, 2.png",
-          "assets/Character/9001/Sprite/Main_2, 0.png",
-          "assets/Character/9001/Sprite/Main_2, 1.png",
-          "assets/Character/9001/Sprite/Main_2, 2.png",
-          "assets/Character/9001/Sprite/Main_3, 0.png",
-          "assets/Character/9001/Sprite/Main_3, 1.png",
-          "assets/Character/9001/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/9001/Sprite/Eyes_0, 0.png",
-          "assets/Character/9001/Sprite/Eyes_0, 1.png",
-          "assets/Character/9001/Sprite/Eyes_0, 2.png",
-          "assets/Character/9001/Sprite/Eyes_0, 3.png",
-          "assets/Character/9001/Sprite/Eyes_1, 0.png",
-          "assets/Character/9001/Sprite/Eyes_1, 1.png",
-          "assets/Character/9001/Sprite/Eyes_1, 2.png",
-          "assets/Character/9001/Sprite/Eyes_1, 3.png",
-          "assets/Character/9001/Sprite/Eyes_2, 0.png",
-          "assets/Character/9001/Sprite/Eyes_2, 1.png",
-          "assets/Character/9001/Sprite/Eyes_2, 2.png",
-          "assets/Character/9001/Sprite/Eyes_2, 3.png",
-          "assets/Character/9001/Sprite/Eyes_3, 0.png",
-          "assets/Character/9001/Sprite/Eyes_3, 1.png",
-          "assets/Character/9001/Sprite/Eyes_3, 2.png",
-          "assets/Character/9001/Sprite/Eyes_3, 3.png",
-          "assets/Character/9001/Sprite/Eyes_4, 0.png",
-          "assets/Character/9001/Sprite/Eyes_4, 1.png",
-          "assets/Character/9001/Sprite/Eyes_4, 2.png",
-          "assets/Character/9001/Sprite/Eyes_4, 3.png",
-          "assets/Character/9001/Sprite/Eyes_5, 0.png",
-          "assets/Character/9001/Sprite/Eyes_5, 1.png",
-          "assets/Character/9001/Sprite/Eyes_5, 2.png",
-          "assets/Character/9001/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/9001/Sprite/Eyes_5, 3.png"
         ]
       },
       "kizuna": {
@@ -866,102 +866,102 @@
         "芙兰朵露小姐的心理….似乎真的就是一个没接触过世界的小孩子的呢。到底是因为吸血鬼的长寿天赋导致的心智发育缓慢，还是极少接触外人所导致的呢？",
         "其实我还挺同情芙兰朵露小姐的。她的力量似乎成为了一份不可能挣脱的束缚，即使包括蕾米莉亚小姐在内的所有人的本意都是好的，可惜这不是一个能被“爱”或者“友善”改变的命题。不过，就这段时间的相处而言，“伙伴”似乎可以是答案之一哦？至于证明，就交给时间吧。"
       ],
-      "avatar": "assets/Character/9002/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/9002/Avatar.png",
       "type": "Special",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/9002/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/0.png",
           "label": "芙兰 乐"
         },
         {
           "pid": 1,
-          "path": "assets/Character/9002/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/1.png",
           "label": "芙兰 哀"
         },
         {
           "pid": 2,
-          "path": "assets/Character/9002/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/2.png",
           "label": "芙兰 微笑"
         },
         {
           "pid": 3,
-          "path": "assets/Character/9002/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/3.png",
           "label": "芙兰 微笑张嘴"
         },
         {
           "pid": 4,
-          "path": "assets/Character/9002/Portrait/4.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/4.png",
           "label": "芙兰 怒"
         },
         {
           "pid": 5,
-          "path": "assets/Character/9002/Portrait/5.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/5.png",
           "label": "芙兰 无表情"
         },
         {
           "pid": 6,
-          "path": "assets/Character/9002/Portrait/6.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/6.png",
           "label": "芙兰 无表情张嘴"
         },
         {
           "pid": 7,
-          "path": "assets/Character/9002/Portrait/7.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/7.png",
           "label": "芙兰 暴虐"
         },
         {
           "pid": 8,
-          "path": "assets/Character/9002/Portrait/8.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/8.png",
           "label": "芙兰 疯狂"
         },
         {
           "pid": 9,
-          "path": "assets/Character/9002/Portrait/9.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/9.png",
           "label": "芙兰 笑"
         },
         {
           "pid": 10,
-          "path": "assets/Character/9002/Portrait/10.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/10.png",
           "label": "芙兰 装可爱"
         },
         {
           "pid": 11,
-          "path": "assets/Character/9002/Portrait/11.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/11.png",
           "label": "芙兰 微笑张嘴2"
         },
         {
           "pid": 12,
-          "path": "assets/Character/9002/Portrait/12.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/12.png",
           "label": "芙兰 boss喜"
         },
         {
           "pid": 13,
-          "path": "assets/Character/9002/Portrait/13.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/13.png",
           "label": "芙兰 boss怒"
         },
         {
           "pid": 14,
-          "path": "assets/Character/9002/Portrait/14.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/14.png",
           "label": "芙兰 boss哀"
         },
         {
           "pid": 15,
-          "path": "assets/Character/9002/Portrait/15.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/15.png",
           "label": "芙兰 boss乐"
         },
         {
           "pid": 16,
-          "path": "assets/Character/9002/Portrait/16.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/16.png",
           "label": "芙兰 嘲讽"
         },
         {
           "pid": 17,
-          "path": "assets/Character/9002/Portrait/17.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/17.png",
           "label": "芙兰 怒2"
         },
         {
           "pid": 18,
-          "path": "assets/Character/9002/Portrait/18.png",
+          "path": "res://ResourceExample/assets/Character/9002/Portrait/18.png",
           "label": "芙兰 怒3"
         }
       ],
@@ -1144,44 +1144,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_FlandreScarlet",
         "mainSprite": [
-          "assets/Character/9002/Sprite/Main_0, 0.png",
-          "assets/Character/9002/Sprite/Main_0, 1.png",
-          "assets/Character/9002/Sprite/Main_0, 2.png",
-          "assets/Character/9002/Sprite/Main_1, 0.png",
-          "assets/Character/9002/Sprite/Main_1, 1.png",
-          "assets/Character/9002/Sprite/Main_1, 2.png",
-          "assets/Character/9002/Sprite/Main_2, 0.png",
-          "assets/Character/9002/Sprite/Main_2, 1.png",
-          "assets/Character/9002/Sprite/Main_2, 2.png",
-          "assets/Character/9002/Sprite/Main_3, 0.png",
-          "assets/Character/9002/Sprite/Main_3, 1.png",
-          "assets/Character/9002/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/9002/Sprite/Eyes_0, 0.png",
-          "assets/Character/9002/Sprite/Eyes_0, 1.png",
-          "assets/Character/9002/Sprite/Eyes_0, 2.png",
-          "assets/Character/9002/Sprite/Eyes_0, 3.png",
-          "assets/Character/9002/Sprite/Eyes_1, 0.png",
-          "assets/Character/9002/Sprite/Eyes_1, 1.png",
-          "assets/Character/9002/Sprite/Eyes_1, 2.png",
-          "assets/Character/9002/Sprite/Eyes_1, 3.png",
-          "assets/Character/9002/Sprite/Eyes_2, 0.png",
-          "assets/Character/9002/Sprite/Eyes_2, 1.png",
-          "assets/Character/9002/Sprite/Eyes_2, 2.png",
-          "assets/Character/9002/Sprite/Eyes_2, 3.png",
-          "assets/Character/9002/Sprite/Eyes_3, 0.png",
-          "assets/Character/9002/Sprite/Eyes_3, 1.png",
-          "assets/Character/9002/Sprite/Eyes_3, 2.png",
-          "assets/Character/9002/Sprite/Eyes_3, 3.png",
-          "assets/Character/9002/Sprite/Eyes_4, 0.png",
-          "assets/Character/9002/Sprite/Eyes_4, 1.png",
-          "assets/Character/9002/Sprite/Eyes_4, 2.png",
-          "assets/Character/9002/Sprite/Eyes_4, 3.png",
-          "assets/Character/9002/Sprite/Eyes_5, 0.png",
-          "assets/Character/9002/Sprite/Eyes_5, 1.png",
-          "assets/Character/9002/Sprite/Eyes_5, 2.png",
-          "assets/Character/9002/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/9002/Sprite/Eyes_5, 3.png"
         ]
       },
       "faceInNoteBook": 2,
@@ -1216,26 +1216,26 @@
         "永远亭，月亮的子民，不死身……永琳小姐原来身上承担了这样多的责任吗？明明看起来只是一个技术超群的医师的说。可能所谓的“大人物”就是“承担着大责任的人物”吧？使命什么的……对于鸟脑袋来说比天上的月亮还让人摸不清楚啊。"
       ],
       "type": "Special",
-      "avatar": "assets/Character/9003/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/9003/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/9003/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/9003/Portrait/0.png",
           "label": "永琳 微笑"
         },
         {
           "pid": 1,
-          "path": "assets/Character/9003/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/9003/Portrait/1.png",
           "label": "永琳 微笑张嘴"
         },
         {
           "pid": 2,
-          "path": "assets/Character/9003/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/9003/Portrait/2.png",
           "label": "永琳 无表情"
         },
         {
           "pid": 3,
-          "path": "assets/Character/9003/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/9003/Portrait/3.png",
           "label": "永琳 无表情张嘴"
         }
       ],
@@ -1452,44 +1452,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_YagokoroEirin",
         "mainSprite": [
-          "assets/Character/9003/Sprite/Main_0, 0.png",
-          "assets/Character/9003/Sprite/Main_0, 1.png",
-          "assets/Character/9003/Sprite/Main_0, 2.png",
-          "assets/Character/9003/Sprite/Main_1, 0.png",
-          "assets/Character/9003/Sprite/Main_1, 1.png",
-          "assets/Character/9003/Sprite/Main_1, 2.png",
-          "assets/Character/9003/Sprite/Main_2, 0.png",
-          "assets/Character/9003/Sprite/Main_2, 1.png",
-          "assets/Character/9003/Sprite/Main_2, 2.png",
-          "assets/Character/9003/Sprite/Main_3, 0.png",
-          "assets/Character/9003/Sprite/Main_3, 1.png",
-          "assets/Character/9003/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/9003/Sprite/Eyes_0, 0.png",
-          "assets/Character/9003/Sprite/Eyes_0, 1.png",
-          "assets/Character/9003/Sprite/Eyes_0, 2.png",
-          "assets/Character/9003/Sprite/Eyes_0, 3.png",
-          "assets/Character/9003/Sprite/Eyes_1, 0.png",
-          "assets/Character/9003/Sprite/Eyes_1, 1.png",
-          "assets/Character/9003/Sprite/Eyes_1, 2.png",
-          "assets/Character/9003/Sprite/Eyes_1, 3.png",
-          "assets/Character/9003/Sprite/Eyes_2, 0.png",
-          "assets/Character/9003/Sprite/Eyes_2, 1.png",
-          "assets/Character/9003/Sprite/Eyes_2, 2.png",
-          "assets/Character/9003/Sprite/Eyes_2, 3.png",
-          "assets/Character/9003/Sprite/Eyes_3, 0.png",
-          "assets/Character/9003/Sprite/Eyes_3, 1.png",
-          "assets/Character/9003/Sprite/Eyes_3, 2.png",
-          "assets/Character/9003/Sprite/Eyes_3, 3.png",
-          "assets/Character/9003/Sprite/Eyes_4, 0.png",
-          "assets/Character/9003/Sprite/Eyes_4, 1.png",
-          "assets/Character/9003/Sprite/Eyes_4, 2.png",
-          "assets/Character/9003/Sprite/Eyes_4, 3.png",
-          "assets/Character/9003/Sprite/Eyes_5, 0.png",
-          "assets/Character/9003/Sprite/Eyes_5, 1.png",
-          "assets/Character/9003/Sprite/Eyes_5, 2.png",
-          "assets/Character/9003/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/9003/Sprite/Eyes_5, 3.png"
         ]
       },
       "faceInNoteBook": 0,
@@ -1510,26 +1510,26 @@
         "真是太让我震撼了。原来，她不仅是魔界之神，还是一位认真又有耐心的“创作者”，难怪能做出如此精致的“作品”。做菜也好，招待客人也罢，在追求精益求精这方面，我确实该向她学习呢。"
       ],
       "type": "Special",
-      "avatar": "assets/Character/9004/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/9004/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/9004/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/9004/Portrait/0.png",
           "label": "神绮改 微笑"
         },
         {
           "pid": 1,
-          "path": "assets/Character/9004/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/9004/Portrait/1.png",
           "label": "神绮改 微笑张嘴"
         },
         {
           "pid": 2,
-          "path": "assets/Character/9004/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/9004/Portrait/2.png",
           "label": "神绮改 无表情"
         },
         {
           "pid": 3,
-          "path": "assets/Character/9004/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/9004/Portrait/3.png",
           "label": "神绮改 无表情张嘴"
         }
       ],
@@ -1736,44 +1736,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_Shinki",
         "mainSprite": [
-          "assets/Character/9004/Sprite/Main_0, 0.png",
-          "assets/Character/9004/Sprite/Main_0, 1.png",
-          "assets/Character/9004/Sprite/Main_0, 2.png",
-          "assets/Character/9004/Sprite/Main_1, 0.png",
-          "assets/Character/9004/Sprite/Main_1, 1.png",
-          "assets/Character/9004/Sprite/Main_1, 2.png",
-          "assets/Character/9004/Sprite/Main_2, 0.png",
-          "assets/Character/9004/Sprite/Main_2, 1.png",
-          "assets/Character/9004/Sprite/Main_2, 2.png",
-          "assets/Character/9004/Sprite/Main_3, 0.png",
-          "assets/Character/9004/Sprite/Main_3, 1.png",
-          "assets/Character/9004/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/9004/Sprite/Eyes_0, 0.png",
-          "assets/Character/9004/Sprite/Eyes_0, 1.png",
-          "assets/Character/9004/Sprite/Eyes_0, 2.png",
-          "assets/Character/9004/Sprite/Eyes_0, 3.png",
-          "assets/Character/9004/Sprite/Eyes_1, 0.png",
-          "assets/Character/9004/Sprite/Eyes_1, 1.png",
-          "assets/Character/9004/Sprite/Eyes_1, 2.png",
-          "assets/Character/9004/Sprite/Eyes_1, 3.png",
-          "assets/Character/9004/Sprite/Eyes_2, 0.png",
-          "assets/Character/9004/Sprite/Eyes_2, 1.png",
-          "assets/Character/9004/Sprite/Eyes_2, 2.png",
-          "assets/Character/9004/Sprite/Eyes_2, 3.png",
-          "assets/Character/9004/Sprite/Eyes_3, 0.png",
-          "assets/Character/9004/Sprite/Eyes_3, 1.png",
-          "assets/Character/9004/Sprite/Eyes_3, 2.png",
-          "assets/Character/9004/Sprite/Eyes_3, 3.png",
-          "assets/Character/9004/Sprite/Eyes_4, 0.png",
-          "assets/Character/9004/Sprite/Eyes_4, 1.png",
-          "assets/Character/9004/Sprite/Eyes_4, 2.png",
-          "assets/Character/9004/Sprite/Eyes_4, 3.png",
-          "assets/Character/9004/Sprite/Eyes_5, 0.png",
-          "assets/Character/9004/Sprite/Eyes_5, 1.png",
-          "assets/Character/9004/Sprite/Eyes_5, 2.png",
-          "assets/Character/9004/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/9004/Sprite/Eyes_5, 3.png"
         ]
       },
       "faceInNoteBook": 0,
@@ -1793,26 +1793,26 @@
         "虽然看起来很高冷，但实际上是一个很热情的神呢，这大概就是外冷内热吧？她似乎还很喜欢读书写作，只不过写出来的那些东西我基本上都看不懂。我可真是个鸟脑袋……改天还是多邀请她到店里坐坐吧。"
       ],
       "type": "Special",
-      "avatar": "assets/Character/10000/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/10000/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/10000/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/10000/Portrait/0.png",
           "label": "秋静叶 微笑"
         },
         {
           "pid": 1,
-          "path": "assets/Character/10000/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/10000/Portrait/1.png",
           "label": "秋静叶 叹气"
         },
         {
           "pid": 2,
-          "path": "assets/Character/10000/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/10000/Portrait/2.png",
           "label": "秋静叶 生气"
         },
         {
           "pid": 3,
-          "path": "assets/Character/10000/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/10000/Portrait/3.png",
           "label": "秋静叶 震惊"
         }
       ],
@@ -1954,44 +1954,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_AkiSizuha",
         "mainSprite": [
-          "assets/Character/10000/Sprite/Main_0, 0.png",
-          "assets/Character/10000/Sprite/Main_0, 1.png",
-          "assets/Character/10000/Sprite/Main_0, 2.png",
-          "assets/Character/10000/Sprite/Main_1, 0.png",
-          "assets/Character/10000/Sprite/Main_1, 1.png",
-          "assets/Character/10000/Sprite/Main_1, 2.png",
-          "assets/Character/10000/Sprite/Main_2, 0.png",
-          "assets/Character/10000/Sprite/Main_2, 1.png",
-          "assets/Character/10000/Sprite/Main_2, 2.png",
-          "assets/Character/10000/Sprite/Main_3, 0.png",
-          "assets/Character/10000/Sprite/Main_3, 1.png",
-          "assets/Character/10000/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/10000/Sprite/Eyes_0, 0.png",
-          "assets/Character/10000/Sprite/Eyes_0, 1.png",
-          "assets/Character/10000/Sprite/Eyes_0, 2.png",
-          "assets/Character/10000/Sprite/Eyes_0, 3.png",
-          "assets/Character/10000/Sprite/Eyes_1, 0.png",
-          "assets/Character/10000/Sprite/Eyes_1, 1.png",
-          "assets/Character/10000/Sprite/Eyes_1, 2.png",
-          "assets/Character/10000/Sprite/Eyes_1, 3.png",
-          "assets/Character/10000/Sprite/Eyes_2, 0.png",
-          "assets/Character/10000/Sprite/Eyes_2, 1.png",
-          "assets/Character/10000/Sprite/Eyes_2, 2.png",
-          "assets/Character/10000/Sprite/Eyes_2, 3.png",
-          "assets/Character/10000/Sprite/Eyes_3, 0.png",
-          "assets/Character/10000/Sprite/Eyes_3, 1.png",
-          "assets/Character/10000/Sprite/Eyes_3, 2.png",
-          "assets/Character/10000/Sprite/Eyes_3, 3.png",
-          "assets/Character/10000/Sprite/Eyes_4, 0.png",
-          "assets/Character/10000/Sprite/Eyes_4, 1.png",
-          "assets/Character/10000/Sprite/Eyes_4, 2.png",
-          "assets/Character/10000/Sprite/Eyes_4, 3.png",
-          "assets/Character/10000/Sprite/Eyes_5, 0.png",
-          "assets/Character/10000/Sprite/Eyes_5, 1.png",
-          "assets/Character/10000/Sprite/Eyes_5, 2.png",
-          "assets/Character/10000/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/10000/Sprite/Eyes_5, 3.png"
         ]
       },
       "faceInNoteBook": 0,
@@ -2011,41 +2011,41 @@
         "原来秋穰子小姐那么喜欢烤红薯的吗？毕竟是丰收的神明呢，说起来，她的身上好像一直有着一种香喷喷的烤红薯味，应该是用了某种特制香水吧？"
       ],
       "type": "Special",
-      "avatar": "assets/Character/10001/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/10001/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/10001/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/0.png",
           "label": "秋穰子 微笑"
         },
         {
           "pid": 1,
-          "path": "assets/Character/10001/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/1.png",
           "label": "秋穰子 笑脸"
         },
         {
           "pid": 2,
-          "path": "assets/Character/10001/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/2.png",
           "label": "秋穰子 震惊"
         },
         {
           "pid": 3,
-          "path": "assets/Character/10001/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/3.png",
           "label": "秋穰子 生气"
         },
         {
           "pid": 4,
-          "path": "assets/Character/10001/Portrait/4.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/4.png",
           "label": "秋穰子 眯眼笑"
         },
         {
           "pid": 5,
-          "path": "assets/Character/10001/Portrait/5.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/5.png",
           "label": "秋穰子 尴尬笑"
         },
         {
           "pid": 6,
-          "path": "assets/Character/10001/Portrait/6.png",
+          "path": "res://ResourceExample/assets/Character/10001/Portrait/6.png",
           "label": "秋穰子 低沉"
         }
       ],
@@ -2178,44 +2178,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_AkiMinoriko",
         "mainSprite": [
-          "assets/Character/10001/Sprite/Main_0, 0.png",
-          "assets/Character/10001/Sprite/Main_0, 1.png",
-          "assets/Character/10001/Sprite/Main_0, 2.png",
-          "assets/Character/10001/Sprite/Main_1, 0.png",
-          "assets/Character/10001/Sprite/Main_1, 1.png",
-          "assets/Character/10001/Sprite/Main_1, 2.png",
-          "assets/Character/10001/Sprite/Main_2, 0.png",
-          "assets/Character/10001/Sprite/Main_2, 1.png",
-          "assets/Character/10001/Sprite/Main_2, 2.png",
-          "assets/Character/10001/Sprite/Main_3, 0.png",
-          "assets/Character/10001/Sprite/Main_3, 1.png",
-          "assets/Character/10001/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/10001/Sprite/Eyes_0, 0.png",
-          "assets/Character/10001/Sprite/Eyes_0, 1.png",
-          "assets/Character/10001/Sprite/Eyes_0, 2.png",
-          "assets/Character/10001/Sprite/Eyes_0, 3.png",
-          "assets/Character/10001/Sprite/Eyes_1, 0.png",
-          "assets/Character/10001/Sprite/Eyes_1, 1.png",
-          "assets/Character/10001/Sprite/Eyes_1, 2.png",
-          "assets/Character/10001/Sprite/Eyes_1, 3.png",
-          "assets/Character/10001/Sprite/Eyes_2, 0.png",
-          "assets/Character/10001/Sprite/Eyes_2, 1.png",
-          "assets/Character/10001/Sprite/Eyes_2, 2.png",
-          "assets/Character/10001/Sprite/Eyes_2, 3.png",
-          "assets/Character/10001/Sprite/Eyes_3, 0.png",
-          "assets/Character/10001/Sprite/Eyes_3, 1.png",
-          "assets/Character/10001/Sprite/Eyes_3, 2.png",
-          "assets/Character/10001/Sprite/Eyes_3, 3.png",
-          "assets/Character/10001/Sprite/Eyes_4, 0.png",
-          "assets/Character/10001/Sprite/Eyes_4, 1.png",
-          "assets/Character/10001/Sprite/Eyes_4, 2.png",
-          "assets/Character/10001/Sprite/Eyes_4, 3.png",
-          "assets/Character/10001/Sprite/Eyes_5, 0.png",
-          "assets/Character/10001/Sprite/Eyes_5, 1.png",
-          "assets/Character/10001/Sprite/Eyes_5, 2.png",
-          "assets/Character/10001/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/10001/Sprite/Eyes_5, 3.png"
         ]
       },
       "faceInNoteBook": 0,
@@ -2235,31 +2235,31 @@
         "哇，原来还发生过这种事情。式神什么的好像也明白一点了。蓝小姐照顾橙，照顾紫小姐，性格温柔又体贴，真希望她能不这么辛苦。"
       ],
       "type": "Special",
-      "avatar": "assets/Character/10002/Avatar.png",
+      "avatar": "res://ResourceExample/assets/Character/10002/Avatar.png",
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/10002/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/10002/Portrait/0.png",
           "label": "八云蓝 微笑"
         },
         {
           "pid": 1,
-          "path": "assets/Character/10002/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/10002/Portrait/1.png",
           "label": "八云蓝 张嘴笑"
         },
         {
           "pid": 2,
-          "path": "assets/Character/10002/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/10002/Portrait/2.png",
           "label": "八云蓝 眯眼笑"
         },
         {
           "pid": 3,
-          "path": "assets/Character/10002/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/10002/Portrait/3.png",
           "label": "八云蓝 害羞"
         },
         {
           "pid": 4,
-          "path": "assets/Character/10002/Portrait/4.png",
+          "path": "res://ResourceExample/assets/Character/10002/Portrait/4.png",
           "label": "八云蓝 尴尬笑"
         }
       ],
@@ -2498,44 +2498,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_YakumoRan",
         "mainSprite": [
-          "assets/Character/10002/Sprite/Main_0, 0.png",
-          "assets/Character/10002/Sprite/Main_0, 1.png",
-          "assets/Character/10002/Sprite/Main_0, 2.png",
-          "assets/Character/10002/Sprite/Main_1, 0.png",
-          "assets/Character/10002/Sprite/Main_1, 1.png",
-          "assets/Character/10002/Sprite/Main_1, 2.png",
-          "assets/Character/10002/Sprite/Main_2, 0.png",
-          "assets/Character/10002/Sprite/Main_2, 1.png",
-          "assets/Character/10002/Sprite/Main_2, 2.png",
-          "assets/Character/10002/Sprite/Main_3, 0.png",
-          "assets/Character/10002/Sprite/Main_3, 1.png",
-          "assets/Character/10002/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/10002/Sprite/Eyes_0, 0.png",
-          "assets/Character/10002/Sprite/Eyes_0, 1.png",
-          "assets/Character/10002/Sprite/Eyes_0, 2.png",
-          "assets/Character/10002/Sprite/Eyes_0, 3.png",
-          "assets/Character/10002/Sprite/Eyes_1, 0.png",
-          "assets/Character/10002/Sprite/Eyes_1, 1.png",
-          "assets/Character/10002/Sprite/Eyes_1, 2.png",
-          "assets/Character/10002/Sprite/Eyes_1, 3.png",
-          "assets/Character/10002/Sprite/Eyes_2, 0.png",
-          "assets/Character/10002/Sprite/Eyes_2, 1.png",
-          "assets/Character/10002/Sprite/Eyes_2, 2.png",
-          "assets/Character/10002/Sprite/Eyes_2, 3.png",
-          "assets/Character/10002/Sprite/Eyes_3, 0.png",
-          "assets/Character/10002/Sprite/Eyes_3, 1.png",
-          "assets/Character/10002/Sprite/Eyes_3, 2.png",
-          "assets/Character/10002/Sprite/Eyes_3, 3.png",
-          "assets/Character/10002/Sprite/Eyes_4, 0.png",
-          "assets/Character/10002/Sprite/Eyes_4, 1.png",
-          "assets/Character/10002/Sprite/Eyes_4, 2.png",
-          "assets/Character/10002/Sprite/Eyes_4, 3.png",
-          "assets/Character/10002/Sprite/Eyes_5, 0.png",
-          "assets/Character/10002/Sprite/Eyes_5, 1.png",
-          "assets/Character/10002/Sprite/Eyes_5, 2.png",
-          "assets/Character/10002/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/10002/Sprite/Eyes_5, 3.png"
         ]
       }
     },
@@ -2552,52 +2552,52 @@
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/11000/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/0.png",
           "label": "雪 正常"
         },
         {
           "pid": 1,
-          "path": "assets/Character/11000/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/1.png",
           "label": "雪 圆眼哭"
         },
         {
           "pid": 2,
-          "path": "assets/Character/11000/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/2.png",
           "label": "雪 无表情"
         },
         {
           "pid": 3,
-          "path": "assets/Character/11000/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/3.png",
           "label": "雪 微笑"
         },
         {
           "pid": 4,
-          "path": "assets/Character/11000/Portrait/4.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/4.png",
           "label": "雪 生气"
         },
         {
           "pid": 5,
-          "path": "assets/Character/11000/Portrait/5.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/5.png",
           "label": "雪 认真"
         },
         {
           "pid": 6,
-          "path": "assets/Character/11000/Portrait/6.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/6.png",
           "label": "雪 气哭"
         },
         {
           "pid": 7,
-          "path": "assets/Character/11000/Portrait/7.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/7.png",
           "label": "雪 尴尬"
         },
         {
           "pid": 8,
-          "path": "assets/Character/11000/Portrait/8.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/8.png",
           "label": "雪 尴尬2"
         },
         {
           "pid": 9,
-          "path": "assets/Character/11000/Portrait/9.png",
+          "path": "res://ResourceExample/assets/Character/11000/Portrait/9.png",
           "label": "雪 被作弄"
         }
       ],
@@ -2611,44 +2611,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_Yuki",
         "mainSprite": [
-          "assets/Character/11000/Sprite/Main_0, 0.png",
-          "assets/Character/11000/Sprite/Main_0, 1.png",
-          "assets/Character/11000/Sprite/Main_0, 2.png",
-          "assets/Character/11000/Sprite/Main_1, 0.png",
-          "assets/Character/11000/Sprite/Main_1, 1.png",
-          "assets/Character/11000/Sprite/Main_1, 2.png",
-          "assets/Character/11000/Sprite/Main_2, 0.png",
-          "assets/Character/11000/Sprite/Main_2, 1.png",
-          "assets/Character/11000/Sprite/Main_2, 2.png",
-          "assets/Character/11000/Sprite/Main_3, 0.png",
-          "assets/Character/11000/Sprite/Main_3, 1.png",
-          "assets/Character/11000/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/11000/Sprite/Eyes_0, 0.png",
-          "assets/Character/11000/Sprite/Eyes_0, 1.png",
-          "assets/Character/11000/Sprite/Eyes_0, 2.png",
-          "assets/Character/11000/Sprite/Eyes_0, 3.png",
-          "assets/Character/11000/Sprite/Eyes_1, 0.png",
-          "assets/Character/11000/Sprite/Eyes_1, 1.png",
-          "assets/Character/11000/Sprite/Eyes_1, 2.png",
-          "assets/Character/11000/Sprite/Eyes_1, 3.png",
-          "assets/Character/11000/Sprite/Eyes_2, 0.png",
-          "assets/Character/11000/Sprite/Eyes_2, 1.png",
-          "assets/Character/11000/Sprite/Eyes_2, 2.png",
-          "assets/Character/11000/Sprite/Eyes_2, 3.png",
-          "assets/Character/11000/Sprite/Eyes_3, 0.png",
-          "assets/Character/11000/Sprite/Eyes_3, 1.png",
-          "assets/Character/11000/Sprite/Eyes_3, 2.png",
-          "assets/Character/11000/Sprite/Eyes_3, 3.png",
-          "assets/Character/11000/Sprite/Eyes_4, 0.png",
-          "assets/Character/11000/Sprite/Eyes_4, 1.png",
-          "assets/Character/11000/Sprite/Eyes_4, 2.png",
-          "assets/Character/11000/Sprite/Eyes_4, 3.png",
-          "assets/Character/11000/Sprite/Eyes_5, 0.png",
-          "assets/Character/11000/Sprite/Eyes_5, 1.png",
-          "assets/Character/11000/Sprite/Eyes_5, 2.png",
-          "assets/Character/11000/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/11000/Sprite/Eyes_5, 3.png"
         ]
       },
       "guest": {
@@ -2939,62 +2939,62 @@
       "portraits": [
         {
           "pid": 0,
-          "path": "assets/Character/11001/Portrait/0.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/0.png",
           "label": "舞 正常"
         },
         {
           "pid": 1,
-          "path": "assets/Character/11001/Portrait/1.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/1.png",
           "label": "舞 走神"
         },
         {
           "pid": 2,
-          "path": "assets/Character/11001/Portrait/2.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/2.png",
           "label": "舞 疑惑"
         },
         {
           "pid": 3,
-          "path": "assets/Character/11001/Portrait/3.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/3.png",
           "label": "舞 微笑"
         },
         {
           "pid": 4,
-          "path": "assets/Character/11001/Portrait/4.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/4.png",
           "label": "舞 失落"
         },
         {
           "pid": 5,
-          "path": "assets/Character/11001/Portrait/5.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/5.png",
           "label": "舞 黑脸笑"
         },
         {
           "pid": 6,
-          "path": "assets/Character/11001/Portrait/6.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/6.png",
           "label": "舞 哈气"
         },
         {
           "pid": 7,
-          "path": "assets/Character/11001/Portrait/7.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/7.png",
           "label": "舞 嘟嘴"
         },
         {
           "pid": 8,
-          "path": "assets/Character/11001/Portrait/8.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/8.png",
           "label": "舞 得意"
         },
         {
           "pid": 9,
-          "path": "assets/Character/11001/Portrait/9.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/9.png",
           "label": "舞 昏昏欲睡"
         },
         {
           "pid": 10,
-          "path": "assets/Character/11001/Portrait/10.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/10.png",
           "label": "舞 已急哭"
         },
         {
           "pid": 11,
-          "path": "assets/Character/11001/Portrait/11.png",
+          "path": "res://ResourceExample/assets/Character/11001/Portrait/11.png",
           "label": "舞 脸红"
         }
       ],
@@ -3008,44 +3008,44 @@
       "characterSpriteSetCompact": {
         "name": "_ResourceExample_Mai",
         "mainSprite": [
-          "assets/Character/11001/Sprite/Main_0, 0.png",
-          "assets/Character/11001/Sprite/Main_0, 1.png",
-          "assets/Character/11001/Sprite/Main_0, 2.png",
-          "assets/Character/11001/Sprite/Main_1, 0.png",
-          "assets/Character/11001/Sprite/Main_1, 1.png",
-          "assets/Character/11001/Sprite/Main_1, 2.png",
-          "assets/Character/11001/Sprite/Main_2, 0.png",
-          "assets/Character/11001/Sprite/Main_2, 1.png",
-          "assets/Character/11001/Sprite/Main_2, 2.png",
-          "assets/Character/11001/Sprite/Main_3, 0.png",
-          "assets/Character/11001/Sprite/Main_3, 1.png",
-          "assets/Character/11001/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Character/11001/Sprite/Eyes_0, 0.png",
-          "assets/Character/11001/Sprite/Eyes_0, 1.png",
-          "assets/Character/11001/Sprite/Eyes_0, 2.png",
-          "assets/Character/11001/Sprite/Eyes_0, 3.png",
-          "assets/Character/11001/Sprite/Eyes_1, 0.png",
-          "assets/Character/11001/Sprite/Eyes_1, 1.png",
-          "assets/Character/11001/Sprite/Eyes_1, 2.png",
-          "assets/Character/11001/Sprite/Eyes_1, 3.png",
-          "assets/Character/11001/Sprite/Eyes_2, 0.png",
-          "assets/Character/11001/Sprite/Eyes_2, 1.png",
-          "assets/Character/11001/Sprite/Eyes_2, 2.png",
-          "assets/Character/11001/Sprite/Eyes_2, 3.png",
-          "assets/Character/11001/Sprite/Eyes_3, 0.png",
-          "assets/Character/11001/Sprite/Eyes_3, 1.png",
-          "assets/Character/11001/Sprite/Eyes_3, 2.png",
-          "assets/Character/11001/Sprite/Eyes_3, 3.png",
-          "assets/Character/11001/Sprite/Eyes_4, 0.png",
-          "assets/Character/11001/Sprite/Eyes_4, 1.png",
-          "assets/Character/11001/Sprite/Eyes_4, 2.png",
-          "assets/Character/11001/Sprite/Eyes_4, 3.png",
-          "assets/Character/11001/Sprite/Eyes_5, 0.png",
-          "assets/Character/11001/Sprite/Eyes_5, 1.png",
-          "assets/Character/11001/Sprite/Eyes_5, 2.png",
-          "assets/Character/11001/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Character/11001/Sprite/Eyes_5, 3.png"
         ]
       },
       "guest": {
@@ -5460,7 +5460,7 @@
           "actions": [
             {
               "actionType": "CG",
-              "sprite": "assets/CG/black.png"
+              "sprite": "res://ResourceExample/assets/CG/black.png"
             }
           ]
         },
@@ -5647,7 +5647,7 @@
           "actions": [
             {
               "actionType": "CG",
-              "sprite": "assets/CG/black.png"
+              "sprite": "res://ResourceExample/assets/CG/black.png"
             },
             {
               "actionType": "CameraShake"
@@ -6774,7 +6774,7 @@
           "actions": [
             {
               "actionType": "CG",
-              "sprite": "assets/CG/black.png"
+              "sprite": "res://ResourceExample/assets/CG/black.png"
             },
             {
               "actionType": "CameraShake"
@@ -8074,7 +8074,7 @@
           "actions": [
             {
               "actionType": "CG",
-              "sprite": "assets/CG/black.png"
+              "sprite": "res://ResourceExample/assets/CG/black.png"
             }
           ]
         },
@@ -11143,7 +11143,7 @@
         4,
         20
       ],
-      "spritePath": "assets/Ingredient/11000.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11000.png"
     },
     {
       "id": 11001,
@@ -11159,7 +11159,7 @@
         17,
         31
       ],
-      "spritePath": "assets/Ingredient/11001.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11001.png"
     },
     {
       "id": 11002,
@@ -11175,7 +11175,7 @@
         2,
         2000
       ],
-      "spritePath": "assets/Ingredient/11002.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11002.png"
     },
     {
       "id": 11003,
@@ -11191,7 +11191,7 @@
         2,
         34
       ],
-      "spritePath": "assets/Ingredient/11003.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11003.png"
     },
     {
       "id": 11004,
@@ -11207,7 +11207,7 @@
         2,
         34
       ],
-      "spritePath": "assets/Ingredient/11004.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11004.png"
     },
     {
       "id": 11005,
@@ -11224,7 +11224,7 @@
         3,
         17
       ],
-      "spritePath": "assets/Ingredient/11005.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11005.png"
     },
     {
       "id": 11006,
@@ -11239,7 +11239,7 @@
       "tags": [
         17
       ],
-      "spritePath": "assets/Ingredient/11006.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11006.png"
     },
     {
       "id": 11007,
@@ -11255,7 +11255,7 @@
         17,
         20
       ],
-      "spritePath": "assets/Ingredient/11007.png"
+      "spritePath": "res://ResourceExample/assets/Ingredient/11007.png"
     }
   ],
   "foods": [
@@ -11279,7 +11279,7 @@
         24,
         34
       ],
-      "spritePath": "assets/Food/11000.png"
+      "spritePath": "res://ResourceExample/assets/Food/11000.png"
     },
     {
       "id": 11001,
@@ -11295,7 +11295,7 @@
       "banTags": [
         2
       ],
-      "spritePath": "assets/Food/11001.png"
+      "spritePath": "res://ResourceExample/assets/Food/11001.png"
     },
     {
       "id": 11002,
@@ -11317,7 +11317,7 @@
         0,
         6
       ],
-      "spritePath": "assets/Food/11002.png"
+      "spritePath": "res://ResourceExample/assets/Food/11002.png"
     },
     {
       "id": 11003,
@@ -11332,7 +11332,7 @@
         23
       ],
       "banTags": [],
-      "spritePath": "assets/Food/11003.png"
+      "spritePath": "res://ResourceExample/assets/Food/11003.png"
     },
     {
       "id": 11004,
@@ -11348,7 +11348,7 @@
       "banTags": [
         15
       ],
-      "spritePath": "assets/Food/11004.png"
+      "spritePath": "res://ResourceExample/assets/Food/11004.png"
     },
     {
       "id": 11005,
@@ -11369,7 +11369,7 @@
       "banTags": [
         31
       ],
-      "spritePath": "assets/Food/11005.png"
+      "spritePath": "res://ResourceExample/assets/Food/11005.png"
     },
     {
       "id": 11006,
@@ -11384,7 +11384,7 @@
         34
       ],
       "banTags": [],
-      "spritePath": "assets/Food/11006.png"
+      "spritePath": "res://ResourceExample/assets/Food/11006.png"
     },
     {
       "id": 11007,
@@ -11401,7 +11401,7 @@
         26
       ],
       "banTags": [],
-      "spritePath": "assets/Food/11007.png"
+      "spritePath": "res://ResourceExample/assets/Food/11007.png"
     },
     {
       "id": 11008,
@@ -11419,7 +11419,7 @@
         30
       ],
       "banTags": [],
-      "spritePath": "assets/Food/11008.png"
+      "spritePath": "res://ResourceExample/assets/Food/11008.png"
     },
     {
       "id": 11009,
@@ -11437,7 +11437,7 @@
         0,
         1
       ],
-      "spritePath": "assets/Food/11009.png"
+      "spritePath": "res://ResourceExample/assets/Food/11009.png"
     },
     {
       "id": 11010,
@@ -11455,7 +11455,7 @@
         6,
         34
       ],
-      "spritePath": "assets/Food/11010.png"
+      "spritePath": "res://ResourceExample/assets/Food/11010.png"
     },
     {
       "id": 11011,
@@ -11474,7 +11474,7 @@
       "banTags": [
         0
       ],
-      "spritePath": "assets/Food/11011.png"
+      "spritePath": "res://ResourceExample/assets/Food/11011.png"
     },
     {
       "id": 11012,
@@ -11499,7 +11499,7 @@
         28,
         4001
       ],
-      "spritePath": "assets/Food/11012.png"
+      "spritePath": "res://ResourceExample/assets/Food/11012.png"
     },
     {
       "id": 11013,
@@ -11518,7 +11518,7 @@
         1,
         4001
       ],
-      "spritePath": "assets/Food/11013.png"
+      "spritePath": "res://ResourceExample/assets/Food/11013.png"
     },
     {
       "id": 11014,
@@ -11538,7 +11538,7 @@
         1,
         4001
       ],
-      "spritePath": "assets/Food/11014.png"
+      "spritePath": "res://ResourceExample/assets/Food/11014.png"
     },
     {
       "id": 11015,
@@ -11559,7 +11559,7 @@
         21,
         28
       ],
-      "spritePath": "assets/Food/11015.png"
+      "spritePath": "res://ResourceExample/assets/Food/11015.png"
     },
     {
       "id": 11016,
@@ -11582,7 +11582,7 @@
         21,
         28
       ],
-      "spritePath": "assets/Food/11016.png"
+      "spritePath": "res://ResourceExample/assets/Food/11016.png"
     },
     {
       "id": 11017,
@@ -11602,7 +11602,7 @@
         29
       ],
       "banTags": [],
-      "spritePath": "assets/Food/11017.png"
+      "spritePath": "res://ResourceExample/assets/Food/11017.png"
     },
     {
       "id": 11018,
@@ -11619,7 +11619,7 @@
       "banTags": [
         18
       ],
-      "spritePath": "assets/Food/11018.png"
+      "spritePath": "res://ResourceExample/assets/Food/11018.png"
     },
     {
       "id": 11019,
@@ -11640,7 +11640,7 @@
       "banTags": [
         22
       ],
-      "spritePath": "assets/Food/11019.png"
+      "spritePath": "res://ResourceExample/assets/Food/11019.png"
     },
     {
       "id": 11020,
@@ -11663,7 +11663,7 @@
       "banTags": [
         22
       ],
-      "spritePath": "assets/Food/11020.png"
+      "spritePath": "res://ResourceExample/assets/Food/11020.png"
     }
   ],
   "beverages": [
@@ -11681,7 +11681,7 @@
         16,
         19
       ],
-      "spritePath": "assets/Beverage/11000.png"
+      "spritePath": "res://ResourceExample/assets/Beverage/11000.png"
     },
     {
       "id": 11001,
@@ -11696,7 +11696,7 @@
         13,
         16
       ],
-      "spritePath": "assets/Beverage/11001.png"
+      "spritePath": "res://ResourceExample/assets/Beverage/11001.png"
     }
   ],
   "recipes": [
@@ -12669,77 +12669,77 @@
       "id": 9000,
       "name": "OL装",
       "description": "小恶魔曾经穿过的工作装，尽管经过反复洗涤已经缩水掉色，但是上身效果依旧十分可爱。",
-      "spritePath": "assets/Clothes/9000/icon.png",
-      "portraitPath": "assets/Clothes/9000/portrait.png",
+      "spritePath": "res://ResourceExample/assets/Clothes/9000/icon.png",
+      "portraitPath": "res://ResourceExample/assets/Clothes/9000/portrait.png",
       "pixelFullConfig": {
         "name": "_ResourceExample_Clothes_9000_OL装",
         "mainSprite": [
-          "assets/Clothes/9000/Sprite/Main_0, 0.png",
-          "assets/Clothes/9000/Sprite/Main_0, 1.png",
-          "assets/Clothes/9000/Sprite/Main_0, 2.png",
-          "assets/Clothes/9000/Sprite/Main_1, 0.png",
-          "assets/Clothes/9000/Sprite/Main_1, 1.png",
-          "assets/Clothes/9000/Sprite/Main_1, 2.png",
-          "assets/Clothes/9000/Sprite/Main_2, 0.png",
-          "assets/Clothes/9000/Sprite/Main_2, 1.png",
-          "assets/Clothes/9000/Sprite/Main_2, 2.png",
-          "assets/Clothes/9000/Sprite/Main_3, 0.png",
-          "assets/Clothes/9000/Sprite/Main_3, 1.png",
-          "assets/Clothes/9000/Sprite/Main_3, 2.png"
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_0, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_0, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_0, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_1, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_1, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_1, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_2, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_2, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_2, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_3, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_3, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Main_3, 2.png"
         ],
         "eyeSprite": [
-          "assets/Clothes/9000/Sprite/Eyes_0, 0.png",
-          "assets/Clothes/9000/Sprite/Eyes_0, 1.png",
-          "assets/Clothes/9000/Sprite/Eyes_0, 2.png",
-          "assets/Clothes/9000/Sprite/Eyes_0, 3.png",
-          "assets/Clothes/9000/Sprite/Eyes_1, 0.png",
-          "assets/Clothes/9000/Sprite/Eyes_1, 1.png",
-          "assets/Clothes/9000/Sprite/Eyes_1, 2.png",
-          "assets/Clothes/9000/Sprite/Eyes_1, 3.png",
-          "assets/Clothes/9000/Sprite/Eyes_2, 0.png",
-          "assets/Clothes/9000/Sprite/Eyes_2, 1.png",
-          "assets/Clothes/9000/Sprite/Eyes_2, 2.png",
-          "assets/Clothes/9000/Sprite/Eyes_2, 3.png",
-          "assets/Clothes/9000/Sprite/Eyes_3, 0.png",
-          "assets/Clothes/9000/Sprite/Eyes_3, 1.png",
-          "assets/Clothes/9000/Sprite/Eyes_3, 2.png",
-          "assets/Clothes/9000/Sprite/Eyes_3, 3.png",
-          "assets/Clothes/9000/Sprite/Eyes_4, 0.png",
-          "assets/Clothes/9000/Sprite/Eyes_4, 1.png",
-          "assets/Clothes/9000/Sprite/Eyes_4, 2.png",
-          "assets/Clothes/9000/Sprite/Eyes_4, 3.png",
-          "assets/Clothes/9000/Sprite/Eyes_5, 0.png",
-          "assets/Clothes/9000/Sprite/Eyes_5, 1.png",
-          "assets/Clothes/9000/Sprite/Eyes_5, 2.png",
-          "assets/Clothes/9000/Sprite/Eyes_5, 3.png"
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_0, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_0, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_0, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_0, 3.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_1, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_1, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_1, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_1, 3.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_2, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_2, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_2, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_2, 3.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_3, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_3, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_3, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_3, 3.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_4, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_4, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_4, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_4, 3.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_5, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_5, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_5, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Eyes_5, 3.png"
         ],
         "hairSprite": [
-          "assets/Clothes/9000/Sprite/Hair_0, 0.png",
-          "assets/Clothes/9000/Sprite/Hair_0, 1.png",
-          "assets/Clothes/9000/Sprite/Hair_0, 2.png",
-          "assets/Clothes/9000/Sprite/Hair_1, 0.png",
-          "assets/Clothes/9000/Sprite/Hair_1, 1.png",
-          "assets/Clothes/9000/Sprite/Hair_1, 2.png",
-          "assets/Clothes/9000/Sprite/Hair_2, 0.png",
-          "assets/Clothes/9000/Sprite/Hair_2, 1.png",
-          "assets/Clothes/9000/Sprite/Hair_2, 2.png",
-          "assets/Clothes/9000/Sprite/Hair_3, 0.png",
-          "assets/Clothes/9000/Sprite/Hair_3, 1.png",
-          "assets/Clothes/9000/Sprite/Hair_3, 2.png"
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_0, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_0, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_0, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_1, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_1, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_1, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_2, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_2, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_2, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_3, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_3, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Hair_3, 2.png"
         ],
         "backSprite": [
-          "assets/Clothes/9000/Sprite/Back_0, 0.png",
-          "assets/Clothes/9000/Sprite/Back_0, 1.png",
-          "assets/Clothes/9000/Sprite/Back_0, 2.png",
-          "assets/Clothes/9000/Sprite/Back_1, 0.png",
-          "assets/Clothes/9000/Sprite/Back_1, 1.png",
-          "assets/Clothes/9000/Sprite/Back_1, 2.png",
-          "assets/Clothes/9000/Sprite/Back_2, 0.png",
-          "assets/Clothes/9000/Sprite/Back_2, 1.png",
-          "assets/Clothes/9000/Sprite/Back_2, 2.png",
-          "assets/Clothes/9000/Sprite/Back_3, 0.png",
-          "assets/Clothes/9000/Sprite/Back_3, 1.png",
-          "assets/Clothes/9000/Sprite/Back_3, 2.png"
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_0, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_0, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_0, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_1, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_1, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_1, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_2, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_2, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_2, 2.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_3, 0.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_3, 1.png",
+          "res://ResourceExample/assets/Clothes/9000/Sprite/Back_3, 2.png"
         ]
       },
       "izakayaSkinIndex": -1,
