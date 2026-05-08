@@ -5473,7 +5473,10 @@
           "position": "Right",
           "text": "真的可以哎！这样做起巧克力雕塑的效果可比直接用刀子去切快的多了。",
           "actions": [
-            { "actionType": "CG", "shouldSet": false }
+            {
+              "actionType": "CG",
+              "shouldSet": false
+            }
           ]
         },
         {
@@ -7697,7 +7700,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 8,
-          "position": "Left",
+          "position": "Right",
           "text": "尊敬的舞舞酱，非常报歉在百忙之中打扰您，我在此诚执地为自己的所作所为进行千悔，希望能够得到您的原凉。"
         },
         {
@@ -7712,13 +7715,13 @@
           "characterType": "Special",
           "pid": 1,
           "position": "Right",
-          "text": "（这真的是雪雪自己写的吗）"
+          "text": "……（这真的是雪雪自己写的吗）"
         },
         {
           "characterId": 11000,
           "characterType": "Special",
           "pid": 9,
-          "position": "Left",
+          "position": "Right",
           "text": "很抱歉上周不小心打翻了您的烤玉米，害得您没有午饭吃，以及在下午的时候没有认出您的本体，差点当成了普通鸽——"
         },
         {
@@ -7732,7 +7735,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 9,
-          "position": "Left",
+          "position": "Right",
           "text": "呜呜，可是，肯定是因为我做错了什么事情，才害得舞舞酱你不理我了。雪雪知道错了啦！"
         },
         {
@@ -7753,7 +7756,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 6,
-          "position": "Left",
+          "position": "Right",
           "text": "可是可是，最近为什么每次舞舞酱看到我，都要假装没看见的样子，然后突然转身走开！难道不是讨厌我的表现吗？"
         },
         {
@@ -7767,7 +7770,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 8,
-          "position": "Left",
+          "position": "Right",
           "text": "可是可是，我们不是最好的朋友嘛？"
         },
         {
@@ -7781,7 +7784,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 1,
-          "position": "Left",
+          "position": "Right",
           "text": "呜呜，我不能没有你啦！"
         },
         {
@@ -7795,7 +7798,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 3,
-          "position": "Left",
+          "position": "Right",
           "text": "嘿嘿，要永远做最好的朋友哦~"
         },
         {
@@ -8647,7 +8650,7 @@
           "characterType": "Special",
           "pid": 5,
           "position": "Left",
-          "text": "对了对了！要不要给你表演一个龙息术？不过我只成功发动过一次哦，是在上次舞舞酱让我品尝她摘得辣椒之后。"
+          "text": "对了对了！要不要给你表演一个龙息术？不过我只成功发动过一次哦，是在上次舞舞酱让我品尝她摘的辣椒之后。"
         },
         {
           "characterId": 34,
@@ -8842,7 +8845,7 @@
           "characterType": "Special",
           "pid": 1,
           "position": "Left",
-          "text": "（肚子咕咕叫）"
+          "text": "……（肚子咕咕叫）"
         },
         {
           "characterId": 34,
@@ -8919,7 +8922,7 @@
           "characterType": "Special",
           "pid": 15,
           "position": "Right",
-          "text": "不光是玉米，舞小姐也一起不见了呢！（看向店里面）啊，舞小姐好像背着身坐在店的角落里呢。"
+          "text": "不光是玉米，舞小姐也一起不见了呢！（转头）啊，舞小姐好像背着身坐在店的角落里呢。"
         },
         {
           "characterId": 11001,
@@ -9555,7 +9558,14 @@
           "characterType": "Special",
           "pid": 13,
           "position": "Right",
-          "text": "你别看我现在开着一家小有人气深夜食堂，无论是妖怪、神明还是人类，都会习以为常地一起来我这里聚餐，但以前我还是一个经常靠着歌声让路过的行人患上夜盲，然后吸引他们来我这里花费高价购买八目鳗来解除夜盲症的无良黑心商贩呢！意识到自己做错事情之后，需要认错、补救、改进，这样才能慢慢提升自己。"
+          "text": "你别看我现在开着一家小有人气深夜食堂，无论是妖怪、人类还是神明，都会习以为常地一起来我这里聚餐。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "但以前我还是一个经常靠着歌声让路过的行人患上夜盲，然后吸引他们来我这里花费高价购买八目鳗来解除夜盲症的无良黑心商贩呢！意识到自己做错事情之后，需要认错、补救、改进，这样才能慢慢提升自己。"
         },
         {
           "characterId": 11001,
@@ -10036,7 +10046,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 7,
-          "position": "Left",
+          "position": "Right",
           "text": "什么是卡路里？"
         },
         {
@@ -10050,7 +10060,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 3,
-          "position": "Left",
+          "position": "Right",
           "text": "哦哦！原来如此呢！雪雪又学到新知识了！"
         },
         {
@@ -10071,7 +10081,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 7,
-          "position": "Left",
+          "position": "Right",
           "text": "什么是撞死？"
         },
         {
@@ -10085,14 +10095,14 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 6,
-          "position": "Left",
+          "position": "Right",
           "text": "哦哦！原来如此……不对！你竟敢！"
         },
         {
           "characterId": 11000,
           "characterType": "Special",
           "pid": 9,
-          "position": "Left",
+          "position": "Right",
           "text": "不准拿雪雪寻开心！"
         },
         {
@@ -10106,7 +10116,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 5,
-          "position": "Left",
+          "position": "Right",
           "text": "哼，雪雪可不笨，遇到熊当然应该用火系魔法直接把它打退才对呢！雪雪的魔法可是很厉害的！"
         },
         {
@@ -10240,7 +10250,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 3,
-          "position": "Left",
+          "position": "Right",
           "text": "哎呀，这个吗？是最新一期的《文文。新闻》哦！"
         },
         {
@@ -10254,7 +10264,7 @@
           "characterId": 11000,
           "characterType": "Special",
           "pid": 1,
-          "position": "Left",
+          "position": "Right",
           "text": "舞舞酱，才不是啦，文小姐说只要每个月订阅报纸，就允许我们在上面打广告用来宣传店铺哦。 我用了好多金币的零钱才刊登了广告的！"
         },
         {
