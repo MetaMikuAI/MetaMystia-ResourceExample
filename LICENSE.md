@@ -1,7 +1,7 @@
 # MetaMystia 资源版权与使用许可说明
 
 本文件适用于 **MetaMystia** 项目
-项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**
+项目地址：**[MetaMystia/MetaMystia](https://github.com/MetaMystia/MetaMystia)**
 
 本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。
 
