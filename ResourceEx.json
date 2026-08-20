@@ -21,7 +21,7 @@
       "十六夜冉咲",
       "喧嚣塑像",
       "灼灵残月",
-      "梦璃雨",
+      "一具音游人",
       "せんもみ"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
@@ -8138,7 +8138,14 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "当然。你觉得血池地狱是什么温柔的地方吗？只有我这样的强者，才会在血池地狱那种地方大吃大喝啊。在那里，真正的“血池”不用辣椒酱这种无趣的佐料调味，而是用血。受诅咒的血液里面蕴含着生命的恐惧、悲欢、憎恶、怨恨，这才符合我贵为饕餮的气质。金箔也要多多地放，吃的不是味道，而是材料本身。"
+          "text": "当然。你觉得血池地狱是什么温柔的地方吗？只有我这样的强者，才会在血池地狱那种地方大吃大喝啊。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "在那里，真正的“血池”不用辣椒酱这种无趣的佐料调味，而是用血。受诅咒的血液里面蕴含着生命的恐惧、悲欢、憎恶、怨恨，这才符合我贵为饕餮的气质。金箔也要多多地放，吃的不是味道，而是材料本身。"
         },
         {
           "characterId": 34,
@@ -8387,14 +8394,14 @@
           "characterId": 7,
           "characterType": "Special",
           "pid": 11,
-          "position": "Left",
+          "position": "Right",
           "text": "……"
         },
         {
           "characterId": 7,
           "characterType": "Special",
           "pid": 5,
-          "position": "Left",
+          "position": "Right",
           "text": "蓝，紫那家伙，真要让老板娘承担起拯救幻想乡的责任吗？"
         },
         {
@@ -8408,7 +8415,7 @@
           "characterId": 7,
           "characterType": "Special",
           "pid": 11,
-          "position": "Left",
+          "position": "Right",
           "text": "哎——紫在想什么真是让人难以捉摸。算啦，紫一定有她自己的考虑，那就这样吧，准备准备宴会好了。"
         },
         {
@@ -8515,7 +8522,7 @@
           "characterType": "Special",
           "pid": 4,
           "position": "Left",
-          "text": "因为我从来不会算漏钱。借出去多少，就会连本带利收回来多少。久而久之，就没人愿意来了。“不如找邻居接济一下”，大概都是这种理由。"
+          "text": "因为我从来不会算漏钱。别人借出去多少，我就会连本带利收回来多少，久而久之，就没人愿意来了。“不如找邻居接济一下”，大概都是这种理由。"
         },
         {
           "characterId": 34,
@@ -9485,7 +9492,7 @@
           "characterType": "Special",
           "pid": 2,
           "position": "Left",
-          "text": "不过我确实没什么意见，这样的话，可得有事没事多来赛钱啊。还有打折也别忘了"
+          "text": "不过我确实没什么意见，这样的话，可得有事没事多来赛钱啊。还有打折也别忘了啊！"
         },
         {
           "characterId": 34,
@@ -9537,19 +9544,19 @@
         {
           "characterId": 7,
           "characterType": "Special",
-          "pid": 0,
+          "pid": 6,
           "position": "Left",
           "text": "（就在此时，三人面前的空间打开了一道隙间）"
         },
         {
           "characterId": 7,
           "characterType": "Special",
-          "pid": 0,
+          "pid": 6,
           "position": "Left",
           "text": "（紫探了出来，带着一大箱食材）"
         },
         {
-          "characterId": 5012,
+          "characterId": 26,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
@@ -9570,7 +9577,7 @@
           "text": "？"
         },
         {
-          "characterId": 5012,
+          "characterId": 26,
           "characterType": "Special",
           "pid": 3,
           "position": "Left",
@@ -9584,7 +9591,7 @@
           "text": "呜哇，好凉。话说怎么是紫小姐您来给我食材？"
         },
         {
-          "characterId": 5012,
+          "characterId": 26,
           "characterType": "Special",
           "pid": 1,
           "position": "Left",
@@ -9598,7 +9605,7 @@
           "text": "紫大人，已经按照您的要求，带着灵梦前往完成今天的工作。话说，您是从哪里拿到的这些食材？"
         },
         {
-          "characterId": 5012,
+          "characterId": 26,
           "characterType": "Special",
           "pid": 3,
           "position": "Left",
@@ -9612,7 +9619,7 @@
           "text": "紫，你算计我！"
         },
         {
-          "characterId": 5012,
+          "characterId": 26,
           "characterType": "Special",
           "pid": 4,
           "position": "Left",
@@ -9626,7 +9633,7 @@
           "text": "紫大人，您这样的话咱们家冰箱里不就没存粮了？"
         },
         {
-          "characterId": 5012,
+          "characterId": 26,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
