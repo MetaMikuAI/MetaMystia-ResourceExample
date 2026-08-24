@@ -21,14 +21,22 @@
       "十六夜冉咲",
       "喧嚣塑像",
       "灼灵残月",
-      "梦璃雨",
+      "一具音游人",
       "せんもみ"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.10.3",
+    "version": "0.11.0",
     "idRangeStart": 9000,
     "idRangeEnd": 12999,
-    "idSignature": "aAOXzLVM3OMBvNSCeRVZ4cjaPu6sHwOIlfBB9XB+n2WODMrDb+eCuWZeE88KlXUIAj58ok7Dm2wsTTYJJ6pq8THMcm+FU/ryndeZfy5gCRnY7q3SzXn2s0ChmZKuTRkkWAU0f252a6Z9AXYu4tyv/h+kJGWXO1lFaVg8jErJqUMSlpNGGZe0tZABRPhX1oxPwYH82Lnvg0ct3REguZBEicC0/d5Lh1djvatUK3FdTR2h0rj0JdhInC2rcP8ymIg5txvsPcaA8cCbFdwyPgEaMue2NIjawUKpwLAl8mGwWVHrUTSxahkJ+MVJA7nLOGbYtvxmiyYMPQnDEVynBcPEeA=="
+    "idSignature": "aAOXzLVM3OMBvNSCeRVZ4cjaPu6sHwOIlfBB9XB+n2WODMrDb+eCuWZeE88KlXUIAj58ok7Dm2wsTTYJJ6pq8THMcm+FU/ryndeZfy5gCRnY7q3SzXn2s0ChmZKuTRkkWAU0f252a6Z9AXYu4tyv/h+kJGWXO1lFaVg8jErJqUMSlpNGGZe0tZABRPhX1oxPwYH82Lnvg0ct3REguZBEicC0/d5Lh1djvatUK3FdTR2h0rj0JdhInC2rcP8ymIg5txvsPcaA8cCbFdwyPgEaMue2NIjawUKpwLAl8mGwWVHrUTSxahkJ+MVJA7nLOGbYtvxmiyYMPQnDEVynBcPEeA==",
+    "dependencies": [
+      "CORE",
+      "DLC1",
+      "DLC2",
+      "DLC4",
+      "DLC5"
+    ]
+
   },
   "characters": [
     {
@@ -2257,9 +2265,9 @@
       "name": "八云蓝",
       "label": "_ResourceExample_YakumoRan",
       "descriptions": [
-        "操控式神的式神妖怪，似乎是橙的监护人。明明是妖力很强的妖怪，却不管什么时候都是笑眯眯的。",
-        "式神什么的果然还是想不明白……有着不为人知的过去，还和那个饕餮尤魔有联系？明明是性格天差地别的两个人。",
-        "哇，原来还发生过这种事情。式神什么的，我好像也明白一点了。蓝小姐照顾橙，照顾紫小姐，性格温柔又体贴，真希望她能不这么辛苦。"
+        "操控式神的式神妖怪，似乎是橙的监护人，是整个八云邸的管家。明明是妖力很强的妖怪，却出人意料的好脾气，不管什么时候都是笑眯眯的。",
+        "总是会时不时的提起自己的数学水平，可惜完全没办法听明白……有着鲜为人知的过去，还和那个饕餮尤魔有联系？明明是性格天差地别的两个人。不知道能不能找她请教关于地狱料理的事情呢。",
+        "原来蓝小姐是从血池地狱来的啊，该说不愧是大妖怪吗？这么说来，蓝小姐之前要照顾饕餮，现在要照顾橙，照顾紫小姐，还要帮紫小姐维护幻想乡的和平，看望灵梦小姐，真希望她能不这么辛苦，以后她来的时候多给她做些好吃的吧。"
       ],
       "type": "Special",
       "avatar": "assets/Character/10002/Avatar.png",
@@ -2267,27 +2275,47 @@
         {
           "pid": 0,
           "path": "assets/Character/10002/Portrait/0.png",
-          "label": "八云蓝 微笑"
+          "label": "0 微笑"
         },
         {
           "pid": 1,
           "path": "assets/Character/10002/Portrait/1.png",
-          "label": "八云蓝 张嘴笑"
+          "label": "1 微笑张嘴"
         },
         {
           "pid": 2,
           "path": "assets/Character/10002/Portrait/2.png",
-          "label": "八云蓝 眯眼笑"
+          "label": "2 眯眼笑"
         },
         {
           "pid": 3,
           "path": "assets/Character/10002/Portrait/3.png",
-          "label": "八云蓝 害羞"
+          "label": "3 脸红"
         },
         {
           "pid": 4,
           "path": "assets/Character/10002/Portrait/4.png",
-          "label": "八云蓝 尴尬笑"
+          "label": "4 微笑无语"
+        },
+        {
+          "pid": 5,
+          "path": "assets/Character/10002/Portrait/5.png",
+          "label": "5 失落"
+        },
+        {
+          "pid": 6,
+          "path": "assets/Character/10002/Portrait/6.png",
+          "label": "6 严厉"
+        },
+        {
+          "pid": 7,
+          "path": "assets/Character/10002/Portrait/7.png",
+          "label": "7 狡黠"
+        },
+        {
+          "pid": 8,
+          "path": "assets/Character/10002/Portrait/8.png",
+          "label": "8 疑惑"
         }
       ],
       "faceInNoteBook": 0,
@@ -2567,7 +2595,99 @@
       },
       "hideInAlbum": false,
       "isParticular": false,
-      "isCollabCharacter": false
+      "isCollabCharacter": false,
+      "kizuna": {
+        "lv1UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Ran_LV1_Upgrade_001_Event",
+        "lv2UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Ran_LV2_Upgrade_001_Event",
+        "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Ran_LV3_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Ran_LV4_Upgrade_001_Event",
+        "lv1Welcome": [
+          "_ResourceExample_Kizuna_Ran_Welcome_001",
+          "_ResourceExample_Kizuna_Ran_Welcome_002"
+        ],
+        "lv2Welcome": [
+          "_ResourceExample_Kizuna_Ran_Welcome_001",
+          "_ResourceExample_Kizuna_Ran_Welcome_002"
+        ],
+        "lv3Welcome": [
+          "_ResourceExample_Kizuna_Ran_Welcome_001",
+          "_ResourceExample_Kizuna_Ran_Welcome_002"
+        ],
+        "lv4Welcome": [
+          "_ResourceExample_Kizuna_Ran_Welcome_001",
+          "_ResourceExample_Kizuna_Ran_Welcome_002"
+        ],
+        "lv5Welcome": [
+          "_ResourceExample_Kizuna_Ran_Welcome_001",
+          "_ResourceExample_Kizuna_Ran_Welcome_002"
+        ],
+        "lv1ChatData": [
+          "_ResourceExample_Kizuna_Ran_LV1_Chat_001",
+          "_ResourceExample_Kizuna_Ran_LV1_Chat_002"
+        ],
+        "lv2ChatData": [
+          "_ResourceExample_Kizuna_Ran_LV2_Chat_001",
+          "_ResourceExample_Kizuna_Ran_LV2_Chat_002"
+        ],
+        "lv3ChatData": [
+          "_ResourceExample_Kizuna_Ran_LV3_Chat_001",
+          "_ResourceExample_Kizuna_Ran_LV3_Chat_002"
+        ],
+        "lv4ChatData": [
+          "_ResourceExample_Kizuna_Ran_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Ran_LV4_Chat_002"
+        ],
+        "lv5ChatData": [
+          "_ResourceExample_Kizuna_Ran_LV4_Chat_001",
+          "_ResourceExample_Kizuna_Ran_LV4_Chat_002"
+        ],
+        "lv1InviteSucceed": [],
+        "lv1InviteFailed": [],
+        "lv2InviteSucceed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Succeed"
+        ],
+        "lv2InviteFailed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Failed"
+        ],
+        "lv3InviteSucceed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Succeed"
+        ],
+        "lv3InviteFailed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Failed"
+        ],
+        "lv4InviteSucceed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Succeed"
+        ],
+        "lv4InviteFailed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Failed"
+        ],
+        "lv5InviteSucceed": [
+          "_ResourceExample_Kizuna_Ran_Invite_Succeed"
+        ],
+        "lv5InviteFailed": [],
+        "lv3RequestIngerdient": [
+          "_ResourceExample_Kizuna_Ran_Request_Ingerdient"
+        ],
+        "lv4RequestIngerdient": [
+          "_ResourceExample_Kizuna_Ran_Request_Ingerdient"
+        ],
+        "lv5RequestIngerdient": [
+          "_ResourceExample_Kizuna_Ran_Request_Ingerdient"
+        ],
+        "lv4RequestBeverage": [
+          "_ResourceExample_Kizuna_Ran_Request_Beverage"
+        ],
+        "lv5RequestBeverage": [
+          "_ResourceExample_Kizuna_Ran_Request_Beverage"
+        ],
+        "lv5Commision": [
+          "_ResourceExample_Kizuna_Ran_Commision"
+        ],
+        "lv5CommisionFinish": [
+          "_ResourceExample_Kizuna_Ran_Commision_Finish"
+        ],
+        "commisionAreaLabel": "HakureiShrine"
+      }
     },
     {
       "id": 11000,
@@ -7203,6 +7323,2361 @@
       ]
     },
     {
+      "name": "_ResourceExample_Kizuna_Ran_LV1_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "蓝小姐，您刚从人间之里买完菜回来吗？看您这大包小包的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "噢，是老板娘啊，日安。今天豆腐坊那边难得做油豆腐，我就多买了些。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "油豆腐？我有时候也会在夜雀食堂卖这个呢。他们家的有什么特殊的地方吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "他们家的油豆腐是用猪油炸的，味道格外香。每次炸出来都会引来一大群狐狸妖怪抢着买。今天要不是来得早，就买不到了呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "诶诶……猪油啊……听起来好可怕。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "还好吧？毕竟单纯的动物和妖怪是不一样的。你的店里不也在卖各种肉类吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "这倒也是。不过仔细一看，您真的买了好多啊。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "只是看着多。油豆腐这个东西，炸完以后蓬松多孔，虽然一大包，但其实没几块，也没多重。刚出锅的油豆腐蘸上些椒盐吃，不知不觉就都吃完了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "我之前炸出来都是放一点酱油和葱丝的。这么想来，小小的油豆腐还真是吃法多样呢。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "没错。正所谓“食不厌精，脍不厌细”。只要肯钻研，不管什么东西都有它的大学问在里面。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "“筷不厌细”……？筷子太细了怎么用嘛。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "不是筷子啦。这句话的意思是，食物要追求精细，体现了古代对于精细食物的追求。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "原来是这样，和我每天在做的事情差不多嘛。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "没错，所以你的雀食堂才能越开越红火呀。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "嘿嘿~"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "哎呀，光顾着说话，油豆腐快冷掉了。话说你刚才是不是提到了你的店里也在卖油豆腐？这样的话，我给你一个我自研的食谱好了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "好呀好呀。我店里的豆腐食谱也好久没有推陈出新了，蓝小姐，谢谢你。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "我把它命名为“八云豆包饭”，制作方法已经画在这张纸上了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "哇~那我回去研究了，等我学会了，欢迎您来品尝我的手艺。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV1_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "我来做“八云豆包饭”的回访啦，您还满意吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我很满意，老板娘你的悟性不错。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "我会继续努力的~"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我平常不缺这一口，不过如果你打算用这个招待那些普通的妖怪狐的话，最好放点肉。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV2_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "我是一只鸟，快乐的小鸟~"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这不是老板娘吗，今天也来博丽神社参拜？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "我其实是想去人间之里买菜来着，结果唱着歌到处闲逛，不知不觉就走到这里了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "噗噗。人间之里在那边，现在过去恐怕要绕远路了。不过既然来都来了，稍微休息一下如何？恰好我稍后也要去买菜，不如结伴而行。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "我听橙说，今天水产大丰收，从妖怪山那边运出来不少海鲜，人间之里好多人都在抢呢。要不要一起去看看？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "以我对橙的理解，她应该只是想吃鱼了……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "是吗？我倒是没想过这个可能性。莫非橙她总是找老板娘你要吃要喝的？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "每次雀食堂要扩建，橙都又要钱又要吃喝的，还变着法地要，我还得白天给她做，呜呜呜——"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "是吗，我会说她的。怪不得有时候橙回了家不爱吃饭。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "倒也还好啦，毕竟橙和我是好朋友嘛。没有大家的帮忙，我是没办法到处开店的。橙有时候还会送给我鱼什么的呢。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这样啊。橙虽然有时候喜欢吓唬人，但毕竟内里是个好孩子。真希望你们能一直和谐相处。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "嗯嗯，肯定会的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "话说她平常去雀食堂，都点些什么东西？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "我想想，基本上都是烤串啊，炸货啊，鱼啊肉啊之类的东西。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "她的体重最近有所上升，我限制了她的每日肉类摄入量。看她没什么反对意见，我还以为她终于懂些事了，没想到跑到雀食堂来加餐。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "是，是这样的吗……下次要不然她来的时候我不给她上菜？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那样的话她会在雀食堂闹的，你也会没办法好好经营。这样吧，我教你一个食谱。虽然她不太喜欢吃，但对健康有好处。老板娘你的店里多些花样也没坏处，对吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "好呀好呀。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实很简单，做些鱼丸，然后煮熟后加进备好的汤底里，就行了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "听起来确实很简单，不过鱼丸怎么做？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这可就有大学问了。首先选新鲜的蟹肉、虾仁，加冰捶打到松软有弹性，加入竹笋丁增添爽脆口感，捏成型备用。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "另起一个碗口大的海胆，取黄用来煮汤，汤底再用来煮鱼丸。煮熟之后，连汤带水倒进海胆壳，这才算完成。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "好厉害！不过听起来好复杂呀，我真的能做好吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "我相信老板娘你肯定可以的。正所谓“术业有专攻”，厨娘怎么会被食谱难倒呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "“树叶有专攻”吗……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "是“术业”，技术的意思。这次的料理用料和步骤确实都有些麻烦，我把我之前用的食谱给你，你拿去用吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "虽然很感谢，但是这样的话蓝小姐你用什么呢？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我已经把每个细节都记住了。这种程度的记忆，对我来说不算什么。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "好厉害！我也要回去努力了呢。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "鸟脑袋真是富有激情啊。你不是出来买菜的吗？走吧，先去采购食材。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV2_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "我来做上次“八云海鲜煲”的回访啦，蓝小姐您还满意吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "打鱼丸真的很累人。对付橙一个还好，其他客人也点这个的话，总感觉手都快要搓出音符了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "味道很不错。虽然我对海鲜类不是很感兴趣，但老板娘你的技术确实值得表扬。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "那就好，希望我能帮橙保持身体健康。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "慢慢来吧，橙还在成长呢。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV3_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "蓝小姐，我来找你玩啦~"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "老板娘你来了啊。不巧，我现在稍微有点不太方便。你可以一会再来吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "啊？好的，那我先去看看灵梦小姐。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "（这时候，从八云蓝背后闪出一个毛茸茸的矮小身影）"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "库库库，蓝，这是你在地上交的新朋友吗？"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "碎骨也太多了，一看就不好吃。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Right",
+          "text": "哇，好强的妖力！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "哇——我不好吃，都是碎骨，不要吃我——"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "尤魔，我不是和你说过，到了地上之后不能见什么吃什么吗？再这样的话我要回去了。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "好吧。所以这只麻雀是什么鸟？蓝，你到地上来，不是为了和这种小妖怪勾肩搭背的吧。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "这是夜雀食堂的老板娘，算是我的朋友。尤魔，这里和地狱不一样，不要把你在地下那一套畜生道带到这里来。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "那个那个那个……我突然想起来我家炉子没关火，我先回去了。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "区区一个小麻雀，你以为你想走就走得了吗？！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "救命呀——"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "（就在这时，八云蓝出面挡下了饕餮尤魔）"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "尤魔，我说过了，地上不比地狱，你那一套放到这里行不通。刚才博丽的巫女已经把符札和御币掏出来了，你要是在这里挨揍，我绝对不管你。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "哼。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "哈啊……得救了。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "好吧好吧，我知道了。既然是蓝的朋友，我也没理由对你太粗暴。你刚才说你是什么什么食堂的老板娘是吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "是夜雀食堂，我是老板娘米斯蒂娅·萝蕾拉……"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "地上真是变得软弱了。就连你这种小妖怪都能随便生活，哼。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "像你这种小妖怪，按理来说没资格知道我是谁。这次是看在蓝的面子上告诉你的。给我记好了，我是刚欲同盟盟主，饕餮尤魔。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "（就在这时，尤魔突然猛拍了一下旁边的蓝）"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "库库库，至于旁边这位嘛，是刚欲同盟前成员，蓝！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "诶诶诶？"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "你不知道吗？蓝是从地狱离开来到地上的。之前还和我一起在刚欲同盟共事。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "我就是因为不喜欢你的畜生道才离开的。果不其然，你还是老样子，和以前一样。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "地下的生活，和地下的食物太无聊了，要不然我也不会上来找你。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "去我家等我。今天晚上我亲自下厨，给你做一桌大餐。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哇！我要美美品尝一顿！小麻雀，这次算你走运，我们还会再见面的！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "……得救了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "真是抱歉。那是我的老朋友，饕餮尤魔。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "蓝小姐您居然认识那样的妖怪？！我光是站在她面前，就感觉自己几乎要被吃掉了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "毕竟饕餮就是那样的妖兽。吞噬一切，将吃下去的东西统统转化为自己的力量。不管用什么样的攻击打她，都不太会有效果。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "好可怕。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "想对付她，办法也不是没有。她会被自己吃下去的东西所影响。她的暴躁源自于血池地狱的食物，而到了地上，摄入正常的食物之后，性格就会温和许多。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "刚才那个样子，难道已经是“温和许多”之后的样子了吗？完全没办法想象不温和的时候是什么样子。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "今天比较特殊，她什么招呼也没打就跑到地上来了。平常的话，需要在地上待一两天，性格才会变化。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "原来是这样。这么说的话，我好像知道该怎么和她相处了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "噢？老板娘你想出来什么了吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "我要用我最拿手的料理，让她放弃吃我！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "她不会吃你的。那家伙是坐收渔利型的，在幻想乡公开作恶并不是她的作风。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不过，她确实是万千料理人所能挑战的最强目标之一。毕竟那是货真价实的无底饕餮之胃。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "总感觉我要是喂不饱她，她就会把我一并吃了。地狱原来是这么狂野的地方吗？明明之前去旧地狱的时候感觉还好。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "血池地狱和旧地狱是不一样的。看来你不知道血池地狱的风格。这样吧，我给你一个菜谱，你拿回去做出来，就能感受到血池地狱的风格了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "我会努力的！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV3_002",
+      "dialogList": [
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "又是你啊，小麻雀。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "啊，我突然想起来我家锅上还做着饭，我不打扰，我先走了……"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "真是麻雀的胆子针尖般大。蓝和我说了你的一些事情，我不会吃了你的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "尤魔，别吓唬她了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "我今天是来做“血池”的回访的，蓝小姐您还满意吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "对血池地狱风格进行了力所能及的还原，老板娘，你已经做得很不错了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "这么说的话，这道菜在血池地狱的做法和地上不一样吗？"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "当然。你觉得血池地狱是什么温柔的地方吗？只有我这样的强者，才会在血池地狱那种地方大吃大喝啊。"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "在那里，真正的“血池”不用辣椒酱这种无趣的佐料调味，而是用血。受诅咒的血液里面蕴含着生命的恐惧、悲欢、憎恶、怨恨，这才符合我贵为饕餮的气质。金箔也要多多地放，吃的不是味道，而是材料本身。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "好可怕……"
+        },
+        {
+          "characterId": 1003,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "哼。这种程度的东西，在地上卖的话应该已经算是名菜了吧。你这种羸弱的小妖怪，做到这样已经可以了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "谢……谢谢？"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV4_001",
+      "dialogList": [
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "早知道不该参加那个数学竞赛的。听说守矢神社的那个巫女被我碾压之后，一蹶不振，最近都不怎么出现了……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "蓝小姐，我来找你玩啦。今天不忙吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我正为一点小事情发愁，让老板娘你见笑了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "有什么事情还能难倒蓝小姐你吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "是关于数学的事情。我前段时间和守矢的巫女比拼了一下数学，结果没收住力，让对方输得有些难看。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "数，数学啊……我完全不懂。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "我发愁的点并不是数学本身，而是我打击了对方的热情，这一点让我有些过意不去。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "这样的话，去道个歉如何？带上些对方喜欢吃的东西，应该没问题的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Left",
+          "text": "我并不了解对方的喜好，也担心以胜者的身份去道歉，会进一步加深对她的伤害。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "这样的话，拜托灵梦小姐办一场宴会怎么样？在宴会上大吃大喝一番，心情会好很多，也方便沟通。酒水什么的，我猜其参宴者会拿的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这个办法确实不错。老板娘，多谢你了。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "别擅自把我卷进麻烦的事情里面啊。要我办宴会，可得多给我的赛钱箱里投点钱。白占地方不赛钱什么的可不行。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "灵梦小姐还是一如既往地务实啊……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "不管怎么讲，老板娘，你确实帮到了我。在这件事上，我应该感谢你。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "没事的啦，朋友之间互帮互助是应该的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "朋友之间吗……这倒也是呢。老板娘，我听说你一直有一个梦想，对吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "是呢，我以后想开演唱会！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "会实现的。虽然现在还不能告诉你为什么，但是我可以向你保证，会实现的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "果然我是被隐瞒了什么事情吧……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "你会知道的，只不过不是现在，也不是在这里。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "虽然还是不太明白，但是谢谢蓝小姐。借你吉言，我想送给你一个礼物！是我的演唱会VIP门票哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "虽然什么时候能办起来还不知道……但是我肯定会努力的！有朝一日，我一定要在幻想乡最大的舞台上举办演唱会，然后让大家都来听！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "老板娘，就这么继续努力下去吧。在你知道的、你不知道的地方，都有许多人在支持着你，帮助着你。也许未来会遇到一些艰难险阻，不过我相信你能战胜它们的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "突然说这种话，搞得我都有些不好意思了。不管怎么说，我会努力的！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "除此之外，我也会以我的方式帮助你。老板娘，你需要食材吧？虽然我没办法弄来很多食材，不过我知道谁能做到。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "虽然不太明白，不过食材确实什么时候都很需要呢。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我猜也是。那就一言为定，以后我会帮你采集食材，作为一直以来的答谢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "您言重啦……"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "所以你们打算什么时候办宴会？我可是很期待的哟，有段时间没吃过好东西了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "我，我这就回去准备酒菜！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "蓝，紫那家伙，真要让老板娘承担起拯救幻想乡的责任吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嗯。从目前来看，她将来会拥有拯救幻想乡的能力。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "哎——紫在想什么真是让人难以捉摸。算啦，紫一定有她自己的考虑，那就这样吧，准备准备宴会好了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "她不会让你失望的，灵梦。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Welcome_001",
+      "dialogList": [
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "又到了该和紫大人与橙一起去赏樱的时候了。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Welcome_002",
+      "dialogList": [
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "万物皆数。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV1_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "你就是夜雀食堂的老板娘，米斯蒂娅·萝蕾拉吧？我是八云蓝，八云家的管家，也是橙的监护人。橙那孩子没给你添太多麻烦吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "您就是橙常提起的那位“蓝大人”吧？我们两个关系可好了，她还总是给我送鱼什么的呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "如果催债的时候没那么紧就更好了……上次带着狼牙棒找上门来，好怕怕。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "什么？狼牙棒？我回去会好好批评她的。橙这孩子，做事情还是太不成熟了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "不过别的时候橙都挺好的，总是来我的店里吃饭。虽然每次都嘴硬说是为了盯着我还钱，但每次都吃得很开心。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "老板娘，虽然橙大概没和你说过，但是八云钱庄借给你的钱，可是从来都不收利息的哦。一般人借钱，可没有这种待遇。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "检查账本的时候发现确实是这样的呢。难道幻想乡还有其他像我一样，和八云钱庄签了借钱协议的妖怪吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "不，一般没人找我们借钱。自从我负责管理八云钱庄以来，来借钱的人就越来越少了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "为什么？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "因为我从来不会算漏钱。别人借出去多少，我就会连本带利收回来多少，久而久之，就没人愿意来了。“不如找邻居接济一下”，大概都是这种理由。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "其实我如果有得选，也不想背上债务来着……"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV1_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "又该去买菜了啊……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "老板娘，又来博丽神社作客了？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "啊，不是不是，我今天是出来采购，到处买东西的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "出来买菜了啊。老板娘你走反方向了，人里在西边。不过从神社走可以去旧地狱转转，我之前常去旧地狱的鬼那里买些地下特产，做出来的菜别有风味。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "诶？鬼吗？找他们买东西多少有点怕怕。我这样的小妖怪去地下，总感觉不太安全。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "地下也不全都是混沌无序的野蛮区域。那里的居民们创造了独特的社会文化，还依托地热资源建起了温泉和地热站呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "哇，这么说的话，难道地下也有食堂之类的地方吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "也说不定呢？老板娘，这就要靠你自行探索了。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV2_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "真是太气人啦——"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "这不是老板娘吗？你怎么了？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "我今天去豆腐坊打算买点油豆腐，结果一块都没抢到，全卖完啦——"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "（糟糕了，我也买了一大堆来着）"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "大概因为今天是“猪油日”吧，狐狸们把豆腐坊的油豆腐全买光了。下次早些去肯定就能买到油豆腐了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "“猪油日”是什么东西呀？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "是说今天肉铺有猪油产出，因而豆腐坊的豆腐是用猪油炸的，色香味格外的好，因此卖的格外快。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "原来是这样。可没有买到油豆腐的话，晚上只能卖些冻豆腐了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "月有阴晴圆缺，不能强求每天都是最好的。也不能强求每天都能买到自己想要的东西。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "我大概明白，可是该怎么做呢？冻豆腐炸出来的油豆腐没办法吃呀。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "但是冻豆腐做煮豆腐很不错呀。老板娘，调整一下你的菜单如何？偶尔出些新花样，才能保证客源哟。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "哇，完全没想到！蓝小姐，谢谢你！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV2_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "蓝小姐，能请你帮我个忙吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘请讲。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "我刚才从店家那里买了一大堆菜，但是花掉的钱和买到的数量好像对不上。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "看来是数学问题啊。日常生活这种程度的计算对我而言不过是小儿科。稍等，让我看看。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "我知道是怎么回事了。按照账目和单价计算，你手里的菜比实际买到的多出了二十个南瓜、二十个萝卜和二十个洋葱。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "你把这些也算成了买来的，所以实际花掉的钱才会比预想中少。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "啊，我想起来了。那些是我路过农田时顺手摘的……一不小心给忘了，还把它们一起算进买来的菜里了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "老板娘，请不要到别人的田里偷菜。你当自己是狐狸吗？再这样下去会被人间之里的居民批评的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 13,
+          "position": "Right",
+          "text": "我，我知道了啦。不过，蓝小姐，难道狐狸会经常偷东西吗？这么说的话……"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "我是妖怪。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV3_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "蓝小姐，我记得您之前提到过，八云钱庄是您在运营？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "是啊。我猜你是想问橙的事情？那孩子确实是我派出去的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "原来那股强大的妖力源自于您啊。倒不如说，我早该意识到这件事的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "式神就是这么神奇的东西。橙是我的式神，就可以借用我的力量。而我又是紫大人的式神，就可以借用紫大人的力量。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "这么说的话，灵梦小姐也是什么神明的式神吗？总感觉灵梦小姐虽然懒懒散散的，但是强得不得了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "灵梦是巫女，式神是式神，这可不一样呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "原来是这样啊，式神真是不可思议。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "你理解为类似于契约关系的东西就好了，除此之外其实也没什么特殊的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "话说，让橙盯着我，又给她零花钱，让她随便吃喝也是您的指示吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "我确实打算不让橙去那里吃饭来着。后来考虑了一下，老板娘你开店的地址很多时候不在兽道，这样的话，橙就算想去吃垃圾食品，也得好好运动一番，也就没必要限制她去食堂吃饭了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "橙也不是每次来都吃炸串的啦。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV3_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "蓝小姐，听您说您好像总是在幻想乡各地走动，这么说的话，您去过很多地方吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "我想去更多的地方开店，但是我这种小妖怪去不了太远的地方，可以告诉我一些幻想乡各地的人文风貌吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "比较适合开店的地方吗？我想想。从人间之里一直往西走进树林，那里有很多妖精和魔法使，老板娘你不介意的话，可以去看看。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "除此之外，从人间之里往南走的寺院，神社地下有商铺的旧地狱，之前永夜异变时的竹林，以及天狗盘踞的山上，都是值得一去的地方。如果你想去那些地方开店，最好提前去一趟，逛一逛。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "里面有些地方我已经去过了呢。不过确实还有好几个地方我没去过，蓝小姐，谢谢你！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "噗噗，真是有干劲。这样努力下去，老板娘要变成幻想乡最有名的食堂妖怪了啊。将来有朝一日把店开遍幻想乡了，可别忘了我、灵梦和橙。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "不会开遍幻想乡，啊不对不对，不会忘记您、灵梦小姐和橙的啦！蓝小姐您又逗我玩。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘，加油吧。你的身上可是寄托着很多人的期待呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "看来真的如阿求小姐所说，是在被什么力量推着走啊……"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV4_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "蓝小姐，为什么先前饕餮会来找您呢？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "这就说来话长了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "她是我的老朋友。早在我还不是式神，也没有冠上“八云”这个姓氏的时候，我就作为动物灵生活在畜生界了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "至于饕餮，她为了争夺畜生界的主导权组建了刚欲同盟，平常居住在血池地狱。我曾经加入过她，作为刚欲同盟的一员活动。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "在我的印象里，畜生界和字面意义上的地狱差不太多，而血池地狱则是个穷凶极恶、又脏又臭，腐烂气息弥漫的地狱荒野。我的生存哲学和饕餮的畜生之道并不适配，于是我离开了那里。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "说回我，本来按理来说应该一直生活在地上的。后来因为动物灵作乱的事情，我又去了一趟畜生界，发现饕餮和另外几个家伙正在管理那里。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "毕竟过了这么长时间，我可能也变了。我现在觉得偶尔相互来往一下倒也不错，毕竟是老朋友，而且这对幻想乡的和平也有帮助。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "听起来就像是您为了让饕餮不作乱，自己一个人挡住她一样。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "没有那么夸张。说到底，稳定的局势本身才是抑制作乱的因素。我与饕餮接触，一是念旧情，二也是为了不让她在地狱里连续待太久，吞吃太多东西。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "另外，给她做饭总是能收获不错的回应，这也让我总想着邀请她来我家吃饭。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "给她做饭？那得吃多少东西啊。总感觉她一个人就能把我的食堂全吃空了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "如果是用机器做出来的、毫无内涵的东西，估计吃多少也不够。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "饕餮的特点是会理解她吞下去的东西——换句话说，由厨师亲手认真制作的料理，因为带有地上的温柔，对她的狂暴本性有一定抑制效果。抑制到一定程度，能正常沟通，就算是喂饱了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "原来是这样，蓝小姐真是博学啊。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "也许你有朝一日也能靠自己战胜她。对厨师来说，战胜饕餮应该算是最高的荣誉之一了吧。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_LV4_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "蓝小姐，平常您在家也常做饭吗？总感觉照顾家庭很辛苦的样子。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "辛苦多多少少会有一点，不过适应了也还好。橙还算听话，紫大人也会体谅我。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "可是异变什么的也要处理，时不时还要照顾灵梦小姐。总感觉会力不从心。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "其实只是听起来事情很多。这就像老板娘你开食堂一样，一开始可能会手忙脚乱，但是熟悉之后，就不成问题了。生活差不多就是这么一种东西。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "这样想想确实是呢。我也每天到处跑，买一大堆东西，学习新菜谱，准备开店，但是每天都很开心，完全不觉得累。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "这就是生活的甜美啊。虽说不是什么时候都一帆风顺，但是总的来说平淡又有趣。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "虽然不太明白，但是感觉更有干劲了呢！今天晚上我也要努力开店，向梦想前进！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Invite_Succeed",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "蓝小姐蓝小姐，我听说今天人间之里的酒屋搞活动，满一百减到九十九呢。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "是吗。一会儿去看看好了。话说老板娘你怎么有闲来神社了？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "啊，对了对了，差点忘记正事，我是来请您今天晚上去我的食堂吃饭的。我会给您准备您最喜欢的油豆腐的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "正好今天晚上紫大人和橙都有事不在家，这样的话，我就不客气啦。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Invite_Failed",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "蓝小姐蓝小姐，我听说人间之里今天挖出黑黑的水了！受此影响，所有商品全都大甩卖，满一百减九十九呢！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "是，是吗……老板娘，你一会儿去买东西的时候，切记不要碰到那些黑色液体，也别买被污染的东西。我接下来有点事情要和灵梦说，恕我无法久陪。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "啊？好的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "啊对了对了，蓝小姐今天晚上要来我的食堂吃饭吗？我会给您准备油豆腐料理的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "恐怕是去不成了。从老板娘你提供的情报来看，估计是地底的那群畜生们又不太安分，我需要处理一下。要是回来得早，就去你那里坐坐。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "诶？！蓝小姐，注意安全呀！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Request_Ingerdient",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "啦啦啦~"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "是老板娘啊。今天遇到好事情了吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "我从河童那里买了个铁皮箱子，据说可以让食材变得冰冰凉的，还能一直保存。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那个是叫冰箱吧？听说借用了妖精的力量，放在那里自己就会变得冰凉。我们家也有一台呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "好像是吧？我把家里面的鱼和肉都塞进去了，这样就再也不需要担心坏掉了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "老板娘，化冻一只青蛙需要多少时间？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "大概两三个小时吧，怎么了？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "现在时间不太早了。你把鱼和肉都放进去冻住了，晚上开业会不会没食材用？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "我忘了化冻的事情了！这可怎么办呢？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "我把我白天买的食材匀你一点好了。今天晚上，恐怕只能卖些没冻住的食材了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Right",
+          "text": "呜呜呜，我要去找那些河童换不会冻住食材的型号！"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Request_Beverage",
+      "dialogList": [
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "老板娘，日安。今天也来博丽神社转悠吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "蓝小姐日安！不过我今天可不是来转悠的哦。我听别人说，这里有难得一见的稀世酒水才来的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "稀世酒水？萃香在神社后面的池塘，你可以问问她。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "不是从萃香小姐的葫芦里倒啦。霖之助卖给了我一个探测仪器，说是跟着箭头走就能找到酒水。上面写的字我也看不懂，跟着箭头一路走到这里来了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "霖之助啊……那个仪器方便给我看看吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "给你。这个仪器真的能帮我找到酒水吗？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "嗯……看样子它可不是什么酒水指示仪。据我推测，这大概是一个预测地震的仪器，你看看它箭头所指之处。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "欸欸欸，那不是神社的要石吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "是……地震？难不成幻想乡有危险？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "恐怕再耽误一会就是了。老板娘，幸好有你，事态暂时还可控。我需要和灵梦，还有那个天人商量一下加固要石的事情，恐怕不太方便和你聊天了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "希望不会地震吧……地震的话，我就只能跟莉格露她们睡草甸了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "那么多次幻想乡危机，不都解决掉了吗？相信我们，再不济还有那几个大贤者呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "这样的话，霖之助那家伙果然又在坑我啊。说好的酒什么的，也完全没见到。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "作为传递情报的关键人物，我会向紫大人申请给你些补偿的。如果顺利的话，应该用不了多久就会送过来了。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Commision",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "蓝小姐，您来看望灵梦小姐啦？"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "是啊。紫大人托我给灵梦送些饭来。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我都说了我最近不缺钱了！不信你问老板娘，我最近去店里都是点贵的吃的！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "这个那个那个这个……我是鸟脑袋，不记得灵梦小姐吃过什么啦！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "我前几天晚上看见你在雀食堂点了饭团、温暖饭团和炙猪肉饭团。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Left",
+          "text": "那是因为老板娘给了我不少钱，我照顾她生意才那么点的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "……我会继续努力制作新的平价美食的，保证不管啥时候来，灵梦小姐你都能吃好喝好。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "还有酒水，也弄点便宜好喝的。一天到晚除了茶还是茶，肚子里面为数不多的一点点油水都要被冲走了。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "灵梦，努力赚钱吃些好的才比较好吧？许愿的话，那边已经有一个守矢神社的神龛了。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "对哦，我去拜一拜，让守矢那帮家伙们给我也送点吃的喝的。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "怎么了？这不是很好嘛，都不用离开神社多远就有吃的喝的拿。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "我还是觉得，灵梦小姐你去其他神社的神龛那里祭拜也太奇怪了。别人会以为这里是守矢神社分社的。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "那怎么办嘛，谁让赛钱箱里没什么香火钱呢。想吃好的又结不起账，只能碰碰运气喽。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "这样好了，我会带着你在博丽神社范围内进行采集，顺便教你做饭。这样也能不买东西就把饭做出来。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "做饭多麻烦啊，那我还不如去夜雀食堂买点。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "既然灵梦小姐不想做饭，我做饭又需要食材，二位能不能把采集到的食材送给我呢？我会用这些食材努力做出好料理的。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Left",
+          "text": "哎哟？使唤堂堂博丽巫女，老板娘你真是翅膀硬了。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "不过我确实没什么意见，这样的话，可得有事没事多来赛钱啊。还有打折也别忘了啊！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "我的翅膀一点也不硬，一直都是软蓬蓬的呢。我会勤来赛钱的啦，灵梦小姐放心。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那就这么定了。今天晚上的食材会在老板娘你开业前送到食堂。"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_Ran_Commision_Finish",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "哇，不愧是蓝小姐，真准时！"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "规划时间可是数学的基本功。在外面转了一圈，不得不说肚子有些饿了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "毕竟已经晚上了嘛，我也该回去准备做饭了。不过后面的灵梦小姐怎么累得气喘吁吁的？"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "这一路上东西没怎么捡，阿猫阿狗、纠纷异变倒是处理了一大堆，完全没学到什么能吃什么不能吃嘛。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "（就在此时，三人面前的空间打开了一道隙间）"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Left",
+          "text": "（紫探了出来，带着一大箱食材）"
+        },
+        {
+          "characterId": 26,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "八云快递为您服务~"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 14,
+          "position": "Left",
+          "text": "？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "？"
+        },
+        {
+          "characterId": 26,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "一号快递地点雀食堂，收货人米斯蒂娅，内容食材；二号快递地点雀食堂，收货人博丽灵梦，内容现金，请查收~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "呜哇，好凉。话说怎么是紫小姐您来给我食材？"
+        },
+        {
+          "characterId": 26,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "毕竟灵梦今天认真完成了身为巫女的职责嘛，约定完成的食材采集什么的，我就来帮她一下啦。这些是我代劳搞到的食材，老板娘你拿去用便是。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "紫大人，已经按照您的要求，带着灵梦前往完成今天的工作。话说，您是从哪里拿到的这些食材？"
+        },
+        {
+          "characterId": 26,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "当然是咱们家的冰箱里。毕竟我也不想出门摘东西呢。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 14,
+          "position": "Left",
+          "text": "紫，你算计我！"
+        },
+        {
+          "characterId": 26,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "灵梦，让你完成巫女的分内工作，怎么能算是算计你呢？而且这不是给你报酬了嘛。拿去花吧，别介意。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "紫大人，您这样的话咱们家冰箱里不就没存粮了？"
+        },
+        {
+          "characterId": 26,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哎呀，难得出来一趟，菜没了再买就是。走吧，一起去买菜。"
+        },
+        {
+          "characterId": 10002,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这倒也是，那我们就先行告退了。"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "真是的，每次都这样……"
+        },
+        {
+          "characterId": 7,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "唉，算了。我准备回去休息了，老板娘，你没什么事情也去准备吧？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Right",
+          "text": "灵梦小姐，晚上我会给您准备好饭菜的，今天真是辛苦您了。"
+        }
+      ]
+    },
+    {
       "name": "_ResourceExample_Merchant_Yuki_Welcome_001",
       "dialogList": [
         {
@@ -7283,14 +9758,14 @@
           "characterType": "Special",
           "pid": 3,
           "position": "Left",
-          "text": "炼乳、大葱、甚至仙人掌，各种食材应有尽有！全都是人里出产的上好食材！"
+          "text": "炼乳、大葱、甚至仙人掌，各种食材应有尽有！全都是人间之里出产的上好食材！"
         },
         {
           "characterId": 34,
           "characterType": "Special",
           "pid": 6,
           "position": "Right",
-          "text": "说起来，为什么要选在人里开店呢？"
+          "text": "说起来，为什么要选在人间之里开店呢？"
         },
         {
           "characterId": 11001,
@@ -11712,6 +14187,74 @@
       "spritePath": "assets/Food/11020.png"
     },
     {
+      "id": 11027,
+      "name": "八云豆包饭",
+      "description": "从外界引入的方便料理。将炸好的油豆腐掏空，填入米和菜混合制成的馅料，上锅蒸熟。油豆腐沁出的油被内馅充分吸收，软糯好吃不脏手，方便携带。据说蓝小姐总是带着这道菜去看望别人。\n\n什么？才不是因为我没米下锅呢，只是紫非要硬塞过来——某不知名红白巫女",
+      "level": 2,
+      "baseValue": 46,
+      "tags": [
+        -2,
+        -1,
+        2,
+        3,
+        9,
+        12
+      ],
+      "banTags": [
+        8,
+        18
+      ],
+      "spritePath": "assets/Food/11027.png"
+    },
+    {
+      "id": 11028,
+      "name": "八云海鲜煲",
+      "description": "蓝小姐针对天气热，猫猫不爱吃饭的问题研发的特效药。将新鲜的海产品加工成鱼丸等，再混入新鲜蔬菜，用鲜味十足的海胆汤煮熟。每做一碗，就需要碗口大的海胆一个，可谓十分奢侈。不过在物产丰茂的幻想乡，它也不算是什么难以负担的料理。\n今天尝尝小猫的口味吧~奇怪，总感觉膝盖有些酸痛——八云紫",
+      "level": 4,
+      "baseValue": 157,
+      "tags": [
+        -3,
+        1,
+        4,
+        11,
+        12,
+        20,
+        30,
+        32
+      ],
+      "banTags": [
+        6,
+        8,
+        21,
+        31,
+        34
+      ],
+      "spritePath": "assets/Food/11028.png"
+    },
+    {
+      "id": 11029,
+      "name": "血池",
+      "description": "富有“真正的血池地狱风格”的一道菜，至少其制作者本人是这么宣传的。制作技巧在于不吝成本，玩命加料，无视成本。将新鲜的肉片成薄片，在浓盐重辣的红汤中烫至断生，胡乱堆在盆里，最后浇进炽热鲜辣的辣椒酱至完全看不见肉。备受热爱挑战极限的鬼们的追捧。除此之外，在老板娘的不懈研究下，为不吃辣人群特调了番茄口味。\n地狱每天都吃这个吗？那看来地狱还挺适合居住的嘛。——某竹林居民",
+      "level": 4,
+      "baseValue": 194,
+      "tags": [
+        -3,
+        -1,
+        0,
+        5,
+        9,
+        16,
+        18,
+        22,
+        23,
+        27,
+        34,
+        35
+      ],
+      "banTags": [],
+      "spritePath": "assets/Food/11029.png"
+    },
+    {
       "id": 12000,
       "name": "椰子麻薯",
       "description": "妖梦在人间之里品尝椰奶和团子时，突然灵光一闪：“要是在制作团子时加入椰子，会怎么样呢？”凭着这股冲劲，铃瑚抢在清兰之前完成了新品开发并举办了试吃会，获得了人类与妖怪的一致好评。众所周知，幻想乡并没有海，因此，椰子究竟是如何漂流至此的，也成了困扰后世幻想乡美食史研究者的一大难题。",
@@ -11758,7 +14301,7 @@
     {
       "id": 12002,
       "name": "梦鲸幻境酒冻",
-      "description": "米斯蒂娅在鲵吞亭参加宴会、饮下奥野田美宵提供的酒水后，根据自己对美宵的印象，以及幻觉中的感受制作而成的一款含酒精甜品。甜品采用可爱的鲸鱼造型，内馅则选用时令水果与大吟酿复酿制成的果酱，果香浓郁。据说，吃下它之后，夜晚入睡时便会进入一场斑斓绚丽的梦境。\n“不关我的事哦。”\n——哆来咪·苏伊特",
+      "description": "米斯蒂娅在鲵吞亭参加宴会，饮下奥野田美宵提供的酒水后，根据自己对美宵的印象，以及幻觉中的感受制作而成的一款含酒精甜品。甜品采用可爱的鲸鱼造型，内馅则选用时令水果与大吟酿复酿制成的果酱，果香浓郁。据说，吃下它之后，夜晚入睡时便会进入一场斑斓绚丽的梦境。\n“不关我的事哦。”\n——哆来咪·苏伊特",
       "level": 4,
       "baseValue": 120,
       "tags": [
@@ -12123,6 +14666,42 @@
       ],
       "cookTime": 13,
       "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11027,
+      "foodId": 11027,
+      "ingredients": [
+        5,
+        17,
+        28
+      ],
+      "cookTime": 7,
+      "cookerType": "Pot"
+    },
+    {
+      "id": 11028,
+      "foodId": 11028,
+      "ingredients": [
+        1005,
+        23,
+        1002,
+        28
+      ],
+      "cookTime": 11,
+      "cookerType": "Pot"
+    },
+    {
+      "id": 11029,
+      "foodId": 11029,
+      "ingredients": [
+        15,
+        16,
+        20,
+        3,
+        35
+      ],
+      "cookTime": 19,
+      "cookerType": "Pot"
     },
     {
       "id": 12000,
@@ -12761,6 +15340,105 @@
       },
       "postEvents": [],
       "postMissionsAfterPerformance": []
+    },
+    {
+      "title": "请蓝品尝一下「八云豆包饭」吧！",
+      "description": "从蓝那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_YakumoRan",
+      "reciever": "_ResourceExample_YakumoRan",
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_YakumoRan"
+        }
+      ],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_YakumoRan",
+          "amount": 11027
+        }
+      ],
+      "missionFailedAction": "None",
+      "label": "_ResourceExample_Kizuna_Ran_LV1_Upgrade_001_Mission",
+      "postMissionsAfterPerformance": [],
+      "postEvents": [
+        "_ResourceExample_Kizuna_Ran_LV2_Upgrade_001_Event"
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV1_002"
+      }
+    },
+    {
+      "title": "请蓝品尝一下「八云海鲜煲」吧！",
+      "description": "从蓝那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_YakumoRan",
+      "reciever": "_ResourceExample_YakumoRan",
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_YakumoRan"
+        }
+      ],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_YakumoRan",
+          "amount": 11028
+        }
+      ],
+      "missionFailedAction": "None",
+      "label": "_ResourceExample_Kizuna_Ran_LV2_Upgrade_001_Mission",
+      "postMissionsAfterPerformance": [],
+      "postEvents": [
+        "_ResourceExample_Kizuna_Ran_LV3_Upgrade_001_Event"
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV2_002"
+      }
+    },
+    {
+      "title": "请蓝品尝一下「血池」吧！",
+      "description": "从蓝那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_ResourceExample_YakumoRan",
+      "reciever": "_ResourceExample_YakumoRan",
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_YakumoRan"
+        }
+      ],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_ResourceExample_YakumoRan",
+          "amount": 11029
+        }
+      ],
+      "missionFailedAction": "None",
+      "label": "_ResourceExample_Kizuna_Ran_LV3_Upgrade_001_Mission",
+      "postMissionsAfterPerformance": [],
+      "postEvents": [
+        "_ResourceExample_Kizuna_Ran_LV4_Upgrade_001_Event"
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV3_002"
+      }
     }
   ],
   "merchants": [
@@ -13479,6 +16157,113 @@
           "rewardIntArray": [
             11007
           ]
+        }
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Ran_LV1_Upgrade_001_Event",
+      "debugLabel": "蓝羁绊 LV1 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV1_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_YakumoRan"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11027
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Ran_LV1_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Ran_LV2_Upgrade_001_Event",
+      "debugLabel": "蓝羁绊 LV2 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV2_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_YakumoRan"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11028
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Ran_LV2_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Ran_LV3_Upgrade_001_Event",
+      "debugLabel": "蓝羁绊 LV3 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV3_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_YakumoRan"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [
+            11029
+          ]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Ran_LV3_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_ResourceExample_Kizuna_Ran_LV4_Upgrade_001_Event",
+      "debugLabel": "蓝羁绊 LV4 前置",
+      "scheduledEvent": {
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_ResourceExample_Kizuna_Ran_LV4_001"
+        },
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_ResourceExample_YakumoRan"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_YakumoRan"
         }
       ],
       "postMissionsAfterPerformance": [],
