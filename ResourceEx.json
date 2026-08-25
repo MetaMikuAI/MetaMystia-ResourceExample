@@ -2275,47 +2275,47 @@
         {
           "pid": 0,
           "path": "assets/Character/10002/Portrait/0.png",
-          "label": "0 微笑"
+          "label": "八云蓝 微笑"
         },
         {
           "pid": 1,
           "path": "assets/Character/10002/Portrait/1.png",
-          "label": "1 微笑张嘴"
+          "label": "八云蓝 微笑张嘴"
         },
         {
           "pid": 2,
           "path": "assets/Character/10002/Portrait/2.png",
-          "label": "2 眯眼笑"
+          "label": "八云蓝 眯眼笑"
         },
         {
           "pid": 3,
           "path": "assets/Character/10002/Portrait/3.png",
-          "label": "3 脸红"
+          "label": "八云蓝 脸红"
         },
         {
           "pid": 4,
           "path": "assets/Character/10002/Portrait/4.png",
-          "label": "4 微笑无语"
+          "label": "八云蓝 微笑无语"
         },
         {
           "pid": 5,
           "path": "assets/Character/10002/Portrait/5.png",
-          "label": "5 失落"
+          "label": "八云蓝 失落"
         },
         {
           "pid": 6,
           "path": "assets/Character/10002/Portrait/6.png",
-          "label": "6 严厉"
+          "label": "八云蓝 严厉"
         },
         {
           "pid": 7,
           "path": "assets/Character/10002/Portrait/7.png",
-          "label": "7 狡黠"
+          "label": "八云蓝 狡黠"
         },
         {
           "pid": 8,
           "path": "assets/Character/10002/Portrait/8.png",
-          "label": "8 疑惑"
+          "label": "八云蓝 疑惑"
         }
       ],
       "faceInNoteBook": 0,
