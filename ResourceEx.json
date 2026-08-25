@@ -10399,7 +10399,30 @@
           "characterType": "Special",
           "pid": 3,
           "position": "Left",
-          "text": "嘿嘿，当然是一种和我收集来的金币一样金光闪闪、亮晶晶、还可以吃的食材哦，提示：我这里就可以买得到哦！"
+          "text": "嘿嘿，当然是一种和我收集来的金币一样金光闪闪、亮晶晶、还可以吃的食材哦，提示：我这里就可以买得到哦！",
+          "actions": [
+            {
+              "actionType": "Branch",
+              "options": [
+                {
+                  "text": "金箔",
+                  "jump": 35
+                },
+                {
+                  "text": "仙人掌",
+                  "jump": 40
+                },
+                {
+                  "text": "椰子",
+                  "jump": 40
+                },
+                {
+                  "text": "炼乳",
+                  "jump": 40
+                }
+              ]
+            }
+          ]
         },
         {
           "characterId": 34,
@@ -10434,7 +10457,26 @@
           "characterType": "Special",
           "pid": 1,
           "position": "Left",
-          "text": "……真没办法，那我也一起去吧！"
+          "text": "……真没办法，那我也一起去吧！",
+          "actions": [
+            {
+              "actionType": "End",
+              "exitCode": 0
+            }
+          ]
+        },
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "不对不对，无论怎么想这都不是金光闪闪的吧！再好好思考一下吧！",
+          "actions": [
+            {
+              "actionType": "Goto",
+              "index": 34
+            }
+          ]
         }
       ]
     },
